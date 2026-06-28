@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-28",
+  "comments": [
+    {
+      "author": "Adam Danyal",
+      "url": "https://www.linkedin.com/posts/adamdanyal_ai-has-a-language-and-guessing-it-gets-expensive-activity-7476967662422626304-Pa2Q?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "122 reactions / 25 comments",
+      "comment": "The term I see people underprice is inference, because latency, context length, retries, tool calls, and eval runs all show up there after the demo is over. A useful vendor question is: what is the cost per successful task, not cost per token?"
+    },
+    {
+      "author": "NIRMALYA",
+      "url": "https://www.linkedin.com/posts/nirmalya_projectefficiency-digitalassurance-dap-activity-7476871537514618881-SfMB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpb5KQBURiA2f_R_xLGjfYBFp2XAu90XNk",
+      "engagement": "16 reactions / 1 comments",
+      "comment": "One failure mode I see in enterprise projects: teams measure QA too late, after architecture and scope have already hardened. A strong assurance layer should act less like a final gate and more like a continuous signal system - requirement drift, flaky tests, release risk, and user-impact regressions should be visible while decisions are still cheap to change."
+    },
+    {
+      "author": "Zoran Milosevic",
+      "url": "https://www.linkedin.com/posts/zoranmilosevic_systemdesign-coding-interviewtips-activity-7476926118596382720-fhdd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "12 reactions / 0 comments",
+      "comment": "I\u2019d split it differently: RAG changes what the model knows at inference time, fine-tuning changes how it behaves before inference. In production, the expensive part is usually not choosing one, it is measuring retrieval miss rate vs instruction-following failure rate. If the model has the right context and still answers badly, tune. If it never saw the right context, fix retrieval first."
+    },
+    {
+      "author": "Ria Kapila",
+      "url": "https://www.linkedin.com/posts/riakapila_what-is-agentic-ai-orchestration-activity-7477001980440141824-syuv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "10 reactions / 1 comments",
+      "comment": "The hard part is not calling multiple agents, it is making their state legible to each other.\n\nIn practice, orchestration quality depends on boring things: shared task memory, typed handoff contracts, retry boundaries, and evals that test the full chain instead of each agent in isolation.\n\nWhat signal do you use to decide when a human handoff should interrupt the agent loop?"
+    },
+    {
+      "author": "Santhosh Kumar S",
+      "url": "https://www.linkedin.com/posts/santhosh-kumar-s-67465a239_buildinpublic-rag-opensource-activity-7477000732689408000-yQpl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "4 reactions / 1 comments",
+      "comment": "Query rewriting is underrated, but I\u2019d add one guardrail: keep the original query in the retrieval fanout too. Rewritten queries improve recall, but they can drop rare identifiers, filenames, or exact error strings that BM25 would have caught. A good eval set here is 20-30 real repo questions with expected file-line citations, then track citation accuracy separately from answer quality."
+    },
+    {
+      "author": "Raman Nimje",
+      "url": "https://www.linkedin.com/posts/raman-engineeringlead_aiengineering-llm-rag-activity-7476836856933056512-qo0c?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "6 reactions / 0 comments",
+      "comment": "Most AI stack diagrams miss the part where failures cross layer boundaries: retrieval looks fine, but context packing breaks the answer, or tool latency changes the agent\u2019s behavior. A useful explorer should let engineers inspect the handoff contracts between layers, not just the layers themselves. What invariant would you recommend teams define first when moving from a demo RAG app to production? #AIEngineering"
+    },
+    {
+      "author": "Shreya Ugale",
+      "url": "https://www.linkedin.com/posts/shreya-ugale-91a105398_ibm-skillsbuild-aicte-activity-7477002861336371200-qvxs?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "6 reactions / 0 comments",
+      "comment": "One useful way to get more out of a GenAI internship: build one small app end to end, not just prompts - data ingestion, retrieval, evaluation, API, deployment, and cost tracking. What real-world project are you hoping to work on first?"
+    },
+    {
+      "author": "Vishal Singh",
+      "url": "https://www.linkedin.com/posts/activity-7477001445939118080-Pi2t?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "4 reactions / 1 comments",
+      "comment": "The hard part is that logs prove sequence, not intent. For write-capable agents, I\u2019d want every action tied to a frozen context bundle: retrieved docs, tool outputs, policy checks, model version, and the approval state at that exact moment. Without that, replay becomes archaeology instead of audit."
+    },
+    {
+      "author": "Kumar Ritesh Raj",
+      "url": "https://www.linkedin.com/posts/kraj-56_the-hardest-problem-in-enterprise-ai-isnt-activity-7476815082660888576-yQYC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "1 reactions / 2 comments",
+      "comment": "Memory bottlenecks usually show up first in permissions, not vector search.\n\nThe hard part is making retrieval obey the same access rules, retention windows, and source lineage as the underlying systems. A fast RAG stack that retrieves the wrong document for the wrong user is worse than no RAG, because the answer looks legitimate.\n\nHow are you thinking about evals for memory: retrieval accuracy, source freshness, permission correctness, or audit completeness?"
+    },
+    {
+      "author": "Romana Aidi",
+      "url": "https://www.linkedin.com/posts/romana-aidi-2b7435230_k5-k5berlin-ecommerce-activity-7477003025564356608-LaL8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpfEKAB7mXijtJPI_iWJQXgtwUEgrLec5Q",
+      "engagement": "3 reactions / 1 comments",
+      "comment": "The hard part with agentic commerce is that product data quality is not binary, it is task-specific. A spec sheet can look complete and still fail the agent if attributes are inconsistent, units are missing, or substitution rules are unclear. What quality checks are you seeing retailers prioritize first: taxonomy cleanup, enrichment, or process ownership?"
+    }
+  ]
+}
