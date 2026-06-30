@@ -2,64 +2,28 @@
   "date": "2026-06-30",
   "comments": [
     {
-      "author": "Raghavendra Bagalkoti",
-      "url": "https://www.linkedin.com/posts/raghubagalkoti_ai-rag-llm-activity-7477694503638740992-HJ81?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpyi0YBQZrKDiKd656NT_gV1HtgHQW3E0E",
-      "engagement": "36 reactions / 17 comments",
-      "comment": "One failure mode I\u2019d add: retrieval evals often lie when built from synthetic Q/A pairs, because the generated question tends to mirror the chunk wording and inflate recall. I\u2019ve had better signal from testing answerability: given the retrieved context only, can a smaller judge model point to the exact supporting span? Where do you draw the line between fixing retrieval and fixing the source docs?"
+      "author": "Prem N.",
+      "url": "https://www.linkedin.com/posts/prem-natarajan-ai_%F0%9D%90%86%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%9F%93%F0%9D%9F%90-%F0%9D%90%A2%F0%9D%90%AC-%F0%9D%90%A6%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%A7-%F0%9D%90%9A-%F0%9D%90%A5-activity-7477699977901670400-8KWE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNDkgBSWHYYvtCnVi4f55xo8lpkXhdZiw",
+      "engagement": "13 reactions / 19 comments",
+      "comment": "1M context is useful, but the failure mode shifts from \u201cmodel did not see the file\u201d to \u201cmodel saw too much and weighted the wrong part.\u201d I\u2019d test it with repo-local tasks that require editing across 5-10 files, then measure patch correctness, tool-call recovery, and whether cached context actually lowers end-to-end cost. How are you thinking about evals for long-running coding agents beyond SWE-bench style scores?"
     },
     {
-      "author": "Raahul Seshadri",
-      "url": "https://www.linkedin.com/posts/raahul-seshadri_ai-is-the-first-technology-that-lets-you-activity-7477692478155055104-DAkU?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqM8zoByNtNN42JzhFZBcGDj07IUtZhehs",
-      "engagement": "9 reactions / 7 comments",
-      "comment": "The first thing that broke for me was observability, not retrieval. If you don't log retrieved chunks, tool calls, stop reasons, and final citations as one trace, every failure looks like a model problem. A useful eval set should include near-miss queries where the right answer is absent, because that is where RAG systems learn to say no."
+      "author": "Sivasankar Natarajan",
+      "url": "https://www.linkedin.com/posts/sivasankar-natarajan_agenticai-aiagents-aiengineering-activity-7477700343347343360-e_CW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNDkgBSWHYYvtCnVi4f55xo8lpkXhdZiw",
+      "engagement": "11 reactions / 12 comments",
+      "comment": "Most agent memory bugs I see are really memory routing bugs.\n\nThe hard part is not storing more context. It is deciding what gets written, what gets retrieved, and what gets ignored on the next run. A small eval set with \u201cshould remember / should forget / should ask again\u201d cases catches more issues than another vector DB tweak.\n\nFor builders here: do you test memory as a product behavior, or only as retrieval accuracy?\n\n#AgenticAI"
     },
     {
-      "author": "Growth AI",
-      "url": "https://www.linkedin.com/posts/growthwith-ai_stop-scrolling-build-real-ai-agents-this-activity-7477694180409016320-ttqJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNRdUBOnyHfgbBA1hI7fiDFIw4kcGRClM",
-      "engagement": "15 reactions / 0 comments",
-      "comment": "The fastest way to move from tutorials to production is to add an eval harness before adding more agent steps. A simple dataset of 50 real tasks, expected outputs, tool-call traces, and failure labels will teach you more than another framework comparison."
+      "author": "Uri Gafni",
+      "url": "https://www.linkedin.com/posts/urigafni_canneslions2026-aivisibility-activity-7477704332281528321-Lv2L?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNDkgBSWHYYvtCnVi4f55xo8lpkXhdZiw",
+      "engagement": "19 reactions / 7 comments",
+      "comment": "The hard part is that AI visibility is not a ranking problem, it is a state-space problem: every prompt, product feed, review corpus, and policy constraint changes what the model can safely recommend. I\u2019d be curious how teams are separating signal they can actually move from noise caused by model variance and personalization."
     },
     {
-      "author": "Ajith J.",
-      "url": "https://www.linkedin.com/posts/activity-7477692486132600833-Ur7G?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqM8zoByNtNN42JzhFZBcGDj07IUtZhehs",
-      "engagement": "1 reactions / 5 comments",
-      "comment": "Trajectory evals need two layers: step-level invariants and end-to-end outcome grading. The hard part is that a \u201cbad\u201d final answer can come from a correct model call with corrupted state 6 steps earlier. I\u2019d want trace replay with fault injection, so teams can ask: if this tool returned stale data or this handoff dropped intent, would the system catch it before the user sees it?"
-    },
-    {
-      "author": "Ogunbona Bukola",
-      "url": "https://www.linkedin.com/posts/bukolaai_aiautomation-buildinginpublic-businessanalysis-activity-7477694192824135681-hn1K?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpylsMBxTQ81v5T4_zDCwGD_kNfJHd22NA",
-      "engagement": "1 reactions / 3 comments",
-      "comment": "One practical detail: semantic search gets much better when you chunk by meaning, not just by fixed token count. A 300-token chunk that splits a pricing policy in half can retrieve the wrong context, while a cleaner section-based chunk often beats a bigger embedding model."
-    },
-    {
-      "author": "Usman Ashraf",
-      "url": "https://www.linkedin.com/posts/usmanashraf6_ai-aiengineering-enterpriseai-activity-7477694137119633408-Tza6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqWfBUBeHFkxblj0KnFWT9k0z8rr5WdU1w",
-      "engagement": "2 reactions / 2 comments",
-      "comment": "Reliability is the part I wish more teams treated as a first-class feature.\n\nA useful shift for me: stop asking \u201cwhich model is best?\u201d and start asking \u201cwhat can fail silently?\u201d Retrieval misses, stale context, bad tool calls, and weak eval sets usually hurt production systems before model intelligence does."
-    },
-    {
-      "author": "Pratik Daigavane",
-      "url": "https://www.linkedin.com/posts/pratikdaigavane_hiring-internship-activity-7477687480197144576-BNLz?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqM8zoByNtNN42JzhFZBcGDj07IUtZhehs",
-      "engagement": "5 reactions / 0 comments",
-      "comment": "The strongest intern signal here is not \u201cused LangChain once,\u201d it is having a small shipped loop: data ingestion, retrieval, tool calls, evals, failure logging, and iteration. Travel is a good stress test because entity resolution is brutal, two suppliers can describe the same room in totally different ways and both be technically correct."
-    },
-    {
-      "author": "Saumil Mody",
-      "url": "https://www.linkedin.com/posts/saumil-mody_upi-agenticai-digitalpayments-activity-7477693573308788736-Mqnc?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNLx0Boy5ufcQpwb1-r0AUmIvRStayKJs",
-      "engagement": "3 reactions / 1 comments",
-      "comment": "The hardest part is not the agent, it is the authorization boundary around the agent. At UPI scale, every action needs a clear chain: user intent, consent artifact, model/tool decision, execution log, and rollback path. Fraud models can be optimized with labels, but consent and auditability need product, policy, and infra to agree on the same contract."
-    },
-    {
-      "author": "PRAVEEN S",
-      "url": "https://www.linkedin.com/posts/praveen-s-2b486820b_hiring-genai-generativeai-activity-7477692982381568001-hHRw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpyi0YBQZrKDiKd656NT_gV1HtgHQW3E0E",
-      "engagement": "4 reactions / 0 comments",
-      "comment": "A practical filter for this role: can the candidate explain how they measure retrieval quality separately from generation quality? In production RAG, many \u201cmodel problems\u201d start as chunking, metadata, recency, or permissioning issues."
-    },
-    {
-      "author": "Udeshna Boruah Kalita",
-      "url": "https://www.linkedin.com/posts/udeshna-boruah-kalita-6b0459bb_for-the-first-time-emergent-is-opening-its-activity-7477694061248929793-rVnX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqWfBUBeHFkxblj0KnFWT9k0z8rr5WdU1w",
-      "engagement": "4 reactions / 0 comments",
-      "comment": "Long-horizon agents usually fail less from one bad model call and more from state drift across many small decisions. Curious if the eval discussion will cover replayable traces, since without trace-level debugging, pass rates hide where the agent actually lost the plot."
+      "author": "Justin Hardy",
+      "url": "https://www.linkedin.com/posts/justinhardy4_your-ai-seo-hero-activity-7477705293167214593-_RAD?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpyo4IBtI4nBnERRmKEPy_lmPxLIlTYLMQ",
+      "engagement": "15 reactions / 7 comments",
+      "comment": "The real shift is from ranking pages to training retrieval paths. If a product claim is not repeated in crawlable pages, schema, reviews, docs, and trusted third-party mentions, an AI answer has very little reason to surface it. What are teams using as the eval set for \u201cdo we show up in buyer questions?\u201d"
     }
   ]
 }
