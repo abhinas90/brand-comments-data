@@ -1,65 +1,65 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "comments": [
     {
-      "author": "Abdalhadi Zatar",
-      "url": "https://www.linkedin.com/posts/abdalhadi-zatar-181872254_agtech-iot-softwareengineering-activity-7477704633692405761-fGGC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpygVEBgstreLU7OqyNpsxJOJaRKV7SMn4",
-      "engagement": "24 reactions / 7 comments",
-      "comment": "The strongest part here is not \u201cAI greenhouse\u201d, it is the safety boundary around the AI.\n\nBatching sensor reads, injecting action history, and enforcing irrigation cooldowns in the backend is exactly the right pattern: let the model reason, but let deterministic code protect the physical system.\n\nOne thing I\u2019d test next is a failure-mode matrix: sensor drift, delayed readings, missed actuator commands, and bad model output."
+      "author": "Raghavendra Bagalkoti",
+      "url": "https://www.linkedin.com/posts/raghubagalkoti_ai-langchain-llm-activity-7478057102423433217-4VEM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqdMesB9i9YYF5XdgWQa86EhIVoUpjiBhk",
+      "engagement": "38 reactions / 18 comments",
+      "comment": "The biggest jump is treating agents as state machines, not chat loops. Once tool calls can fail, timeout, or return partial data, explicit state and retries matter more than the model choice. Are you mostly using LangChain for RAG pipelines, or for tool-using agents?"
     },
     {
-      "author": "Thomas Geiger",
-      "url": "https://www.linkedin.com/posts/gtonic_localai-moe-agents-activity-7477656273866571777-JYK4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNTtcBxp7QdziWCFq9qQekcx_G3POt_z4",
-      "engagement": "13 reactions / 3 comments",
-      "comment": "Local agents get much more useful when you treat the model as the expensive part and the environment as the product: tight tool schemas, small reversible actions, cheap evals, and clear failure modes. The interesting metric is not tokens/sec, it is how often the agent can finish a task without escalating to a bigger model."
+      "author": "Karthik Chakravarthy",
+      "url": "https://www.linkedin.com/posts/karthikchakravarthy_25-types-of-rag-architecture-activity-7478055262814187520-Jgwy?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqdMesB9i9YYF5XdgWQa86EhIVoUpjiBhk",
+      "engagement": "33 reactions / 5 comments",
+      "comment": "The useful split I\u2019ve seen is less \u201c25 RAG types\u201d and more 4 design choices: query rewriting, retrieval strategy, reranking, and answer verification. Most production failures come from the boring middle, bad chunks, weak metadata, no reranker, or no eval set tied to real user questions. Which of these architectures actually improved your eval scores versus just changing the diagram?"
     },
     {
-      "author": "NMG Labs",
-      "url": "https://www.linkedin.com/posts/nmglabs_nmglabs-forgehackathon-forge2edition1-activity-7477345720237486080-lpoF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNTtcBxp7QdziWCFq9qQekcx_G3POt_z4",
-      "engagement": "17 reactions / 1 comments",
-      "comment": "800 to 60 with hidden-set execution is the right filter for agent builders. The part I\u2019d love to see more hackathons copy is automatic cloning + F1-based eval, because it forces teams to treat reliability, reproducibility, and edge cases as first-class work, not polish after the demo."
+      "author": "Puteri Irene Alia Abdul Hadi",
+      "url": "https://www.linkedin.com/posts/puteri-irene-alia-abdul-hadi-586a67a7_agenticai-awscommunity-womenintech-activity-7477903162490789888-wMUK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqdMesB9i9YYF5XdgWQa86EhIVoUpjiBhk",
+      "engagement": "31 reactions / 5 comments",
+      "comment": "The harness shift is real: once the model can observe state, call tools, retry, and keep a durable task log, prompt quality stops being the main bottleneck. The hard part becomes permissions, evals, rollback, and knowing when the agent should stop. What failure mode are you seeing most often in desktop agents: wrong tool use, stale memory, or unsafe persistence?"
     },
     {
-      "author": "Anthony Munoz Cifuentes",
-      "url": "https://www.linkedin.com/posts/anthony-munoz-cifuentes-6598376a_making-something-people-want-is-only-the-activity-7477705658365165569-UEbI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNKSoBrZaj-jUFlxwkpCwhPbmAyLhsZ7c",
+      "author": "Aurimas Grici\u016bnas",
+      "url": "https://www.linkedin.com/posts/aurimas-griciunas_integrating-%F0%9D%97%94%F0%9D%97%B4%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%B0-%F0%9D%97%A5%F0%9D%97%94%F0%9D%97%9A-systems-activity-7478054648562638849-f2H_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqdMesB9i9YYF5XdgWQa86EhIVoUpjiBhk",
+      "engagement": "14 reactions / 7 comments",
+      "comment": "One thing I\u2019d add: MCP standardizes the tool/data boundary, but it doesn\u2019t remove the need for retrieval contracts. For agentic RAG, I\u2019ve found each source needs explicit metadata guarantees, freshness expectations, auth scope, and failure behavior, otherwise the agent just gets more ways to retrieve the wrong context."
+    },
+    {
+      "author": "Pooja Jain",
+      "url": "https://www.linkedin.com/posts/pooja-jain-898253106_data-ai-engineering-activity-7478057479830933504-WOry?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqOYbEBK3D5L3rRVMhP6l6IC1yjKrs1cHE",
+      "engagement": "9 reactions / 8 comments",
+      "comment": "The failure mode I see most is that teams version prompts but not context. Metric definitions, retrieval chunks, schema docs, and examples need the same CI checks as code: freshness, ownership, tests, and rollback. What is the first context artifact you would put under version control, metric definitions or table docs?"
+    },
+    {
+      "author": "Fulvio Mascara",
+      "url": "https://www.linkedin.com/posts/fulviomascara_estava-dando-uma-sapeada-nos-v%C3%ADdeos-do-data-activity-7477559162374287360-VoJk?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqdMesB9i9YYF5XdgWQa86EhIVoUpjiBhk",
+      "engagement": "17 reactions / 3 comments",
+      "comment": "The hard part is not launching two agents in parallel, it is preserving enough state for the second agent to make a better decision than a fresh run. I\u2019d want the orchestrator to standardize 4 artifacts per handoff: goal, constraints, diff, and verification result. What does it emit when the two harnesses disagree?"
+    },
+    {
+      "author": "abdelrahman Ashraf omar",
+      "url": "https://www.linkedin.com/posts/abdelrahman-ashraf-omar_coursera-certficate-activity-7478056829055348736-M7v6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqdMesB9i9YYF5XdgWQa86EhIVoUpjiBhk",
+      "engagement": "6 reactions / 8 comments",
+      "comment": "One retrieval detail that changed how I build RAG: evaluate the retriever separately before judging the final answer. If recall@k is weak, no amount of prompt tuning or reranking will save the system, because the model never sees the right evidence in the first place."
+    },
+    {
+      "author": "Jody Roberts",
+      "url": "https://www.linkedin.com/posts/jodyroberts_github-jrobnchivekit-intent-as-source-activity-7477812339178803201-TpKE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqdMesB9i9YYF5XdgWQa86EhIVoUpjiBhk",
+      "engagement": "13 reactions / 4 comments",
+      "comment": "The underrated part here is separating context between planner, builder, and evaluator. If the same context carries all three roles, the evaluator often grades the story the generator told, not the artifact itself. I\u2019ve found the spec needs executable checks for at least the boring stuff: tests, lint, type checks, diff boundaries. How are you handling failures where the evaluator passes but the product still feels wrong?"
+    },
+    {
+      "author": "Ahmed Zafar",
+      "url": "https://www.linkedin.com/posts/ahmed-zafar-79b01b317_%F0%9D%97%A0%F0%9D%97%BC%F0%9D%98%80%F0%9D%98%81-%F0%9D%97%B3%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BB%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%80-%F0%9D%97%AE%F0%9D%97%BD%F0%9D%97%BD%F0%9D%98%80-%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%B0-activity-7478050893243011072-wiHB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqOYbEBK3D5L3rRVMhP6l6IC1yjKrs1cHE",
       "engagement": "8 reactions / 5 comments",
-      "comment": "The list quality point is dead on. In outbound, I\u2019ve seen the biggest lift come from ranking accounts by trigger timing, not firmographics, because the same buyer ignores you in Q1 and replies in Q3 when budget, hiring, or pain changes. What signal do you trust most when deciding someone is worth contacting right now?"
+      "comment": "The hardest part here is probably not the model accuracy, it is deciding when the system should stay silent. A form coach that fires false corrections at 30 FPS can teach bad habits fast, so I\u2019d be curious how you handle confidence thresholds, occlusion, and \u201cnot enough signal\u201d cases in the browser."
     },
     {
-      "author": "Anirudh Madhavan",
-      "url": "https://www.linkedin.com/posts/anianroid_aiagents-automation-smb-activity-7477341359658426368-vPCb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNTtcBxp7QdziWCFq9qQekcx_G3POt_z4",
-      "engagement": "10 reactions / 4 comments",
-      "comment": "The unsexy part is where most agent projects win or die: retries, audit logs, permissions, fallback paths, and evals on real edge cases. A demo proves the happy path exists. Month six proves the workflow is narrow enough, measurable enough, and reliable enough to deserve automation."
-    },
-    {
-      "author": "Jamal Reimer",
-      "url": "https://www.linkedin.com/posts/jamal-reimer_for-26-years-i-worked-for-companies-where-activity-7477705371092987904-rWmI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNKSoBrZaj-jUFlxwkpCwhPbmAyLhsZ7c",
-      "engagement": "12 reactions / 2 comments",
-      "comment": "6-person teams only work when ownership is painfully explicit.\n\nThe hard part is not \u201cno hierarchy,\u201d it is keeping decision rights clear as the surface area grows - support, product, engineering, sales, and customers all start pulling at once.\n\nThe best teams I\u2019ve worked with had high trust, but also very little ambiguity about who owns the next move."
-    },
-    {
-      "author": "Nissim Ren Cohen",
-      "url": "https://www.linkedin.com/posts/nissim-ren-cohen_ai-llmops-llmevals-activity-7477701172808744960-G-aX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNKSoBrZaj-jUFlxwkpCwhPbmAyLhsZ7c",
-      "engagement": "10 reactions / 3 comments",
-      "comment": "More agents can look smarter simply because they get more chances to sample, retrieve, and self-correct.\n\nThe clean test is an ablation where solo, 3-agent, and 7-agent setups get the same context snapshot, tool budget, token ceiling, and retry policy. Then compare marginal quality gain per extra dollar and second, not just final judge score.\n\nCurious if you saw any tasks where the 7-agent setup consistently beat solo after normalizing for token budget."
-    },
-    {
-      "author": "Oliver W.",
-      "url": "https://www.linkedin.com/posts/oliver-w-839b841b8_hiring-senior-machine-learning-engineer-activity-7477701083105050626-zbj2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGpygVUBVhT96EzxRfzobmd4mSxfY6LPRWg",
-      "engagement": "14 reactions / 1 comments",
-      "comment": "The strongest GenAI candidates I\u2019ve seen can explain their eval loop as clearly as their model architecture. For this kind of role, I\u2019d ask how they measure RAG quality beyond retrieval recall: answer faithfulness, tool failure recovery, latency budget, and cost per successful task."
-    },
-    {
-      "author": "Rohith Thakurwar",
-      "url": "https://www.linkedin.com/posts/rohith-thakurwar-890b31112_open-source-normally-refers-to-you-know-activity-7477415747292397568-d_Ni?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNTtcBxp7QdziWCFq9qQekcx_G3POt_z4",
-      "engagement": "11 reactions / 1 comments",
-      "comment": "The real gap is not benchmark score, it is recovery behavior after the first bad tool call. Open models are getting strong enough, but agent harnesses need better state tracking, rollback, permissioning, and evals against messy multi-step workflows before businesses will trust them. What eval would you use to prove an agent is reliable enough for daily ops?"
-    },
-    {
-      "author": "Tiger Analytics",
-      "url": "https://www.linkedin.com/posts/tiger-analytics_tigerfeatures-enterpriseai-datagovernance-activity-7477706081515831296-86q2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqNKSoBrZaj-jUFlxwkpCwhPbmAyLhsZ7c",
-      "engagement": "9 reactions / 1 comments",
-      "comment": "Production AI usually fails less on model quality and more on handoffs: data freshness, permissions, monitoring, rollback paths, and ownership when the agent is wrong. The teams that win treat agents like distributed systems, not demos with a chat box."
+      "author": "Vaibhav Sisinty",
+      "url": "https://www.linkedin.com/posts/vaibhavsisinty_linkedin-activity-7478055072694702080-lkgC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGqOYbEBK3D5L3rRVMhP6l6IC1yjKrs1cHE",
+      "engagement": "14 reactions / 2 comments",
+      "comment": "The real shift is treating the agent like a long-running dev environment, not a prompt box. The highest ROI habit is still boring: check the diff, tighten permissions, then rerun with a smaller context instead of starting over."
     }
   ]
 }
