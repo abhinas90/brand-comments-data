@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-30",
+  "comments": [
+    {
+      "author": "Nikola Kapraljevic",
+      "url": "https://www.linkedin.com/posts/nikolakapraljevic_they-told-me-i-probably-wont-be-able-to-activity-7488566475033870336-PbmC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGvhcJoBGnpTzis23TfCd7iULuNJhhuCkU8",
+      "engagement": "21 reactions / 1 comments",
+      "comment": "The hidden win is that embedded engineers learn the actual acceptance test, not the ticket version of it. For agentic workflows, that matters more than model choice, because most failures come from missing context, unclear handoffs, and edge cases nobody wrote down. How are you deciding which functions get embedded AI engineers first?"
+    },
+    {
+      "author": "Sushant Hiray",
+      "url": "https://www.linkedin.com/posts/sushanthiray_same-model-same-28-productivity-tasks-one-activity-7488366582268575744-RB-2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGvhabsBWd-CSsUViyIbwForN6_Ej2Ck68Q",
+      "engagement": "10 reactions / 5 comments",
+      "comment": "The hidden variable is tool-call policy, not just context size. Two harnesses can expose the same model to the same repo, but if one retries aggressively, re-reads unchanged files, or keeps stale observations in context, token spend compounds fast. I\u2019d want to compare success per 10k tokens, not just raw success rate."
+    },
+    {
+      "author": "Pooja Jain",
+      "url": "https://www.linkedin.com/posts/pooja-jain-898253106_rag-dataengineering-ai-activity-7488566440908840960-e3BY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGvLXAkB6Iuf9nnE-ex64eK5rynVf4Qjun0",
+      "engagement": "5 reactions / 6 comments",
+      "comment": "Reranking is usually the first quality jump, but freshness is the first production failure I see teams underestimate. If your index cannot explain when a chunk was last extracted, embedded, and invalidated, your RAG system is already drifting before the model gets blamed."
+    },
+    {
+      "author": "Sean Mullaney",
+      "url": "https://www.linkedin.com/posts/seanmullaney_we-spent-weeks-trying-to-get-our-transaction-activity-7488555646049476608-ARLa?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGvhabsBWd-CSsUViyIbwForN6_Ej2Ck68Q",
+      "engagement": "6 reactions / 2 comments",
+      "comment": "The money-weighted eval point is the one most teams miss. Row-level accuracy can look flat while business risk drops a lot, because the eval finally matches what users care about. What changed most after you started labeling by value at stake: model behavior, roadmap priority, or stakeholder trust?"
+    },
+    {
+      "author": "Prince Yadav",
+      "url": "https://www.linkedin.com/posts/ecnirp_google-buildwithai-googleai-activity-7488564775426158592-diIV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGvhabsBWd-CSsUViyIbwForN6_Ej2Ck68Q",
+      "engagement": "5 reactions / 2 comments",
+      "comment": "The notification is the product surface most agent builders ignore until users stop trusting the agent. A useful pattern is to report 3 states separately: task accepted, tool/action completed, and final verification passed. Which one are you planning to trigger the notification on?"
+    },
+    {
+      "author": "Farez Rahman",
+      "url": "https://www.linkedin.com/posts/farez_tonnes-of-opportunities-for-tech-savvy-solopreneurs-activity-7488519899070382080-No1f?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGvhabsBWd-CSsUViyIbwForN6_Ej2Ck68Q",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "The hard part is not getting an agent to call a tool once, it is making the failure modes boring.\n\nMost teams underestimate routing, retries, permissions, evals, observability, and rollback paths. Prompt vs skill vs CLI is really a boundary question: what needs reasoning, what needs determinism, and what needs auditability?"
+    },
+    {
+      "author": "Mattia Pietromartire",
+      "url": "https://www.linkedin.com/posts/mattia-pietromartire_ai-aiagents-agenticai-activity-7488484277551206401-rp3x?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGvhabsBWd-CSsUViyIbwForN6_Ej2Ck68Q",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "The missing metric here is variance by task type. A harness can look cheap on average because it gives up early, avoids exploration, or compresses context aggressively, but the real question is where it fails: repo navigation, tool calling, long-horizon edits, or test repair."
+    }
+  ]
+}
