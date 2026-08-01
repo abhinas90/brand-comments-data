@@ -1,41 +1,23 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "comments": [
     {
-      "author": "Raju Dandigam",
-      "url": "https://www.linkedin.com/posts/raju-dandigam_modern-ai-systems-work-like-factories-each-activity-7488919470422249472-Y_2c?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGv1STYBhIbbBQjHhRggcPiYRMUerZS29QM",
-      "engagement": "34 reactions / 49 comments",
-      "comment": "Evals are usually the weakest layer because they get treated like a release gate instead of a production system.\n\nThe useful shift is logging failures as typed cases: retrieval miss, tool misuse, stale context, bad instruction following, unsafe action, or cost regression.\n\nWithout that taxonomy, teams keep tuning prompts when the real issue is often upstream."
+      "author": "Matin Ahmadbeigi",
+      "url": "https://www.linkedin.com/posts/matinbeigi_%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D9%85%D8%AC%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-claude-%D9%88-claude-code-%D8%B1%D9%88%DB%8C-activity-7489214884040306688-HEFg?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwBdzEBOv6qNV1wY-sfjRVHqU0BpEWhYko",
+      "engagement": "52 reactions / 4 comments",
+      "comment": "The harness often matters more than the model for coding agents. Same prompt, same model, different file access, shell feedback, diff application, and retry loop can produce totally different results, so I\u2019d compare not just final output but how many correction cycles it needed."
     },
     {
-      "author": "Neo Kim",
-      "url": "https://www.linkedin.com/posts/nk-systemdesign-one_if-you-want-to-become-god-level-with-ai-engineering-activity-7488928787691376640-gfPM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGv1hQABL_439h9_oj-0iPlRqUBSSOzdfz0",
-      "engagement": "26 reactions / 19 comments",
-      "comment": "I\u2019d add failure-mode design to this list: timeouts, retries, fallbacks, tool-call validation, and human escalation paths. Most agent demos fail in production because the model is bad at one edge case, but because the system has no plan for partial failure."
+      "author": "Shakthi Vadakkepat",
+      "url": "https://www.linkedin.com/posts/vshakthi_github-yc-softwareqm-multiplayer-agent-activity-7489148783193149440--tBc?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwBdzEBOv6qNV1wY-sfjRVHqU0BpEWhYko",
+      "engagement": "9 reactions / 1 comments",
+      "comment": "The hard part with org-wide agents is not agent count, it is permissioning, auditability, and state ownership. If every agent can read everything, you get a demo. If each agent has scoped tools, durable memory, and replayable traces, you get something teams can actually operate."
     },
     {
-      "author": "Dylan Anderson",
-      "url": "https://www.linkedin.com/posts/dylansjanderson_to-make-ai-agents-work-you-first-have-to-activity-7488928538159411200-67MW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGv1hQABL_439h9_oj-0iPlRqUBSSOzdfz0",
-      "engagement": "5 reactions / 7 comments",
-      "comment": "The highest ROI boundary I\u2019ve seen is forcing every agent step into one of three buckets: deterministic, model-mediated, or human-approved. If a step cannot explain why it needs a model, it probably should be code. If it can change money, permissions, customer state, or external systems, it probably needs a stop condition or approval gate."
-    },
-    {
-      "author": "Jack Perschke",
-      "url": "https://www.linkedin.com/posts/jackperschke_i-have-an-announcement-to-make-that-im-incredibly-activity-7488928575925141504-qD_A?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGv1hQABL_439h9_oj-0iPlRqUBSSOzdfz0",
-      "engagement": "13 reactions / 2 comments",
-      "comment": "The best AI standards start with failure modes, not model choice. For RAG and agents, the real control points are retrieval quality, tool permissions, eval gates, audit logs, and a clear rollback path when the system is wrong."
-    },
-    {
-      "author": "Stephen Olmstead",
-      "url": "https://www.linkedin.com/posts/stephenolmstead_ive-spent-the-last-year-experimenting-with-activity-7488740235116179456-4sZ_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGv1VBoBnnO96iJkt6xS_XW2ID-gppbT6qA",
-      "engagement": "11 reactions / 3 comments",
-      "comment": "The hardest part of personal AI systems is not adding agents, it is reducing handoff cost. I\u2019ve found the useful boundary is: one surface for thinking, one for delegated execution, and one for tiny disposable tasks. Anything beyond that needs a clear failure mode, or it becomes another dashboard to babysit."
-    },
-    {
-      "author": "Yusen Tang",
-      "url": "https://www.linkedin.com/posts/yusen-tang1_small-milestone-worth-sharing-ive-been-activity-7488635142010232832-7weu?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGv1VBoBnnO96iJkt6xS_XW2ID-gppbT6qA",
-      "engagement": "11 reactions / 3 comments",
-      "comment": "For noisy agent A/Bs, I\u2019d start with paired evaluations: same initial states, same RNG seeds, swap player sides, then compare win-rate deltas with confidence intervals instead of raw aggregate wins. Elo or TrueSkill helps once you have many variants, but for architecture changes I\u2019d still want a small fixed eval suite of \u201cknown hard states\u201d so you can see whether the agent got better at decisions or just luckier over full episodes."
+      "author": "Shuangrui Ding",
+      "url": "https://www.linkedin.com/posts/shuangrui-ding_excited-to-introduce-wildclawbench-released-activity-7489211859263447040-Zm3w?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwBdzEBOv6qNV1wY-sfjRVHqU0BpEWhYko",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "The real unlock here is separating model quality from harness quality. For long-horizon agents, a 5% better model can lose to a weaker model with better retries, state tracking, and tool constraints. How are you scoring partial progress when the agent gets the plan right but fails on one brittle tool call?"
     }
   ]
 }
