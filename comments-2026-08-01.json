@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-01",
+  "comments": [
+    {
+      "author": "Matin Ahmadbeigi",
+      "url": "https://www.linkedin.com/posts/matinbeigi_%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D9%85%D8%AC%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-claude-%D9%88-claude-code-%D8%B1%D9%88%DB%8C-activity-7489214884040306688-HEFg?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwBdzEBOv6qNV1wY-sfjRVHqU0BpEWhYko",
+      "engagement": "52 reactions / 4 comments",
+      "comment": "The harness often matters more than the model for coding agents. Same prompt, same model, different file access, shell feedback, diff application, and retry loop can produce totally different results, so I\u2019d compare not just final output but how many correction cycles it needed."
+    },
+    {
+      "author": "Shakthi Vadakkepat",
+      "url": "https://www.linkedin.com/posts/vshakthi_github-yc-softwareqm-multiplayer-agent-activity-7489148783193149440--tBc?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwBdzEBOv6qNV1wY-sfjRVHqU0BpEWhYko",
+      "engagement": "9 reactions / 1 comments",
+      "comment": "The hard part with org-wide agents is not agent count, it is permissioning, auditability, and state ownership. If every agent can read everything, you get a demo. If each agent has scoped tools, durable memory, and replayable traces, you get something teams can actually operate."
+    },
+    {
+      "author": "Shuangrui Ding",
+      "url": "https://www.linkedin.com/posts/shuangrui-ding_excited-to-introduce-wildclawbench-released-activity-7489211859263447040-Zm3w?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwBdzEBOv6qNV1wY-sfjRVHqU0BpEWhYko",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "The real unlock here is separating model quality from harness quality. For long-horizon agents, a 5% better model can lose to a weaker model with better retries, state tracking, and tool constraints. How are you scoring partial progress when the agent gets the plan right but fails on one brittle tool call?"
+    }
+  ]
+}
