@@ -1,0 +1,11 @@
+{
+  "date": "2026-08-02",
+  "comments": [
+    {
+      "author": "Divyam Sharma",
+      "url": "https://www.linkedin.com/posts/divyam-sharma-4a8a562b0_ai-softwareengineering-generativeai-activity-7489640527873593344-HXyn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGvzVNYBKgNqk_FZ2BpcQp0CpU5IQhgsQ4U",
+      "engagement": "9 reactions / 1 comments",
+      "comment": "The hardest part of an AI gateway is usually not provider routing, it is proving the router is still making good decisions after models, prompts, and traffic mix drift. I\u2019d be curious how you are evaluating cache hit quality and routing accuracy over time, especially for cases where the cheaper model gives a plausible but subtly wrong answer."
+    }
+  ]
+}
