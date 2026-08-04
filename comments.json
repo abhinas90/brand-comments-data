@@ -1,35 +1,29 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "comments": [
     {
-      "author": "Ankita Gulati",
-      "url": "https://www.linkedin.com/posts/ankita-gulati-de_aiengineer-freshersintech-aicareer-activity-7490001915561308160-7okL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwCv2IBnx5R3MNeq6JgU3T-tzNmwCZTc_k",
-      "engagement": "61 reactions / 16 comments",
-      "comment": "The real separator is not \u201cbuilt an agent\u201d, it is \u201cmeasured the agent.\u201d\n\nA fresher who can show task success rate, failure modes, latency, cost per run, and what changed after evals will stand out fast. Most projects stop at a demo video, production work starts when the model fails and you can explain why.\n\nWhat eval would you expect a junior AI engineer to include in their first project? #AgenticAI"
+      "author": "Erman Taylan",
+      "url": "https://www.linkedin.com/posts/etaylan_soft-commitment%C4%B1n-208-say%C4%B1s%C4%B1ndan-herkese-activity-7490285479742050304-cIsb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwRnmgBIpHY0-edoIUBKYTY0lHfiqToV_k",
+      "engagement": "28 reactions / 1 comments",
+      "comment": "The \u201cown the harness, not the model\u201d point is the one I\u2019d watch closest. For most teams, the durable moat is the eval set, tool contract, retrieval layer, rollback path, and feedback loop, because the frontier model underneath will keep changing every few months."
     },
     {
-      "author": "Jaya Kishore Reddy Gollareddy",
-      "url": "https://www.linkedin.com/posts/jayakishorereddy_agenticai-ai-voiceai-activity-7490014564370026496-y__I?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwCv2IBnx5R3MNeq6JgU3T-tzNmwCZTc_k",
-      "engagement": "48 reactions / 8 comments",
-      "comment": "The hard part with multi-LLM routing is not picking the best model once, it is keeping the router calibrated as model quality, latency, and pricing shift every few weeks. I\u2019d be curious how teams are measuring routing quality beyond task success, especially for voice where latency and interruption handling can matter as much as answer accuracy."
+      "author": "Nav \ud80c\udd6f Rao",
+      "url": "https://www.linkedin.com/posts/activity-7490255463511465984-AEFv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwRnmgBIpHY0-edoIUBKYTY0lHfiqToV_k",
+      "engagement": "13 reactions / 2 comments",
+      "comment": "Less turns is useful, but I\u2019d track \u201cavoidable turns\u201d separately from total turns.\n\nA harness can look better by forcing early commits, while silently increasing rework later. The metric I\u2019d want is cost per accepted patch after tests, formatting, and reviewer-style checks pass."
     },
     {
-      "author": "Tim Oudeman",
-      "url": "https://www.linkedin.com/posts/tim-oudeman_%F0%9D%90%88%F0%9D%90%9C%F0%9D%90%A1-%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%9B%F0%9D%90%9E-%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%AB-%F0%9D%90%9A%F0%9D%90%A6-%F0%9D%90%92%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A0-activity-7489979640690708480-eUtA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwCv2IBnx5R3MNeq6JgU3T-tzNmwCZTc_k",
-      "engagement": "35 reactions / 10 comments",
-      "comment": "The hardest part of personal agent setups is usually not tool wiring, it is permission design. Read-only research, explicit approval gates, and per-agent memory boundaries are what keep a useful assistant from becoming an unpredictable automation layer. How are you planning to evaluate whether the agents are improving over time versus just accumulating more context?"
+      "author": "Aviram Fireberger",
+      "url": "https://www.linkedin.com/posts/aviram-fireberger_hermes-agent-family-assistant-activity-7490331700565049347-MDK_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwRnmgBIpHY0-edoIUBKYTY0lHfiqToV_k",
+      "engagement": "11 reactions / 2 comments",
+      "comment": "Persistent agents become useful when they stop being \u201csmart chat\u201d and start owning boring state: preferences, recurring constraints, pending decisions, and stale reminders. The hard part is evals - checking whether memory retrieval actually improves outcomes instead of just making the agent sound more personal."
     },
     {
-      "author": "Narendra Cherlopalli",
-      "url": "https://www.linkedin.com/posts/narendra-cherlopalli-21588716_agenticai-financetransformation-supplychainai-activity-7490015742931877888-sC3_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwQJGcBqJc9hR7o2YAnH4wjiEHM83uATlA",
-      "engagement": "8 reactions / 14 comments",
-      "comment": "A production-ready agent should have an access contract before it has a demo: exact systems, exact actions, exact approval path, exact rollback owner. The failure mode I see most often is not model quality, it is a pilot with temporary permissions that nobody revisits once users start depending on it."
-    },
-    {
-      "author": "Sumanth P",
-      "url": "https://www.linkedin.com/posts/sumanth077_yc-just-open-sourced-their-multi-agent-harness-activity-7490008351549079552-nBg9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwCv2IBnx5R3MNeq6JgU3T-tzNmwCZTc_k",
-      "engagement": "13 reactions / 4 comments",
-      "comment": "The hard part is not routing tasks between agents, it is making identity, memory, permissions, and auditability boring enough that teams can trust the system. Once agents move from personal assistant to shared infra, evals also need to shift from \u201cdid it answer well?\u201d to \u201cdid it act correctly under the right scope?\u201d"
+      "author": "Zahra Bahrololoumi CBE",
+      "url": "https://www.linkedin.com/posts/zahrabahrololoumi_your-first-ai-agent-is-in-production-so-activity-7490378348490149888-i7w0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwRnl8BVubIsSMt1COLjFOfJkPuDz0Bly0",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "A useful test for \u201chands off\u201d is whether the agent can recover from partial failure without making the blast radius bigger.\n\nIn production, autonomy is less about giving the model more tools and more about tightening the loop around permissions, observability, evals, rollback, and human escalation. The hard part is knowing which decisions should stay reversible, and which should never be delegated without review."
     }
   ]
 }
