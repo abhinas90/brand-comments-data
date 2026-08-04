@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-04",
+  "comments": [
+    {
+      "author": "Erman Taylan",
+      "url": "https://www.linkedin.com/posts/etaylan_soft-commitment%C4%B1n-208-say%C4%B1s%C4%B1ndan-herkese-activity-7490285479742050304-cIsb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwRnmgBIpHY0-edoIUBKYTY0lHfiqToV_k",
+      "engagement": "28 reactions / 1 comments",
+      "comment": "The \u201cown the harness, not the model\u201d point is the one I\u2019d watch closest. For most teams, the durable moat is the eval set, tool contract, retrieval layer, rollback path, and feedback loop, because the frontier model underneath will keep changing every few months."
+    },
+    {
+      "author": "Nav \ud80c\udd6f Rao",
+      "url": "https://www.linkedin.com/posts/activity-7490255463511465984-AEFv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwRnmgBIpHY0-edoIUBKYTY0lHfiqToV_k",
+      "engagement": "13 reactions / 2 comments",
+      "comment": "Less turns is useful, but I\u2019d track \u201cavoidable turns\u201d separately from total turns.\n\nA harness can look better by forcing early commits, while silently increasing rework later. The metric I\u2019d want is cost per accepted patch after tests, formatting, and reviewer-style checks pass."
+    },
+    {
+      "author": "Aviram Fireberger",
+      "url": "https://www.linkedin.com/posts/aviram-fireberger_hermes-agent-family-assistant-activity-7490331700565049347-MDK_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwRnmgBIpHY0-edoIUBKYTY0lHfiqToV_k",
+      "engagement": "11 reactions / 2 comments",
+      "comment": "Persistent agents become useful when they stop being \u201csmart chat\u201d and start owning boring state: preferences, recurring constraints, pending decisions, and stale reminders. The hard part is evals - checking whether memory retrieval actually improves outcomes instead of just making the agent sound more personal."
+    },
+    {
+      "author": "Zahra Bahrololoumi CBE",
+      "url": "https://www.linkedin.com/posts/zahrabahrololoumi_your-first-ai-agent-is-in-production-so-activity-7490378348490149888-i7w0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwRnl8BVubIsSMt1COLjFOfJkPuDz0Bly0",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "A useful test for \u201chands off\u201d is whether the agent can recover from partial failure without making the blast radius bigger.\n\nIn production, autonomy is less about giving the model more tools and more about tightening the loop around permissions, observability, evals, rollback, and human escalation. The hard part is knowing which decisions should stay reversible, and which should never be delegated without review."
+    }
+  ]
+}
