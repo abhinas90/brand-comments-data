@@ -1,41 +1,17 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "comments": [
     {
-      "author": "Sergio Paniego Blanco",
-      "url": "https://www.linkedin.com/posts/sergio-paniego-blanco_lfm25-26b-just-dropped-and-the-liquid-activity-7490429975255228416-Kmxz?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwluDYB3jGkkWZ5DZ_JJqfIE6xpUEFs_9s",
-      "engagement": "83 reactions / 1 comments",
-      "comment": "The interesting part is the teacher-student distance control. If the teachers branch from the same SFT checkpoint, token-level feedback is less likely to become a weird off-policy grading signal, which is usually where small agent models get brittle. Curious how much of the tool-use gain comes from on-policy distillation versus the final multi-turn RL pass."
+      "author": "Nikhil Pahwa",
+      "url": "https://www.linkedin.com/posts/nikhilpahwa_my-month-with-ai-july-2026-edition-july-activity-7490999782316879872-hTE0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw0-0gBXa96qvxJl1pD-h2x-sPW35X_nGQ",
+      "engagement": "6 reactions / 3 comments",
+      "comment": "The most interesting pattern here is not the number of builds, it is the shift from \u201cAI helps me ship\u201d to \u201cAI creates more systems I now have to operate.\u201d The next bottleneck is probably evals, permissions, and rollback paths, not coding speed. Which of these July builds would you trust to run for 30 days without you checking it daily?"
     },
     {
-      "author": "Alok Sharan",
-      "url": "https://www.linkedin.com/posts/alok-sharan_agentic-rag-is-where-retrieval-starts-becoming-activity-7490740956565094400-fv59?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwluDYB3jGkkWZ5DZ_JJqfIE6xpUEFs_9s",
-      "engagement": "35 reactions / 25 comments",
-      "comment": "One pattern I keep seeing: the best Agentic RAG systems treat retrieval as a budgeted decision, not a default step. For many queries, rewriting + metadata filters beats adding another agent, because it improves precision without adding latency and failure modes. How are you thinking about evals for each stage separately: planner, retriever, reranker, verifier?"
-    },
-    {
-      "author": "OpenRouter",
-      "url": "https://www.linkedin.com/posts/openrouter_introducing-ori-harness-your-favorite-harness-activity-7490474155729911809-tXB7?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwluDYB3jGkkWZ5DZ_JJqfIE6xpUEFs_9s",
-      "engagement": "54 reactions / 2 comments",
-      "comment": "Silent degradation is the part most teams underestimate. A gateway can pass requests successfully while breaking the agent loop through context limits, tool-call formatting, retry behavior, or model-specific prompt assumptions. I\u2019d be curious how you validate parity across harness/model pairs - task success rate, cost, latency, or diff quality?"
-    },
-    {
-      "author": "Corey Weekes CPIM CIRM CSCP",
-      "url": "https://www.linkedin.com/posts/coreyweekes_supplychain-logistics-supplychainmanagement-activity-7490740985233072128-fZ2w?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwluDYB3jGkkWZ5DZ_JJqfIE6xpUEFs_9s",
-      "engagement": "6 reactions / 14 comments",
-      "comment": "The audit trail point is the one most teams underestimate: you need to log not just what the agent did, but what it considered and rejected. Without that, evals become guesswork after the first real incident. What do you think is the minimum viable audit record for teams just starting with agentic workflows?"
-    },
-    {
-      "author": "Safi Qadir",
-      "url": "https://www.linkedin.com/posts/safizaq_its-been-a-crazy-week-for-ai-agents-jack-activity-7490483845499236352-9uBM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwluDYB3jGkkWZ5DZ_JJqfIE6xpUEFs_9s",
-      "engagement": "26 reactions / 2 comments",
-      "comment": "Counterintuitive part: the winning agent platform may be the one with the least magic. Teams need permissioning, audit logs, evals, rollback, and clear human handoff more than another chat box with tool access. What are you using to measure whether an agent is actually saving time versus just moving work into review?"
-    },
-    {
-      "author": "Collin Chen",
-      "url": "https://www.linkedin.com/posts/collin-chen-open2work_wrapping-up-a-great-summer-at-peregrine-energy-activity-7490531260155731968-NDmt?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwluDYB3jGkkWZ5DZ_JJqfIE6xpUEFs_9s",
-      "engagement": "10 reactions / 4 comments",
-      "comment": "The background-worker handoff is the underrated part here. Once long-running OCR/PDF jobs stop blocking chat, the UX moves from \u201cask and wait\u201d to \u201cqueue work while staying in flow,\u201d which is usually where agent tools start feeling useful instead of demo-like."
+      "author": "David Wong, PMP",
+      "url": "https://www.linkedin.com/posts/davidwongbiz_at-ai-camp-nyc-genai-llms-and-agents-meetup-activity-7491100773423181824-ph_t?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwSpEMB-pMu8LmiKnvRAI6p_N03lK4kLo4",
+      "engagement": "5 reactions / 3 comments",
+      "comment": "The fastest way to get bad evals is to let the agent define what \u201cgood\u201d means.\n\nI\u2019ve seen this pattern in production LLM work: teams start with end-to-end scores, then realize the useful signal is often buried in step-level traces - retrieval quality, tool choice, instruction following, citation support, and recovery behavior.\n\nA small expert-built eval set plus trace review usually beats a huge stale \u201cgolden\u201d set.\n\nWhat\u2019s the first failure mode you\u2019d force every agent eval to measure?\n\n#AI #LLM #Evals"
     }
   ]
 }
