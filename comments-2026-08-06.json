@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-06",
+  "comments": [
+    {
+      "author": "Nikhil Pahwa",
+      "url": "https://www.linkedin.com/posts/nikhilpahwa_my-month-with-ai-july-2026-edition-july-activity-7490999782316879872-hTE0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw0-0gBXa96qvxJl1pD-h2x-sPW35X_nGQ",
+      "engagement": "6 reactions / 3 comments",
+      "comment": "The most interesting pattern here is not the number of builds, it is the shift from \u201cAI helps me ship\u201d to \u201cAI creates more systems I now have to operate.\u201d The next bottleneck is probably evals, permissions, and rollback paths, not coding speed. Which of these July builds would you trust to run for 30 days without you checking it daily?"
+    },
+    {
+      "author": "David Wong, PMP",
+      "url": "https://www.linkedin.com/posts/davidwongbiz_at-ai-camp-nyc-genai-llms-and-agents-meetup-activity-7491100773423181824-ph_t?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwSpEMB-pMu8LmiKnvRAI6p_N03lK4kLo4",
+      "engagement": "5 reactions / 3 comments",
+      "comment": "The fastest way to get bad evals is to let the agent define what \u201cgood\u201d means.\n\nI\u2019ve seen this pattern in production LLM work: teams start with end-to-end scores, then realize the useful signal is often buried in step-level traces - retrieval quality, tool choice, instruction following, citation support, and recovery behavior.\n\nA small expert-built eval set plus trace review usually beats a huge stale \u201cgolden\u201d set.\n\nWhat\u2019s the first failure mode you\u2019d force every agent eval to measure?\n\n#AI #LLM #Evals"
+    }
+  ]
+}
