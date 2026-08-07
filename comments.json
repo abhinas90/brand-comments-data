@@ -1,17 +1,23 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "comments": [
     {
-      "author": "Nikhil Pahwa",
-      "url": "https://www.linkedin.com/posts/nikhilpahwa_my-month-with-ai-july-2026-edition-july-activity-7490999782316879872-hTE0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw0-0gBXa96qvxJl1pD-h2x-sPW35X_nGQ",
-      "engagement": "6 reactions / 3 comments",
-      "comment": "The most interesting pattern here is not the number of builds, it is the shift from \u201cAI helps me ship\u201d to \u201cAI creates more systems I now have to operate.\u201d The next bottleneck is probably evals, permissions, and rollback paths, not coding speed. Which of these July builds would you trust to run for 30 days without you checking it daily?"
+      "author": "Robert Glaser",
+      "url": "https://www.linkedin.com/posts/robertglaser1_lets-do-this-claw-thing-again-together-activity-7491415821450256384-Fwh2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw-FvgBHm6hwtYN8L_nf8idzV-trnXnPAw",
+      "engagement": "26 reactions / 1 comments",
+      "comment": "The best test for personal agents is still boring: can it recover from a half-broken local setup without turning one missing env var into a 40-minute debugging session?\n\nI\u2019d love to see more builders compare failure modes, permission boundaries, and eval traces instead of only demoing the happy path."
     },
     {
-      "author": "David Wong, PMP",
-      "url": "https://www.linkedin.com/posts/davidwongbiz_at-ai-camp-nyc-genai-llms-and-agents-meetup-activity-7491100773423181824-ph_t?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwSpEMB-pMu8LmiKnvRAI6p_N03lK4kLo4",
-      "engagement": "5 reactions / 3 comments",
-      "comment": "The fastest way to get bad evals is to let the agent define what \u201cgood\u201d means.\n\nI\u2019ve seen this pattern in production LLM work: teams start with end-to-end scores, then realize the useful signal is often buried in step-level traces - retrieval quality, tool choice, instruction following, citation support, and recovery behavior.\n\nA small expert-built eval set plus trace review usually beats a huge stale \u201cgolden\u201d set.\n\nWhat\u2019s the first failure mode you\u2019d force every agent eval to measure?\n\n#AI #LLM #Evals"
+      "author": "Duarte O.Carmo",
+      "url": "https://www.linkedin.com/posts/duarteocarmo_this-year-ive-built-evals-classifiers-activity-7491433232492781568-wwmn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw-FvgBHm6hwtYN8L_nf8idzV-trnXnPAw",
+      "engagement": "14 reactions / 4 comments",
+      "comment": "One hard part is separating \u201cknows Portuguese\u201d from \u201cknows Brazilian Portuguese patterns and maps them over.\u201d I\u2019d want eval slices for spelling reform variants, clitic placement, formal/informal address, and Portugal-specific entities before looking at broad benchmark scores. How are you planning to weight fluency vs local factuality?"
+    },
+    {
+      "author": "Daniel Gamrot",
+      "url": "https://www.linkedin.com/posts/danielgamrot_sch%C5%AFzka-skon%C4%8D%C3%AD-a-te%C4%8F-za%C4%8D%C3%ADn%C3%A1-ta-z%C3%A1bava-activity-7491465723475660800-QDA4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw-FvgBHm6hwtYN8L_nf8idzV-trnXnPAw",
+      "engagement": "5 reactions / 2 comments",
+      "comment": "The real win here is separating capture from judgment. Most meeting AI workflows fail because they try to produce a perfect summary immediately, but the missing layer is the 1-2 minute human reflection after the call. That little dictated note often contains the highest-signal context the transcript will never infer."
     }
   ]
 }
