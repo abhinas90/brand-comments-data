@@ -1,23 +1,35 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "comments": [
     {
-      "author": "Robert Glaser",
-      "url": "https://www.linkedin.com/posts/robertglaser1_lets-do-this-claw-thing-again-together-activity-7491415821450256384-Fwh2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw-FvgBHm6hwtYN8L_nf8idzV-trnXnPAw",
-      "engagement": "26 reactions / 1 comments",
-      "comment": "The best test for personal agents is still boring: can it recover from a half-broken local setup without turning one missing env var into a 40-minute debugging session?\n\nI\u2019d love to see more builders compare failure modes, permission boundaries, and eval traces instead of only demoing the happy path."
+      "author": "Uttam Gupta",
+      "url": "https://www.linkedin.com/posts/uttammgupta-aisolutionsexpert_you-dont-need-to-be-technical-to-understand-activity-7491827002916843520-Df7f?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxJYwQBWDcm2w1QMIC-yee4CgARtJCppZI",
+      "engagement": "51 reactions / 5 comments",
+      "comment": "One term I\u2019d add is \u201ccontext window\u201d - the amount of information a model can pay attention to at once. A lot of bad AI output is not because the model is weak, but because the right source, constraint, or example never made it into context."
     },
     {
-      "author": "Duarte O.Carmo",
-      "url": "https://www.linkedin.com/posts/duarteocarmo_this-year-ive-built-evals-classifiers-activity-7491433232492781568-wwmn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw-FvgBHm6hwtYN8L_nf8idzV-trnXnPAw",
-      "engagement": "14 reactions / 4 comments",
-      "comment": "One hard part is separating \u201cknows Portuguese\u201d from \u201cknows Brazilian Portuguese patterns and maps them over.\u201d I\u2019d want eval slices for spelling reform variants, clitic placement, formal/informal address, and Portugal-specific entities before looking at broad benchmark scores. How are you planning to weight fluency vs local factuality?"
+      "author": "Justin C. Gohn, CRE\u00ae, MAI, SRA",
+      "url": "https://www.linkedin.com/posts/toprealestateappraiser_if-you-want-to-take-advantage-of-ai-agents-activity-7491686752848465920-c39w?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxJYwQBWDcm2w1QMIC-yee4CgARtJCppZI",
+      "engagement": "11 reactions / 3 comments",
+      "comment": "The hard part is not letting the agent run longer, it is defining stop conditions it can actually verify. For research agents, I like forcing a coverage test: source diversity, duplicate rate, date bounds, and a final list of queries it tried but found nothing for. That last part is usually where you see whether it searched systematically or just got lucky."
     },
     {
-      "author": "Daniel Gamrot",
-      "url": "https://www.linkedin.com/posts/danielgamrot_sch%C5%AFzka-skon%C4%8D%C3%AD-a-te%C4%8F-za%C4%8D%C3%ADn%C3%A1-ta-z%C3%A1bava-activity-7491465723475660800-QDA4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGw-FvgBHm6hwtYN8L_nf8idzV-trnXnPAw",
-      "engagement": "5 reactions / 2 comments",
-      "comment": "The real win here is separating capture from judgment. Most meeting AI workflows fail because they try to produce a perfect summary immediately, but the missing layer is the 1-2 minute human reflection after the call. That little dictated note often contains the highest-signal context the transcript will never infer."
+      "author": "METTU MANOJ BABU",
+      "url": "https://www.linkedin.com/posts/mettu-manoj-babu_hcltechcampusambassador-hcltech-theeconomictimes-activity-7491827893111808001-0vuX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxJclIBL5T7iBil1B1tpja8cNjoipgvGD8",
+      "engagement": "6 reactions / 2 comments",
+      "comment": "The most hireable fresher is usually the one who can show their debugging trail, not just the final project demo. A clean README with tradeoffs, failed attempts, eval results, and what you changed after feedback tells me more than a long certificate list. For AI roles, I\u2019d add one more signal: can you measure whether the system got better after your prompt, retrieval, or model change?"
+    },
+    {
+      "author": "Reshma Sriraman",
+      "url": "https://www.linkedin.com/posts/reshmawithai_breaking-news-ai-startup-founders-anthropic-activity-7491827644821327872-gRtm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxJYwQBWDcm2w1QMIC-yee4CgARtJCppZI",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "Credits help, but the real constraint is usually eval discipline. I\u2019d spend the first week building a tiny regression suite around the 20-50 prompts that map to actual user pain, then use the free runway to test model, prompt, and tool changes against that baseline."
+    },
+    {
+      "author": "Ronald M.",
+      "url": "https://www.linkedin.com/posts/ronald-m-08879a382_deepseek-accidentally-taught-me-automated-activity-7491709654721499137-aC55?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxJYwQBWDcm2w1QMIC-yee4CgARtJCppZI",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "The underrated part here is that \u201cboring\u201d strategies are easier to test, monitor, and kill when they drift.\n\nA trading bot without backtests, position limits, failure handling, and clear stop conditions is just a fast way to automate bad decisions.\n\nSharp question: did you test it on periods where DCA looks terrible, like long drawdowns or sudden volatility spikes?"
     }
   ]
 }
