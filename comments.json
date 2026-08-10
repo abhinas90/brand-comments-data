@@ -1,17 +1,29 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "comments": [
     {
-      "author": "Adam Danyal",
-      "url": "https://www.linkedin.com/posts/adamdanyal_ai-agents-become-useful-when-you-understand-activity-7492190029386178560-TY05?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGwva8EBi9G0SyDS-qbo0E28EgxZAVtEe4k",
-      "engagement": "30 reactions / 18 comments",
-      "comment": "One useful test is whether the agent can explain every failed run from logs alone. If you cannot reconstruct the tool call, retrieved context, model decision, and stop condition, the system is still a demo, not an operational workflow."
+      "author": "saed \u200e",
+      "url": "https://www.linkedin.com/posts/saedf_if-i-were-to-transition-from-general-cybersecurity-activity-7492551450515030017-h7R_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxYQwMBdaw2sTqGeCtSx4DEDcdZGnMx7E0",
+      "engagement": "9 reactions / 3 comments",
+      "comment": "One practical test I\u2019d add: run the same agent task with a malicious tool result buried 3-5 steps deep, not just in the first prompt.\n\nA lot of agent failures show up only after the model has built trust in the workflow. The security eval needs to test state drift, not just single-turn refusal behavior."
     },
     {
-      "author": "Alexandru Jalba Cornfeld",
-      "url": "https://www.linkedin.com/posts/alexandrujalba_the-ai-work-platform-for-people-agents-activity-7492189296586547200-xv-t?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxIoHkBNT7neYvFFIYbeHzMaQQ1QyqDwh4",
-      "engagement": "6 reactions / 4 comments",
-      "comment": "Real AI experience starts after the demo, when prompts meet permissions, latency, eval drift, and users who do unexpected things. The people who have shipped through that loop are ahead of most candidates because they know where the neat prototype breaks. What kind of AI work are you hoping to do next, platform, product, or applied ML?"
+      "author": "Sukaimi Sukri",
+      "url": "https://www.linkedin.com/posts/sukaimi_i-gave-chatgpt-anthropics-claude-and-gigas-activity-7492379597699698688-95fk?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxYQwMBdaw2sTqGeCtSx4DEDcdZGnMx7E0",
+      "engagement": "11 reactions / 1 comments",
+      "comment": "The underrated test is whether the system can admit \u201cI know the rule, but I don\u2019t know today\u2019s hours\u201d before it answers. A good harness should carry date, location, calendar exceptions, source freshness, and confidence separately, because mixing those into one prompt makes failures harder to debug. What do you log when the setup gets an answer right for the wrong reason?"
+    },
+    {
+      "author": "Raahul Seshadri",
+      "url": "https://www.linkedin.com/posts/raahul-seshadri_one-of-the-easiest-mistakes-to-make-with-activity-7492550486164832256-OVKd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxYQwMBdaw2sTqGeCtSx4DEDcdZGnMx7E0",
+      "engagement": "5 reactions / 3 comments",
+      "comment": "The prompt is part of the decision system, not just an input string. One pattern I like is forcing the model to write the decision memo twice: once optimizing for speed, once optimizing for trust, then extract the assumptions that actually changed. That usually tells you more than the recommendation itself."
+    },
+    {
+      "author": "Antoine Tilloy",
+      "url": "https://www.linkedin.com/posts/antoine-tilloy-927254105_la-recherche-dans-les-domaines-th%C3%A9oriques-activity-7492553058355318784-gf9n?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxYQwMBdaw2sTqGeCtSx4DEDcdZGnMx7E0",
+      "engagement": "5 reactions / 2 comments",
+      "comment": "The hardest part may not be raw model capability, it may be verification latency. If AI can generate 100 candidate proofs or implementations fast, the scarce skill shifts to building tests, invariants, formal checks, and taste filters that fail bad work cheaply. I\u2019d be curious where you think theoretical research hits that verification wall first."
     }
   ]
 }
