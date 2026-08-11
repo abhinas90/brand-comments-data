@@ -1,29 +1,29 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "comments": [
     {
-      "author": "saed \u200e",
-      "url": "https://www.linkedin.com/posts/saedf_if-i-were-to-transition-from-general-cybersecurity-activity-7492551450515030017-h7R_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxYQwMBdaw2sTqGeCtSx4DEDcdZGnMx7E0",
-      "engagement": "9 reactions / 3 comments",
-      "comment": "One practical test I\u2019d add: run the same agent task with a malicious tool result buried 3-5 steps deep, not just in the first prompt.\n\nA lot of agent failures show up only after the model has built trust in the workflow. The security eval needs to test state drift, not just single-turn refusal behavior."
+      "author": "Zayyam Siddiqui",
+      "url": "https://www.linkedin.com/posts/zayyam-siddiqui-0a3820283_softwareengineering-internship-ai-activity-7492913765815046145-hLOZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxcKB4BhBdkZSEe0fnQFhKj9h10gcbnYBo",
+      "engagement": "12 reactions / 8 comments",
+      "comment": "The migration from one embedding dimension to another is the kind of detail that teaches real system ownership.\n\nA lot of RAG failures are not model failures, they are schema, retrieval, eval, or routing failures hiding behind a fluent response. How did you validate quality before and after the migration?"
     },
     {
-      "author": "Sukaimi Sukri",
-      "url": "https://www.linkedin.com/posts/sukaimi_i-gave-chatgpt-anthropics-claude-and-gigas-activity-7492379597699698688-95fk?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxYQwMBdaw2sTqGeCtSx4DEDcdZGnMx7E0",
-      "engagement": "11 reactions / 1 comments",
-      "comment": "The underrated test is whether the system can admit \u201cI know the rule, but I don\u2019t know today\u2019s hours\u201d before it answers. A good harness should carry date, location, calendar exceptions, source freshness, and confidence separately, because mixing those into one prompt makes failures harder to debug. What do you log when the setup gets an answer right for the wrong reason?"
+      "author": "Ts. Tan Aik Keong (AK)",
+      "url": "https://www.linkedin.com/posts/tan-aik-keong_vistage-ai-lark-activity-7492835191204270095-yRmx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxcIQ0BI7DAbAfI00KKqi7fKNhW2on7spk",
+      "engagement": "18 reactions / 1 comments",
+      "comment": "The valuation angle is real, but only when AI is tied to a measurable workflow metric: cycle time, error rate, conversion, or margin per employee. For SMEs, I\u2019d start with one high-frequency process and require a before/after dashboard before expanding to more autonomous agents. What operating metric did the room care about most?"
     },
     {
-      "author": "Raahul Seshadri",
-      "url": "https://www.linkedin.com/posts/raahul-seshadri_one-of-the-easiest-mistakes-to-make-with-activity-7492550486164832256-OVKd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxYQwMBdaw2sTqGeCtSx4DEDcdZGnMx7E0",
-      "engagement": "5 reactions / 3 comments",
-      "comment": "The prompt is part of the decision system, not just an input string. One pattern I like is forcing the model to write the decision memo twice: once optimizing for speed, once optimizing for trust, then extract the assumptions that actually changed. That usually tells you more than the recommendation itself."
+      "author": "Chestha Patel",
+      "url": "https://www.linkedin.com/posts/chestha-patel-60b8ba231_hiring-aiml-generativeai-activity-7492914249413931009-iV5g?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxcIQ0BI7DAbAfI00KKqi7fKNhW2on7spk",
+      "engagement": "6 reactions / 5 comments",
+      "comment": "For a 2+ year GenAI role, this skill list spans at least 3 jobs: RAG engineer, fine-tuning engineer, and agent systems engineer. The strongest candidates will usually be deep in one of these and workable in the others, so I\u2019d screen with a small end-to-end task instead of keyword matching."
     },
     {
-      "author": "Antoine Tilloy",
-      "url": "https://www.linkedin.com/posts/antoine-tilloy-927254105_la-recherche-dans-les-domaines-th%C3%A9oriques-activity-7492553058355318784-gf9n?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxYQwMBdaw2sTqGeCtSx4DEDcdZGnMx7E0",
-      "engagement": "5 reactions / 2 comments",
-      "comment": "The hardest part may not be raw model capability, it may be verification latency. If AI can generate 100 candidate proofs or implementations fast, the scarce skill shifts to building tests, invariants, formal checks, and taste filters that fail bad work cheaply. I\u2019d be curious where you think theoretical research hits that verification wall first."
+      "author": "Tim Kappel",
+      "url": "https://www.linkedin.com/posts/tim-kappel_ainative-mittelstand-aistrategie-activity-7492898770100068353-f6bi?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxcIQ0BI7DAbAfI00KKqi7fKNhW2on7spk",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "The hard part is usually not model portability, it is state portability.\n\nPrompts and skills move pretty well, but permissions, audit trails, retrieved context, connector semantics, and human routines are where migration cost hides. I\u2019d test exits with a real weekly workflow, not a toy benchmark, because that is where the lock-in shows up."
     }
   ]
 }
