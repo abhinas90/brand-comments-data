@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-12",
+  "comments": [
+    {
+      "author": "Ife Abimbola-Olulesi",
+      "url": "https://www.linkedin.com/posts/ifeolulesi_remember-when-prompt-engineer-was-the-hottest-activity-7493200135502405632-k4kJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkHXQBtDKiOoHeAX3Ghv--y2tDhoZLI-Q",
+      "engagement": "56 reactions / 9 comments",
+      "comment": "Prompting still matters, but only as one layer in a control loop: state, tools, memory, evals, rollback. Most agent failures I see come from bad state and weak evals, not from the model needing a cleverer sentence. What do you think is the first skill engineers should learn after prompting?"
+    },
+    {
+      "author": "Aditya Jayaprakash",
+      "url": "https://www.linkedin.com/posts/adijp_we-raised-a-45m-series-b-led-by-peak-xv-activity-7493277516606894082-ZqjO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkRBwBqH7QDuBdcyH4h-KEWLNZzmhRkYQ",
+      "engagement": "22 reactions / 9 comments",
+      "comment": "Codegen volume is only useful if validation throughput scales with it. The bottleneck is shifting from \u201ccan we write the diff?\u201d to \u201ccan we prove this diff is safe, route it, test the right slice, and merge without human queue time?\u201d CI is becoming part of the agent runtime, not just a post-PR checkbox."
+    },
+    {
+      "author": "Mohit Mishra",
+      "url": "https://www.linkedin.com/posts/mohit-mishra-007h_ai-aiagents-devtools-activity-7493277712619450368-xNbh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkRBwBqH7QDuBdcyH4h-KEWLNZzmhRkYQ",
+      "engagement": "7 reactions / 4 comments",
+      "comment": "The hidden cost with agents is often not one huge run, it is retry loops plus tool calls that look cheap in isolation. I\u2019d want spend dashboards tied to task outcome too, because $40 on a solved migration may be fine, while $4 on repeated failed plans is pure waste."
+    },
+    {
+      "author": "Vijay Dhingra",
+      "url": "https://www.linkedin.com/posts/dhingravijay01_pavo-continual-improvement-for-production-activity-7493253878185033728-cfm7?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkHXQBtDKiOoHeAX3Ghv--y2tDhoZLI-Q",
+      "engagement": "8 reactions / 2 comments",
+      "comment": "1% lifts usually come from better hypothesis ranking, not more experiments. The hard part is connecting traces, user segments, failure modes, and offline validation tightly enough that the live test is not a guess. How are you deciding which hypotheses are worth burning experiment traffic on first?"
+    },
+    {
+      "author": "Quentin Gavila",
+      "url": "https://www.linkedin.com/posts/quentin-gavila-469890242_les-briques-que-japprendrais-d%C3%A8s-aujourdhui-activity-7493222308195680256-hfHp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkHXQBtDKiOoHeAX3Ghv--y2tDhoZLI-Q",
+      "engagement": "7 reactions / 2 comments",
+      "comment": "One thing I\u2019d add: version your eval sets the same way you version code. Agent behavior changes fast with small prompt, tool schema, model, or retrieval tweaks, and without a stable regression suite you end up debugging vibes instead of failure modes."
+    },
+    {
+      "author": "Gautam Bose",
+      "url": "https://www.linkedin.com/posts/gautam-bose-cto_from-dashboards-to-decisions-why-ai-agents-activity-7493276959875944448-RtEm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkMKYBXDnVWCqE5YZQQ7gytfn0W3NJkGg",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "Decision latency usually hides in the handoff, not the dashboard. The hard part is making the agent show its work: what signal changed, what constraint it checked, who owns the next action, and when to escalate to a human. Without that audit trail, teams get faster guesses, not faster operations."
+    }
+  ]
+}
