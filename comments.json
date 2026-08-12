@@ -1,29 +1,41 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "comments": [
     {
-      "author": "Zayyam Siddiqui",
-      "url": "https://www.linkedin.com/posts/zayyam-siddiqui-0a3820283_softwareengineering-internship-ai-activity-7492913765815046145-hLOZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxcKB4BhBdkZSEe0fnQFhKj9h10gcbnYBo",
-      "engagement": "12 reactions / 8 comments",
-      "comment": "The migration from one embedding dimension to another is the kind of detail that teaches real system ownership.\n\nA lot of RAG failures are not model failures, they are schema, retrieval, eval, or routing failures hiding behind a fluent response. How did you validate quality before and after the migration?"
+      "author": "Ife Abimbola-Olulesi",
+      "url": "https://www.linkedin.com/posts/ifeolulesi_remember-when-prompt-engineer-was-the-hottest-activity-7493200135502405632-k4kJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkHXQBtDKiOoHeAX3Ghv--y2tDhoZLI-Q",
+      "engagement": "56 reactions / 9 comments",
+      "comment": "Prompting still matters, but only as one layer in a control loop: state, tools, memory, evals, rollback. Most agent failures I see come from bad state and weak evals, not from the model needing a cleverer sentence. What do you think is the first skill engineers should learn after prompting?"
     },
     {
-      "author": "Ts. Tan Aik Keong (AK)",
-      "url": "https://www.linkedin.com/posts/tan-aik-keong_vistage-ai-lark-activity-7492835191204270095-yRmx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxcIQ0BI7DAbAfI00KKqi7fKNhW2on7spk",
-      "engagement": "18 reactions / 1 comments",
-      "comment": "The valuation angle is real, but only when AI is tied to a measurable workflow metric: cycle time, error rate, conversion, or margin per employee. For SMEs, I\u2019d start with one high-frequency process and require a before/after dashboard before expanding to more autonomous agents. What operating metric did the room care about most?"
+      "author": "Aditya Jayaprakash",
+      "url": "https://www.linkedin.com/posts/adijp_we-raised-a-45m-series-b-led-by-peak-xv-activity-7493277516606894082-ZqjO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkRBwBqH7QDuBdcyH4h-KEWLNZzmhRkYQ",
+      "engagement": "22 reactions / 9 comments",
+      "comment": "Codegen volume is only useful if validation throughput scales with it. The bottleneck is shifting from \u201ccan we write the diff?\u201d to \u201ccan we prove this diff is safe, route it, test the right slice, and merge without human queue time?\u201d CI is becoming part of the agent runtime, not just a post-PR checkbox."
     },
     {
-      "author": "Chestha Patel",
-      "url": "https://www.linkedin.com/posts/chestha-patel-60b8ba231_hiring-aiml-generativeai-activity-7492914249413931009-iV5g?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxcIQ0BI7DAbAfI00KKqi7fKNhW2on7spk",
-      "engagement": "6 reactions / 5 comments",
-      "comment": "For a 2+ year GenAI role, this skill list spans at least 3 jobs: RAG engineer, fine-tuning engineer, and agent systems engineer. The strongest candidates will usually be deep in one of these and workable in the others, so I\u2019d screen with a small end-to-end task instead of keyword matching."
+      "author": "Mohit Mishra",
+      "url": "https://www.linkedin.com/posts/mohit-mishra-007h_ai-aiagents-devtools-activity-7493277712619450368-xNbh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkRBwBqH7QDuBdcyH4h-KEWLNZzmhRkYQ",
+      "engagement": "7 reactions / 4 comments",
+      "comment": "The hidden cost with agents is often not one huge run, it is retry loops plus tool calls that look cheap in isolation. I\u2019d want spend dashboards tied to task outcome too, because $40 on a solved migration may be fine, while $4 on repeated failed plans is pure waste."
     },
     {
-      "author": "Tim Kappel",
-      "url": "https://www.linkedin.com/posts/tim-kappel_ainative-mittelstand-aistrategie-activity-7492898770100068353-f6bi?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxcIQ0BI7DAbAfI00KKqi7fKNhW2on7spk",
+      "author": "Vijay Dhingra",
+      "url": "https://www.linkedin.com/posts/dhingravijay01_pavo-continual-improvement-for-production-activity-7493253878185033728-cfm7?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkHXQBtDKiOoHeAX3Ghv--y2tDhoZLI-Q",
+      "engagement": "8 reactions / 2 comments",
+      "comment": "1% lifts usually come from better hypothesis ranking, not more experiments. The hard part is connecting traces, user segments, failure modes, and offline validation tightly enough that the live test is not a guess. How are you deciding which hypotheses are worth burning experiment traffic on first?"
+    },
+    {
+      "author": "Quentin Gavila",
+      "url": "https://www.linkedin.com/posts/quentin-gavila-469890242_les-briques-que-japprendrais-d%C3%A8s-aujourdhui-activity-7493222308195680256-hfHp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkHXQBtDKiOoHeAX3Ghv--y2tDhoZLI-Q",
+      "engagement": "7 reactions / 2 comments",
+      "comment": "One thing I\u2019d add: version your eval sets the same way you version code. Agent behavior changes fast with small prompt, tool schema, model, or retrieval tweaks, and without a stable regression suite you end up debugging vibes instead of failure modes."
+    },
+    {
+      "author": "Gautam Bose",
+      "url": "https://www.linkedin.com/posts/gautam-bose-cto_from-dashboards-to-decisions-why-ai-agents-activity-7493276959875944448-RtEm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGxkMKYBXDnVWCqE5YZQQ7gytfn0W3NJkGg",
       "engagement": "5 reactions / 1 comments",
-      "comment": "The hard part is usually not model portability, it is state portability.\n\nPrompts and skills move pretty well, but permissions, audit trails, retrieved context, connector semantics, and human routines are where migration cost hides. I\u2019d test exits with a real weekly workflow, not a toy benchmark, because that is where the lock-in shows up."
+      "comment": "Decision latency usually hides in the handoff, not the dashboard. The hard part is making the agent show its work: what signal changed, what constraint it checked, who owns the next action, and when to escalate to a human. Without that audit trail, teams get faster guesses, not faster operations."
     }
   ]
 }
