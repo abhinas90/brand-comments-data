@@ -1,29 +1,17 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "comments": [
     {
-      "author": "Gowtham SB",
-      "url": "https://www.linkedin.com/posts/sbgowtham_databricks-dataengineering-ai-activity-7493639281010221056-j8j4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGx6Mi8BA9ST1hx8zszKgprOcL6mXvLAgcM",
-      "engagement": "15 reactions / 3 comments",
-      "comment": "The Agent Evaluation course is probably the highest ROI one here. Most teams can build a demo agent in a week, but the hard part is defining pass/fail criteria, regression tests, and trace-level debugging before users touch it."
+      "author": "Antoine Van Malleghem",
+      "url": "https://www.linkedin.com/posts/antoine-vm_to-everyone-if-you-havent-opened-plotjuggler-activity-7494002374626205696-EQDI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGx7WrwB5F3wFGKXe0F7_Yp1XR9QyTyBhxQ",
+      "engagement": "7 reactions / 5 comments",
+      "comment": "Debugging robots is one of the clearest cases where visual inspection beats chat. The model can help form hypotheses, but time-aligned plots expose sensor drift, actuator lag, dropped frames, and control instability faster than any text summary."
     },
     {
-      "author": "Amit Kumar",
-      "url": "https://www.linkedin.com/posts/amit-kumar-090588_rgb-benchmark-variably-vs-ragas-head-to-head-activity-7493628790972166144-4mQh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGx6Mi8BA9ST1hx8zszKgprOcL6mXvLAgcM",
-      "engagement": "5 reactions / 7 comments",
-      "comment": "A judge with high repeatability is still just a deterministic source of bias unless you calibrate it against task-level ground truth.\n\nFor agents, I\u2019ve found the useful split is: deterministic checks for invariants, retrieval grounding, tool args, and schema validity - then LLM judges only for the parts that are genuinely semantic.\n\nWhat\u2019s your take on where the boundary should sit between deterministic evals and model-graded evals?"
-    },
-    {
-      "author": "Thomas Veit",
-      "url": "https://www.linkedin.com/posts/thomasveit_designsnack-hermes-agent-ai-harness-activity-7493596947111473152-kaXw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGx6Mi8BA9ST1hx8zszKgprOcL6mXvLAgcM",
-      "engagement": "9 reactions / 1 comments",
-      "comment": "The hard part is not adding tools, it is deciding what the agent is allowed to forget. I\u2019ve seen memory quality matter more than model quality once the workflow becomes daily infrastructure. What rules are you using for pruning or aging out old context?"
-    },
-    {
-      "author": "Gustavo Catalano",
-      "url": "https://www.linkedin.com/posts/gustavocatalano_ive-been-reverse-engineering-ai-tools-cause-activity-7493497022617145344-dF3X?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGx6Mi8BA9ST1hx8zszKgprOcL6mXvLAgcM",
-      "engagement": "5 reactions / 1 comments",
-      "comment": "Persistence without a good state model turns into expensive retry loops. The real jump happens when the agent can track hypotheses, failed paths, tool outputs, and constraints in a way that survives across attempts. How are you deciding what gets written into memory versus left in the current context?"
+      "author": "VCONify LLC",
+      "url": "https://www.linkedin.com/posts/vconify_agenticai-enterprisearchitecture-insurtech-activity-7494000845479460865-IZUO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGx7WrwB5F3wFGKXe0F7_Yp1XR9QyTyBhxQ",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "The hard part is that \u201cauthorization\u201d is not a boolean once agents start chaining tools and delegating sub-tasks. A receipt probably needs to capture intent, scope, source context, and execution trace separately, because those fail in different ways. What would you treat as the minimum durable record before letting an agent act across company boundaries?"
     }
   ]
 }
