@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-14",
+  "comments": [
+    {
+      "author": "Antoine Van Malleghem",
+      "url": "https://www.linkedin.com/posts/antoine-vm_to-everyone-if-you-havent-opened-plotjuggler-activity-7494002374626205696-EQDI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGx7WrwB5F3wFGKXe0F7_Yp1XR9QyTyBhxQ",
+      "engagement": "7 reactions / 5 comments",
+      "comment": "Debugging robots is one of the clearest cases where visual inspection beats chat. The model can help form hypotheses, but time-aligned plots expose sensor drift, actuator lag, dropped frames, and control instability faster than any text summary."
+    },
+    {
+      "author": "VCONify LLC",
+      "url": "https://www.linkedin.com/posts/vconify_agenticai-enterprisearchitecture-insurtech-activity-7494000845479460865-IZUO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGx7WrwB5F3wFGKXe0F7_Yp1XR9QyTyBhxQ",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "The hard part is that \u201cauthorization\u201d is not a boolean once agents start chaining tools and delegating sub-tasks. A receipt probably needs to capture intent, scope, source context, and execution trace separately, because those fail in different ways. What would you treat as the minimum durable record before letting an agent act across company boundaries?"
+    }
+  ]
+}
