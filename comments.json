@@ -1,23 +1,4 @@
 {
-  "date": "2026-08-15",
-  "comments": [
-    {
-      "author": "angrizan 0.",
-      "url": "https://www.linkedin.com/posts/angrizan_harnessengineering-hermes-oss-activity-7494344751304044544-8fNi?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGyUV_UBlNPaGGq4MEwDA-Qh4oLZwQ5NMrI",
-      "engagement": "15 reactions / 3 comments",
-      "comment": "The hard part is not adding a harness, it is keeping the action surface small enough that agents do not turn every DOM path into a tool. I\u2019d want each site to expose intent-level operations, clear failure modes, and eval traces for what the agent tried, not just a bigger browser API."
-    },
-    {
-      "author": "Anuj Kumar Sharma",
-      "url": "https://www.linkedin.com/posts/sharma-kumar-anuj_finally-after-months-of-grinding-after-activity-7494347308906569728-Gfp5?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGyUV_UBlNPaGGq4MEwDA-Qh4oLZwQ5NMrI",
-      "engagement": "12 reactions / 1 comments",
-      "comment": "The hardest jump is usually not RAG or agents, it is learning how to measure failure before users find it. A strong AI engineer should be able to define eval sets, latency budgets, fallback paths, and ownership boundaries before writing the first prompt. Curious how much of the cohort is hands-on debugging of broken AI systems versus building the happy path."
-    },
-    {
-      "author": "Christian Raae",
-      "url": "https://www.linkedin.com/posts/christianraae_dette-er-min-harness-rundt-claude-code-activity-7494327098761736192-wFEb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGyUV_UBlNPaGGq4MEwDA-Qh4oLZwQ5NMrI",
-      "engagement": "10 reactions / 1 comments",
-      "comment": "The underrated part is the per-project context contract. Once the agent has stable project memory, tool permissions, and a clear approval boundary, the workflow shifts from \u201cchat with a model\u201d to \u201cdelegate a repeatable operating loop.\u201d I\u2019d be curious how you handle failure modes - do you log every agent action for review, or only the ones that touched external systems?"
-    }
-  ]
+  "date": "2026-08-16",
+  "comments": []
 }
