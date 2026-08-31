@@ -1,29 +1,17 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "comments": [
     {
-      "author": "Jono Bell",
-      "url": "https://www.linkedin.com/posts/jonobell_a-few-months-ago-i-bought-a-mac-mini-and-activity-7499719620472238080-NU-w?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1VLEEBKh62heDztOcM0cTwMSZyy2Lqsg0",
-      "engagement": "14 reactions / 10 comments",
-      "comment": "The big gap I still see is observability, not capability. Once an agent can take long-running actions, you need traces, rollback points, permissions, and evals the same way you need tests for production code. Otherwise \u201cautonomous\u201d just means harder to debug."
+      "author": "Jeongmin Lee",
+      "url": "https://www.linkedin.com/posts/jyoung105_4%EC%9D%BC%EA%B0%84-%ED%9C%B4%EA%B0%80-%EC%99%80%EC%84%9C-%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B8-ai-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EA%B8%B0%EC%97%85%EC%9D%98-30%EA%B0%80%EC%A7%80-%ED%8A%B9%EC%A7%95-1-%EB%AA%A8%EB%91%90%EA%B0%80-activity-7500143251060936704-_TrC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1fVPMBhfo7HJunKbha8GXTYG3s3J0sUn0",
+      "engagement": "24 reactions / 1 comments",
+      "comment": "One metric I\u2019d add: cost per accepted workflow run should be paired with rollback rate. A cheap agent that creates review debt is not cheap. The highest signal I\u2019ve seen is tracing prompt, retrieved context, tool calls, approval, and final output as one record, so eval failures point to a fix instead of a debate."
     },
     {
-      "author": "Mahdi Rashidi",
-      "url": "https://www.linkedin.com/posts/mahdi-rashidi-193063152_%D8%B3%D9%88%D8%A7%D9%84-%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D8%AF%D9%84%D8%A7%D8%B1%DB%8C-%D8%A7%DB%8C%D9%86-%D8%B1%D9%88%D8%B2-%D9%87%D8%A7-%D8%A2%DB%8C%D8%A7-%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-activity-7499723230702817280-R1dY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1VLEEBKh62heDztOcM0cTwMSZyy2Lqsg0",
-      "engagement": "5 reactions / 3 comments",
-      "comment": "AI usually removes tasks before it removes accountability.\n\nThe big shift I see is that \u201cI can code\u201d becomes less valuable than \u201cI can define the right problem, verify the output, and own the edge cases.\u201d Cheap agents make prototypes easy, but production still punishes vague specs, weak evals, and missing judgment."
-    },
-    {
-      "author": "Tony Drummond",
-      "url": "https://www.linkedin.com/posts/tonydrummond_how-do-you-multi-thread-10-builds-at-once-activity-7499800049086951424-de0g?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1VLEEBKh62heDztOcM0cTwMSZyy2Lqsg0",
-      "engagement": "5 reactions / 2 comments",
-      "comment": "10 parallel agents sounds productive until review becomes the bottleneck.\n\nThe pattern I\u2019ve seen work best is giving each session a tiny spec, a clean branch, and a pass/fail check it can run without asking you. Otherwise you don\u2019t get 10 builders, you get 10 streams of context debt."
-    },
-    {
-      "author": "Steve Goldsby",
-      "url": "https://www.linkedin.com/posts/stevegoldsby_disclaimer-i-know-everyone-cant-have-local-activity-7499604722044100608-R12W?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1VLEEBKh62heDztOcM0cTwMSZyy2Lqsg0",
-      "engagement": "6 reactions / 1 comments",
-      "comment": "The real moat is the eval harness plus routing policy, not the checkpoint. Once you can replay tasks, score regressions, and swap models behind the same tool/memory layer, local vs hosted becomes an infra decision instead of a religion."
+      "author": "G\u00fcne\u015f Alcan",
+      "url": "https://www.linkedin.com/posts/gunes-alcan_uzun-s%C3%BCredir-yapay-zeka-sadece-model-ile-activity-7500112270224621568-auxV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1fVPMBhfo7HJunKbha8GXTYG3s3J0sUn0",
+      "engagement": "24 reactions / 1 comments",
+      "comment": "The non-obvious part is that harness quality often shows up as variance, not peak score. Same model, same task, different tool routing, retry logic, context packing, and eval loop can produce very different reliability. For teams, I\u2019d benchmark the full workflow first, then swap models inside it."
     }
   ]
 }
