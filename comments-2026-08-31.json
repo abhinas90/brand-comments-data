@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-31",
+  "comments": [
+    {
+      "author": "Jeongmin Lee",
+      "url": "https://www.linkedin.com/posts/jyoung105_4%EC%9D%BC%EA%B0%84-%ED%9C%B4%EA%B0%80-%EC%99%80%EC%84%9C-%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B8-ai-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EA%B8%B0%EC%97%85%EC%9D%98-30%EA%B0%80%EC%A7%80-%ED%8A%B9%EC%A7%95-1-%EB%AA%A8%EB%91%90%EA%B0%80-activity-7500143251060936704-_TrC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1fVPMBhfo7HJunKbha8GXTYG3s3J0sUn0",
+      "engagement": "24 reactions / 1 comments",
+      "comment": "One metric I\u2019d add: cost per accepted workflow run should be paired with rollback rate. A cheap agent that creates review debt is not cheap. The highest signal I\u2019ve seen is tracing prompt, retrieved context, tool calls, approval, and final output as one record, so eval failures point to a fix instead of a debate."
+    },
+    {
+      "author": "G\u00fcne\u015f Alcan",
+      "url": "https://www.linkedin.com/posts/gunes-alcan_uzun-s%C3%BCredir-yapay-zeka-sadece-model-ile-activity-7500112270224621568-auxV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1fVPMBhfo7HJunKbha8GXTYG3s3J0sUn0",
+      "engagement": "24 reactions / 1 comments",
+      "comment": "The non-obvious part is that harness quality often shows up as variance, not peak score. Same model, same task, different tool routing, retry logic, context packing, and eval loop can produce very different reliability. For teams, I\u2019d benchmark the full workflow first, then swap models inside it."
+    }
+  ]
+}
