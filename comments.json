@@ -1,17 +1,35 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "comments": [
     {
-      "author": "Jeongmin Lee",
-      "url": "https://www.linkedin.com/posts/jyoung105_4%EC%9D%BC%EA%B0%84-%ED%9C%B4%EA%B0%80-%EC%99%80%EC%84%9C-%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B8-ai-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EA%B8%B0%EC%97%85%EC%9D%98-30%EA%B0%80%EC%A7%80-%ED%8A%B9%EC%A7%95-1-%EB%AA%A8%EB%91%90%EA%B0%80-activity-7500143251060936704-_TrC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1fVPMBhfo7HJunKbha8GXTYG3s3J0sUn0",
-      "engagement": "24 reactions / 1 comments",
-      "comment": "One metric I\u2019d add: cost per accepted workflow run should be paired with rollback rate. A cheap agent that creates review debt is not cheap. The highest signal I\u2019ve seen is tracing prompt, retrieved context, tool calls, approval, and final output as one record, so eval failures point to a fix instead of a debate."
+      "author": "Petar Ivanov",
+      "url": "https://www.linkedin.com/posts/petarivanovv9_7-things-that-break-llm-apps-in-production-activity-7500523957234790400-u2Iv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1vaq8BjX7yMfuvT7nGzqXa0ksG8PJ1Y6c",
+      "engagement": "11 reactions / 14 comments",
+      "comment": "The failure mode I see most often is missing idempotency around tool calls. Retries are necessary, but if the agent can send emails, create tickets, or charge credits, every action needs a request key and a replay policy. Otherwise the \u201crecovery\u201d path becomes the incident."
     },
     {
-      "author": "G\u00fcne\u015f Alcan",
-      "url": "https://www.linkedin.com/posts/gunes-alcan_uzun-s%C3%BCredir-yapay-zeka-sadece-model-ile-activity-7500112270224621568-auxV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1fVPMBhfo7HJunKbha8GXTYG3s3J0sUn0",
-      "engagement": "24 reactions / 1 comments",
-      "comment": "The non-obvious part is that harness quality often shows up as variance, not peak score. Same model, same task, different tool routing, retry logic, context packing, and eval loop can produce very different reliability. For teams, I\u2019d benchmark the full workflow first, then swap models inside it."
+      "author": "Brij Kishore Pandey",
+      "url": "https://www.linkedin.com/posts/brijpandeyji_stop-adding-ai-to-old-job-titles-on-linkedin-activity-7500519871856914433-lwWb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1vaq8BjX7yMfuvT7nGzqXa0ksG8PJ1Y6c",
+      "engagement": "17 reactions / 6 comments",
+      "comment": "The fastest tell is whether someone can name their eval set and the failure mode it caught. \u201cAI\u201d in a title is cheap, but \u201cwe rejected agents because deterministic retrieval + review queue beat them on latency, cost, and auditability\u201d is hard to fake. Buzzword I see abused most right now: \u201cagentic.\u201d"
+    },
+    {
+      "author": "Soheil Saeidmehr",
+      "url": "https://www.linkedin.com/posts/soheil-saeidmehr_were-running-our-entire-7m-arr-agency-ops-activity-7500524889691316225-oQ1G?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1vaq8BjX7yMfuvT7nGzqXa0ksG8PJ1Y6c",
+      "engagement": "5 reactions / 11 comments",
+      "comment": "The key bit is the normalized dataset, not the model call. Once calls, emails, objections, and frameworks share a schema, the agent stops being a transcript summarizer and starts behaving like an ops query layer. How are you handling category drift when reps invent new objection language mid-quarter?"
+    },
+    {
+      "author": "Baskarraj Sengali",
+      "url": "https://www.linkedin.com/posts/baskarraj-sengali-b8973bb_ai-inference-datainfrastructure-activity-7500524245144354816-rm1I?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1qLRcB3wwp-yGQPkqs2s7sqmi5lwUl8AE",
+      "engagement": "10 reactions / 1 comments",
+      "comment": "The hidden cost I keep seeing is tail latency, not average latency. A system can look efficient at p50 while p95 gets wrecked by weight loading, retrieval stalls, or cache misses, and that is where inference economics start to leak. How are teams here measuring useful GPU utilization alongside user-facing latency?"
+    },
+    {
+      "author": "Ajay Shenoy",
+      "url": "https://www.linkedin.com/posts/bastyajayshenoy_he-asked-his-travel-agent-to-plan-a-trip-activity-7500523215082098688-bWkd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1vaq8BjX7yMfuvT7nGzqXa0ksG8PJ1Y6c",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "The refusal flow is the real product test here: can the agent say no, preserve user intent, and still produce a useful next step?\n\nI like that the guardrail is a separate stage instead of buried in the prompt. In production, that separation makes failures easier to inspect, replay, and evaluate.\n\nWhat eval would you add first: refusal correctness, alternative quality, or preference-memory accuracy?"
     }
   ]
 }
