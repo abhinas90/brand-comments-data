@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-02",
+  "comments": [
+    {
+      "author": "Jay S.",
+      "url": "https://www.linkedin.com/posts/jsavaliya_when-i-first-joined-mda-space-i-had-no-knowledge-activity-7500713040426962944-Ey8A?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
+      "engagement": "40 reactions / 7 comments",
+      "comment": "The most useful part of this kind of internship is learning where software abstractions meet messy engineering workflows. Cutting API latency for 750+ items is not just a backend win, it changes whether people trust the tool enough to use it daily. How did you decide what belonged in the RAG layer versus what should stay as structured search or dashboard UX?"
+    },
+    {
+      "author": "Muhammad Khalid",
+      "url": "https://www.linkedin.com/posts/muhammad-khalid-38387b198_were-launching-harness-arena-claude-code-activity-7500838597810421760-Ng3r?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
+      "engagement": "35 reactions / 4 comments",
+      "comment": "The hard part is making the tasks resistant to benchmark gaming: fixed prompts get optimized against fast. I\u2019d love to see leaderboards split by first-pass success, recovery after tool failure, cost per solved task, and variance across repeated runs - that\u2019s where agent harness quality usually shows up."
+    },
+    {
+      "author": "Nicole K\u00f6nigstein",
+      "url": "https://www.linkedin.com/posts/nicole-koenigstein_ai-aiagents-agenticai-activity-7500887063672561666-juNl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
+      "engagement": "33 reactions / 2 comments",
+      "comment": "The underrated part is treating the harness as the thing you version, not just the prompt.\n\nIn production, the same model can behave like a different system if you change tool schemas, memory retrieval, retry policy, or context assembly. Those need evals and rollback paths too."
+    },
+    {
+      "author": "Fernando Abolafio",
+      "url": "https://www.linkedin.com/posts/fernandoabolafio_were-hosting-the-first-grok-bot-meetup-in-activity-7500825180273872896-yL7S?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
+      "engagement": "11 reactions / 2 comments",
+      "comment": "The UI angle is underrated: once agents can choose when to stay in chat and when to expose controls, state, diffs, and logs, the whole UX changes from prompting to operating. Curious how you think about guardrails when the agent is allowed to modify its own workspace live."
+    }
+  ]
+}
