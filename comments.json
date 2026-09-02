@@ -1,35 +1,29 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "comments": [
     {
-      "author": "Petar Ivanov",
-      "url": "https://www.linkedin.com/posts/petarivanovv9_7-things-that-break-llm-apps-in-production-activity-7500523957234790400-u2Iv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1vaq8BjX7yMfuvT7nGzqXa0ksG8PJ1Y6c",
-      "engagement": "11 reactions / 14 comments",
-      "comment": "The failure mode I see most often is missing idempotency around tool calls. Retries are necessary, but if the agent can send emails, create tickets, or charge credits, every action needs a request key and a replay policy. Otherwise the \u201crecovery\u201d path becomes the incident."
+      "author": "Jay S.",
+      "url": "https://www.linkedin.com/posts/jsavaliya_when-i-first-joined-mda-space-i-had-no-knowledge-activity-7500713040426962944-Ey8A?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
+      "engagement": "40 reactions / 7 comments",
+      "comment": "The most useful part of this kind of internship is learning where software abstractions meet messy engineering workflows. Cutting API latency for 750+ items is not just a backend win, it changes whether people trust the tool enough to use it daily. How did you decide what belonged in the RAG layer versus what should stay as structured search or dashboard UX?"
     },
     {
-      "author": "Brij Kishore Pandey",
-      "url": "https://www.linkedin.com/posts/brijpandeyji_stop-adding-ai-to-old-job-titles-on-linkedin-activity-7500519871856914433-lwWb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1vaq8BjX7yMfuvT7nGzqXa0ksG8PJ1Y6c",
-      "engagement": "17 reactions / 6 comments",
-      "comment": "The fastest tell is whether someone can name their eval set and the failure mode it caught. \u201cAI\u201d in a title is cheap, but \u201cwe rejected agents because deterministic retrieval + review queue beat them on latency, cost, and auditability\u201d is hard to fake. Buzzword I see abused most right now: \u201cagentic.\u201d"
+      "author": "Muhammad Khalid",
+      "url": "https://www.linkedin.com/posts/muhammad-khalid-38387b198_were-launching-harness-arena-claude-code-activity-7500838597810421760-Ng3r?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
+      "engagement": "35 reactions / 4 comments",
+      "comment": "The hard part is making the tasks resistant to benchmark gaming: fixed prompts get optimized against fast. I\u2019d love to see leaderboards split by first-pass success, recovery after tool failure, cost per solved task, and variance across repeated runs - that\u2019s where agent harness quality usually shows up."
     },
     {
-      "author": "Soheil Saeidmehr",
-      "url": "https://www.linkedin.com/posts/soheil-saeidmehr_were-running-our-entire-7m-arr-agency-ops-activity-7500524889691316225-oQ1G?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1vaq8BjX7yMfuvT7nGzqXa0ksG8PJ1Y6c",
-      "engagement": "5 reactions / 11 comments",
-      "comment": "The key bit is the normalized dataset, not the model call. Once calls, emails, objections, and frameworks share a schema, the agent stops being a transcript summarizer and starts behaving like an ops query layer. How are you handling category drift when reps invent new objection language mid-quarter?"
+      "author": "Nicole K\u00f6nigstein",
+      "url": "https://www.linkedin.com/posts/nicole-koenigstein_ai-aiagents-agenticai-activity-7500887063672561666-juNl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
+      "engagement": "33 reactions / 2 comments",
+      "comment": "The underrated part is treating the harness as the thing you version, not just the prompt.\n\nIn production, the same model can behave like a different system if you change tool schemas, memory retrieval, retry policy, or context assembly. Those need evals and rollback paths too."
     },
     {
-      "author": "Baskarraj Sengali",
-      "url": "https://www.linkedin.com/posts/baskarraj-sengali-b8973bb_ai-inference-datainfrastructure-activity-7500524245144354816-rm1I?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1qLRcB3wwp-yGQPkqs2s7sqmi5lwUl8AE",
-      "engagement": "10 reactions / 1 comments",
-      "comment": "The hidden cost I keep seeing is tail latency, not average latency. A system can look efficient at p50 while p95 gets wrecked by weight loading, retrieval stalls, or cache misses, and that is where inference economics start to leak. How are teams here measuring useful GPU utilization alongside user-facing latency?"
-    },
-    {
-      "author": "Ajay Shenoy",
-      "url": "https://www.linkedin.com/posts/bastyajayshenoy_he-asked-his-travel-agent-to-plan-a-trip-activity-7500523215082098688-bWkd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1vaq8BjX7yMfuvT7nGzqXa0ksG8PJ1Y6c",
-      "engagement": "6 reactions / 1 comments",
-      "comment": "The refusal flow is the real product test here: can the agent say no, preserve user intent, and still produce a useful next step?\n\nI like that the guardrail is a separate stage instead of buried in the prompt. In production, that separation makes failures easier to inspect, replay, and evaluate.\n\nWhat eval would you add first: refusal correctness, alternative quality, or preference-memory accuracy?"
+      "author": "Fernando Abolafio",
+      "url": "https://www.linkedin.com/posts/fernandoabolafio_were-hosting-the-first-grok-bot-meetup-in-activity-7500825180273872896-yL7S?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
+      "engagement": "11 reactions / 2 comments",
+      "comment": "The UI angle is underrated: once agents can choose when to stay in chat and when to expose controls, state, diffs, and logs, the whole UX changes from prompting to operating. Curious how you think about guardrails when the agent is allowed to modify its own workspace live."
     }
   ]
 }
