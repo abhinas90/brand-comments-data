@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-03",
+  "comments": [
+    {
+      "author": "Disha Mukherjee",
+      "url": "https://www.linkedin.com/posts/disha-mukherjee_dataengineering-ai-careers-activity-7501247731470946305-RS2a?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2H1aUBzRCRdRQ2YBuHU6YGL0Xgzv_HShI",
+      "engagement": "22 reactions / 16 comments",
+      "comment": "The missing skill I\u2019d add is data contract design.\n\nFor AI systems, a schema change is not just a dashboard bug - it can silently change retrieval quality, eval labels, ranking behavior, and cost. The best DEs I\u2019ve worked with treat embeddings, chunks, metadata, and eval sets as first-class data products, not side effects of the pipeline."
+    },
+    {
+      "author": "Reshma Sriraman",
+      "url": "https://www.linkedin.com/posts/reshmawithai_ai-fde-isnt-just-an-ai-engineer-with-a-customer-activity-7501250079022796801-iPfm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2H1aUBzRCRdRQ2YBuHU6YGL0Xgzv_HShI",
+      "engagement": "11 reactions / 5 comments",
+      "comment": "I\u2019d add one thing near the top: learn to turn messy business workflows into testable acceptance criteria before writing code. Most AI projects fail less because the model is weak and more because nobody defined what \u201cgood enough to trust in production\u201d means."
+    }
+  ]
+}
