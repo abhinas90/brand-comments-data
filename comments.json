@@ -1,29 +1,17 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "comments": [
     {
-      "author": "Jay S.",
-      "url": "https://www.linkedin.com/posts/jsavaliya_when-i-first-joined-mda-space-i-had-no-knowledge-activity-7500713040426962944-Ey8A?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
-      "engagement": "40 reactions / 7 comments",
-      "comment": "The most useful part of this kind of internship is learning where software abstractions meet messy engineering workflows. Cutting API latency for 750+ items is not just a backend win, it changes whether people trust the tool enough to use it daily. How did you decide what belonged in the RAG layer versus what should stay as structured search or dashboard UX?"
+      "author": "Disha Mukherjee",
+      "url": "https://www.linkedin.com/posts/disha-mukherjee_dataengineering-ai-careers-activity-7501247731470946305-RS2a?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2H1aUBzRCRdRQ2YBuHU6YGL0Xgzv_HShI",
+      "engagement": "22 reactions / 16 comments",
+      "comment": "The missing skill I\u2019d add is data contract design.\n\nFor AI systems, a schema change is not just a dashboard bug - it can silently change retrieval quality, eval labels, ranking behavior, and cost. The best DEs I\u2019ve worked with treat embeddings, chunks, metadata, and eval sets as first-class data products, not side effects of the pipeline."
     },
     {
-      "author": "Muhammad Khalid",
-      "url": "https://www.linkedin.com/posts/muhammad-khalid-38387b198_were-launching-harness-arena-claude-code-activity-7500838597810421760-Ng3r?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
-      "engagement": "35 reactions / 4 comments",
-      "comment": "The hard part is making the tasks resistant to benchmark gaming: fixed prompts get optimized against fast. I\u2019d love to see leaderboards split by first-pass success, recovery after tool failure, cost per solved task, and variance across repeated runs - that\u2019s where agent harness quality usually shows up."
-    },
-    {
-      "author": "Nicole K\u00f6nigstein",
-      "url": "https://www.linkedin.com/posts/nicole-koenigstein_ai-aiagents-agenticai-activity-7500887063672561666-juNl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
-      "engagement": "33 reactions / 2 comments",
-      "comment": "The underrated part is treating the harness as the thing you version, not just the prompt.\n\nIn production, the same model can behave like a different system if you change tool schemas, memory retrieval, retry policy, or context assembly. Those need evals and rollback paths too."
-    },
-    {
-      "author": "Fernando Abolafio",
-      "url": "https://www.linkedin.com/posts/fernandoabolafio_were-hosting-the-first-grok-bot-meetup-in-activity-7500825180273872896-yL7S?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG1uTfoBuZg5RJxOYrt9QmmoKhFx_Ix1Qy8",
-      "engagement": "11 reactions / 2 comments",
-      "comment": "The UI angle is underrated: once agents can choose when to stay in chat and when to expose controls, state, diffs, and logs, the whole UX changes from prompting to operating. Curious how you think about guardrails when the agent is allowed to modify its own workspace live."
+      "author": "Reshma Sriraman",
+      "url": "https://www.linkedin.com/posts/reshmawithai_ai-fde-isnt-just-an-ai-engineer-with-a-customer-activity-7501250079022796801-iPfm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2H1aUBzRCRdRQ2YBuHU6YGL0Xgzv_HShI",
+      "engagement": "11 reactions / 5 comments",
+      "comment": "I\u2019d add one thing near the top: learn to turn messy business workflows into testable acceptance criteria before writing code. Most AI projects fail less because the model is weak and more because nobody defined what \u201cgood enough to trust in production\u201d means."
     }
   ]
 }
