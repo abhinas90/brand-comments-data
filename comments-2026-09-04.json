@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-04",
+  "comments": [
+    {
+      "author": "Jason Moccia",
+      "url": "https://www.linkedin.com/posts/jasonmoccia_most-people-learn-ai-tools-one-by-one-activity-7501610164626587648-FGLc?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2XBu0Bqri7XFdV9NPhyBaXUlnRV70wk1Q",
+      "engagement": "15 reactions / 21 comments",
+      "comment": "The missing layer is failure modes.\n\nFor each concept, I\u2019d map the \u201cbreaks when\u201d case: context breaks when retrieval is noisy, tool calling breaks when schemas drift, agents break when evals only test happy paths. That turns the roadmap from \u201cwhat to learn\u201d into \u201cwhat to debug first.\u201d"
+    },
+    {
+      "author": "Paul Barbaste",
+      "url": "https://www.linkedin.com/posts/paulbarbaste_our-preprint-is-available-last-project-activity-7501576072845705219-raIK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2a54oB2YK5L2khEhDXGuKfM-3eDLuYt20",
+      "engagement": "40 reactions / 2 comments",
+      "comment": "Zero embeddings is the part more teams should sit with. For coding agents, retrieval is often less about vector search and more about a tight control loop: inspect files, choose a tool, apply a small diff, run feedback, compress state. The hard problem is usually not \u201ccan the model write code?\u201d but \u201ccan the harness keep the model grounded after 40 tool calls?\u201d"
+    },
+    {
+      "author": "Erik Aceiro",
+      "url": "https://www.linkedin.com/posts/erikaceiro_live-llm-engineering-masterclass-production-activity-7501610327831105536-7hF4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2XBu0Bqri7XFdV9NPhyBaXUlnRV70wk1Q",
+      "engagement": "5 reactions / 2 comments",
+      "comment": "The hardest part is usually not wiring RAG, it is proving when retrieval made the answer better versus just more confident. I\u2019d look for any production eval section to cover failure buckets separately: retrieval miss, bad ranking, stale context, and model reasoning error."
+    },
+    {
+      "author": "Vedant Pandya",
+      "url": "https://www.linkedin.com/posts/vedant-pandya-662122135_agenticai-aiagents-aiengineering-activity-7501610587655651328-a29z?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2a3ekBwMhoaMegZSyTUqfw7OMRrhMAvyw",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "Production agents usually fail less from \u201cbad prompts\u201d and more from missing contracts between steps: tool schemas, state ownership, retry policy, eval coverage, and human handoff rules. The useful mental shift is treating an agent as a distributed system with an LLM inside it, not an LLM app with extra tools attached."
+    },
+    {
+      "author": "Peter Rehnke",
+      "url": "https://www.linkedin.com/posts/prehnke_openclaw-n8n-hermes-activity-7501592709649010688-KFl1?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2a54oB2YK5L2khEhDXGuKfM-3eDLuYt20",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "The sandboxing detail is the part I\u2019d push hardest: agentic systems get much easier to adopt when the blast radius is designed before the demo. One practical metric I like is intervention rate by task type, because a 30% time saving with hidden human cleanup can still be a net loss. What eval do you use before moving an agent from lab workflow to production workflow?"
+    }
+  ]
+}
