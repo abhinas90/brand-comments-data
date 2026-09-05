@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-05",
+  "comments": [
+    {
+      "author": "Adam Behrman",
+      "url": "https://www.linkedin.com/posts/activity-7501719075782430720-XB36?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2jEVMB5CTdJ-dW3PYVZUzit06hn_JU-fw",
+      "engagement": "5 reactions / 7 comments",
+      "comment": "The model choice matters, but the harness determines the failure mode. For agentic coding, I care less about the demo prompt and more about boring things: context compaction, rollback points, tool permissioning, and whether the agent can explain why it touched a file. What part of your workflow changed the most after adding memory and reflection?"
+    },
+    {
+      "author": "Darren Tjan",
+      "url": "https://www.linkedin.com/posts/darrentjan_ai-agent-harness-activity-7501801779991552000-Hm36?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2jEVMB5CTdJ-dW3PYVZUzit06hn_JU-fw",
+      "engagement": "12 reactions / 3 comments",
+      "comment": "The hidden variable is usually the harness policy around context selection, tool retry, and edit granularity. Same model can look \"smarter\" simply because one environment preserves the right files, asks for fewer confirmations, or recovers better from bad tool calls. I like testing harnesses on a task I already solved once, because then the signal is workflow quality, not task novelty."
+    },
+    {
+      "author": "Sumanth P",
+      "url": "https://www.linkedin.com/posts/sumanth077_build-and-run-ai-agents-you-can-see-understand-activity-7501973960461271040-nF5Q?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG2pLREBIHDVJtvU9I1880efhgfdv_olqtk",
+      "engagement": "10 reactions / 3 comments",
+      "comment": "The part I\u2019d pressure-test first is not orchestration, it\u2019s observability granularity.\n\nFor production agents, \u201cvisible prompts and tool calls\u201d is table stakes, but the real debugging win is being able to replay a failed run with the same inputs, tool outputs, memory state, and model config. Without that, transparency becomes a trace viewer instead of a reliability loop."
+    }
+  ]
+}
