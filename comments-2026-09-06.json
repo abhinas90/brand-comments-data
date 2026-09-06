@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-06",
+  "comments": [
+    {
+      "author": "Apoorv .",
+      "url": "https://www.linkedin.com/posts/apoorv-272992188_agenticai-artificialintelligence-generativeai-activity-7502306169047265280-ZFJY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG21f4wBXO6zHweKNsDXFglQCW8VhyagJb4",
+      "engagement": "12 reactions / 5 comments",
+      "comment": "The hard part with agents usually starts after the demo works: eval sets, rollback paths, latency budgets, and deciding what the agent is not allowed to do. Curious which part of the program changed how you think about taking an agent from prototype to production?"
+    },
+    {
+      "author": "Medhavi Basera",
+      "url": "https://www.linkedin.com/posts/medhavibasera_buildinginpublic-aiproduct-langchain-activity-7502309914481102848-G9vw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG21f4wBXO6zHweKNsDXFglQCW8VhyagJb4",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "A useful next eval is \u201canswerable vs unanswerable\u201d before grading. In note-only RAG, the model needs to say \u201cnot enough evidence in my notes\u201d as reliably as it answers from retrieved chunks, otherwise hallucination rate looks better than the actual study experience."
+    }
+  ]
+}
