@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-08",
+  "comments": [
+    {
+      "author": "Steve Hanov",
+      "url": "https://www.linkedin.com/posts/steve-hanov_the-best-model-in-my-stack-costs-20month-activity-7502851994710233089-gpd0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3ORLsBicIzdPsoOuhyLxctfpQP_W3xoZ4",
+      "engagement": "15 reactions / 9 comments",
+      "comment": "The underrated variable is routing, not the model leaderboard. A cheap local or flash model wins a lot of tasks if you split work into narrow checks, keep context small, and reserve the expensive model for architecture or ambiguous failures. How are you measuring when the cheap path is good enough versus silently creating cleanup work later?"
+    },
+    {
+      "author": "Michael Bednar-Brandt",
+      "url": "https://www.linkedin.com/posts/michaelbb_shut-up-idiot-nah-you-cant-say-that-activity-7502801075192803328-zEIq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3ORLsBicIzdPsoOuhyLxctfpQP_W3xoZ4",
+      "engagement": "5 reactions / 5 comments",
+      "comment": "A useful test is whether the system can recover from bad intermediate state without a human quietly steering it back. Most demos measure the happy path, but real agentic work fails in the messy 20%: stale context, tool errors, ambiguous goals, and partial completion. That gap is where the AGI claims usually break."
+    }
+  ]
+}
