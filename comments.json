@@ -1,35 +1,17 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "comments": [
     {
-      "author": "Matthew Coombs",
-      "url": "https://www.linkedin.com/posts/matthew-coombs-a56714127_you-probably-need-less-ai-than-you-think-activity-7502699745186942976-glGC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3BYfEBpNCIRxbrvZVGHeOflAqIBt2ny94",
-      "engagement": "37 reactions / 58 comments",
-      "comment": "The autonomy ladder I use is: can this fail safely without a human watching every step? If the answer is no, I usually keep it as retrieval, extraction, or copilot flow first, then add agent behavior only around the smallest repeatable subtask."
+      "author": "Steve Hanov",
+      "url": "https://www.linkedin.com/posts/steve-hanov_the-best-model-in-my-stack-costs-20month-activity-7502851994710233089-gpd0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3ORLsBicIzdPsoOuhyLxctfpQP_W3xoZ4",
+      "engagement": "15 reactions / 9 comments",
+      "comment": "The underrated variable is routing, not the model leaderboard. A cheap local or flash model wins a lot of tasks if you split work into narrow checks, keep context small, and reserve the expensive model for architecture or ambiguous failures. How are you measuring when the cheap path is good enough versus silently creating cleanup work later?"
     },
     {
-      "author": "Alok Sharan",
-      "url": "https://www.linkedin.com/posts/alok-sharan_agentic-ai-is-becoming-an-architecture-problem-activity-7502698419396755456-7H2b?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3BWmcBIXdSektmMCggmJ7dvjjk311_aks",
-      "engagement": "41 reactions / 49 comments",
-      "comment": "The trap I see is treating \u201cagent memory\u201d as one box, when production systems usually need at least three: short-term state, long-term user/context memory, and audit/history for debugging. Those have different latency, privacy, retention, and retrieval requirements. A good architecture decision is often deciding what not to remember."
-    },
-    {
-      "author": "Naresh Edagotti",
-      "url": "https://www.linkedin.com/posts/naresh-edagotti-6a71a1233_i-had-langgraph-on-my-resume-the-interviewer-activity-7502699709929746433-aljl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3BWmcBIXdSektmMCggmJ7dvjjk311_aks",
-      "engagement": "24 reactions / 6 comments",
-      "comment": "The hardest production agent bug is often not the model, it is missing state boundaries. I\u2019d expect a strong answer to start with trace IDs, tool-call budgets, idempotency, retry policy, and eval sets built from real failure cases, because \u201csame prompt, different result\u201d is rarely debugged from the prompt alone."
-    },
-    {
-      "author": "Luca Torresi",
-      "url": "https://www.linkedin.com/posts/luca-torresi-391b71121_microsoft-azure-agent-activity-7502606625887739904-c6fp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3Do_IB7_Jp0Ygm2W1oh2FAEdsmerh4ZGM",
-      "engagement": "25 reactions / 2 comments",
-      "comment": "The hard part is not spinning up a cloud desktop agent, it is constraining what it can do once it has GUI access. I\u2019d be curious how you handle permissioning, audit logs, and recovery when the agent clicks the wrong thing in a real user session."
-    },
-    {
-      "author": "Kobi Omenaka",
-      "url": "https://www.linkedin.com/posts/kobiomenaka_want-to-try-claude-code-but-the-jargons-activity-7502699742410416128-sZaF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3Do_IB7_Jp0Ygm2W1oh2FAEdsmerh4ZGM",
-      "engagement": "10 reactions / 4 comments",
-      "comment": "The first unlock for me was treating Claude Code like a junior dev with repo access, not like a chatbot. Start with tiny scoped tasks, ask it to explain the diff before applying, and keep git status visible the whole time."
+      "author": "Michael Bednar-Brandt",
+      "url": "https://www.linkedin.com/posts/michaelbb_shut-up-idiot-nah-you-cant-say-that-activity-7502801075192803328-zEIq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3ORLsBicIzdPsoOuhyLxctfpQP_W3xoZ4",
+      "engagement": "5 reactions / 5 comments",
+      "comment": "A useful test is whether the system can recover from bad intermediate state without a human quietly steering it back. Most demos measure the happy path, but real agentic work fails in the messy 20%: stale context, tool errors, ambiguous goals, and partial completion. That gap is where the AGI claims usually break."
     }
   ]
 }
