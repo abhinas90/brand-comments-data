@@ -1,17 +1,29 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "comments": [
     {
-      "author": "Steve Hanov",
-      "url": "https://www.linkedin.com/posts/steve-hanov_the-best-model-in-my-stack-costs-20month-activity-7502851994710233089-gpd0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3ORLsBicIzdPsoOuhyLxctfpQP_W3xoZ4",
-      "engagement": "15 reactions / 9 comments",
-      "comment": "The underrated variable is routing, not the model leaderboard. A cheap local or flash model wins a lot of tasks if you split work into narrow checks, keep context small, and reserve the expensive model for architecture or ambiguous failures. How are you measuring when the cheap path is good enough versus silently creating cleanup work later?"
+      "author": "Matthew Coombs",
+      "url": "https://www.linkedin.com/posts/matthew-coombs-a56714127_the-best-ai-model-depends-on-the-job-chatgpt-activity-7503424581827985408-NTWw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3djfYBS2hNt78Ph56zIY3O--gdbGlsj-c",
+      "engagement": "38 reactions / 55 comments",
+      "comment": "The missing axis is variance under tool use: a model can look strong on static evals and still fail when retries, schema drift, and partial tool outputs enter the loop. I usually separate selection into three tests: answer quality, recovery quality, and cost per completed task, because the last one changes the ranking fast. Which of those three has been the biggest blocker in your enterprise rollouts? #AgenticAI"
     },
     {
-      "author": "Michael Bednar-Brandt",
-      "url": "https://www.linkedin.com/posts/michaelbb_shut-up-idiot-nah-you-cant-say-that-activity-7502801075192803328-zEIq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3ORLsBicIzdPsoOuhyLxctfpQP_W3xoZ4",
-      "engagement": "5 reactions / 5 comments",
-      "comment": "A useful test is whether the system can recover from bad intermediate state without a human quietly steering it back. Most demos measure the happy path, but real agentic work fails in the messy 20%: stale context, tool errors, ambiguous goals, and partial completion. That gap is where the AGI claims usually break."
+      "author": "Daily Dose of Data Science",
+      "url": "https://www.linkedin.com/posts/daily-dose-of-ds_y-combinator-yc-open-sourced-the-agent-activity-7503309023094550529-dpcQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3djfYBS2hNt78Ph56zIY3O--gdbGlsj-c",
+      "engagement": "23 reactions / 2 comments",
+      "comment": "The scope abstraction is the part I\u2019d watch closely. Most agent failures at company scale are not model failures, they are identity, permission, memory, and tool-state failures crossing boundaries they should not cross. Durable sandboxes also change the eval surface: now you need to test not just one run, but what the agent leaves behind for the next run."
+    },
+    {
+      "author": "David Garc\u00eda Bedoya",
+      "url": "https://www.linkedin.com/posts/david-garcia-bedoya_builders-demos-spec-activity-7503294219030163456-LOJn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3djfYBS2hNt78Ph56zIY3O--gdbGlsj-c",
+      "engagement": "15 reactions / 1 comments",
+      "comment": "The coordination point is where most agent systems either become useful or noisy. My rule of thumb: give agents narrow ownership, require machine-checkable specs at the handoff, and keep humans on calls where the cost of a false positive is high. Curious how many teams are measuring agent work by accepted diffs/tests passed instead of tasks started?"
+    },
+    {
+      "author": "Raahul Seshadri",
+      "url": "https://www.linkedin.com/posts/raahul-seshadri_the-best-engineers-are-the-ones-worst-at-activity-7503422724938076161-a61m?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3djfYBS2hNt78Ph56zIY3O--gdbGlsj-c",
+      "engagement": "5 reactions / 3 comments",
+      "comment": "The gap I keep seeing is that most agent failures are not model failures, they are product and systems failures wearing an AI label. A simple agent needs boring things done well: idempotency, retries, timeouts, auth boundaries, eval gates, traceability, and a clean way to say \u201cI don\u2019t know.\u201d The real question is: how many AI builders can debug the system when the demo stops being the happy path?"
     }
   ]
 }
