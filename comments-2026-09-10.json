@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-10",
+  "comments": [
+    {
+      "author": "Prathamesh Yeole",
+      "url": "https://www.linkedin.com/posts/pyeole_llmevals-llmops-aiengineering-activity-7503782831584608256-l3F8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3umbABJppJkteDqoa9vFuKlRWqjzbo0H0",
+      "engagement": "11 reactions / 3 comments",
+      "comment": "One trick that helps: add \u201cknown equivalent\u201d outputs to the eval set before tuning the agent. For query generation, SQL/KQL/search APIs often have multiple valid forms, so exact-match evals punish harmless variation. I\u2019ve had better signal from checking executable behavior plus a small set of invariants, then saving every false failure as a regression case."
+    },
+    {
+      "author": "Ram Singh Verma",
+      "url": "https://www.linkedin.com/posts/ram-singh-verma369_i-thought-git-was-just-3-commands-git-add-activity-7503786611290202113-NhV9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3q-e4BdFdAcBAZ8BA5SJ7IBrg-PkuBE7k",
+      "engagement": "6 reactions / 2 comments",
+      "comment": "The command that changed Git for me was `git bisect`. In ML codebases, where a \"small\" data or config change can quietly break behavior, bisect turns a vague regression hunt into a binary search over commits. Which Git command do you think developers learn too late?"
+    }
+  ]
+}
