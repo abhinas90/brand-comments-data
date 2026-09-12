@@ -1,41 +1,23 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "comments": [
     {
-      "author": "Kuanze Ma",
-      "url": "https://www.linkedin.com/posts/kuanzema_uhp-harnessrouter-harnessengineer-activity-7503942639012954112-qi51?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG38qDIBACna9g6gjRwkcRP2WYfRkHZYpQg",
-      "engagement": "286 reactions / 6 comments",
-      "comment": "The hard part is less the router API and more the eval contract around it. If two harnesses solve the same task with different tool traces, you need task-level success checks, cost, latency, and failure taxonomy in one schema, or the cheapest route can quietly optimize for broken work."
+      "author": "Dr Emmanuel Ogungbemi",
+      "url": "https://www.linkedin.com/posts/eoogungbemi_most-people-will-read-9-ai-concepts-and-activity-7504494103859138560-Asea?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4CxAcB6_pgQEaVkvg6_crKOHQAqwoPN7M",
+      "engagement": "125 reactions / 11 comments",
+      "comment": "The gap I see most often is evals at the wrong level. Final-answer grading misses the bad tool call, bad retrieval, or bad handoff that caused the failure, so agent traces need step-level assertions before the judge ever scores the output."
     },
     {
-      "author": "Philip Z. Borge",
-      "url": "https://www.linkedin.com/posts/philip-z-borge-97690b149_deepseek-v41-flash-just-beat-opus-5-on-several-activity-7504143331497660416-oyfB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG38qDIBACna9g6gjRwkcRP2WYfRkHZYpQg",
-      "engagement": "24 reactions / 3 comments",
-      "comment": "The part teams underestimate is calibration drift: a router that was optimal last month can quietly become expensive or wrong after one model update. I\u2019d rather see firms evaluate by workflow failure modes, not leaderboard rank - extraction accuracy, citation faithfulness, tool-call recovery, and escalation rate. What\u2019s your minimum eval set size before trusting a new model in production routing?"
+      "author": "Razvan ROMAN",
+      "url": "https://www.linkedin.com/posts/razvanr_you-can-now-open-any-terminal-in-your-org-activity-7504283781667647488-4MOb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4CxAcB6_pgQEaVkvg6_crKOHQAqwoPN7M",
+      "engagement": "20 reactions / 4 comments",
+      "comment": "The hard part is not streaming a PTY, it is attribution when humans and agents are both writing into the same process. A useful test: can the audit trail distinguish typed input, pasted multi-line scripts, agent-generated commands, and resumed sessions after reconnect? #AgenticAI"
     },
     {
-      "author": "Jeff Prestes (\u96f7\u609f)",
-      "url": "https://www.linkedin.com/posts/jeffprestes_web3-ai-harness-activity-7503912676696367104-2iWJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG38qDIBACna9g6gjRwkcRP2WYfRkHZYpQg",
-      "engagement": "14 reactions / 1 comments",
-      "comment": "The hard part is not giving an agent wallet access, it is making the custody layer the final authority. I like treating the LLM as a proposer only: it can draft an action, but limits, quorum, allowlists, velocity caps, and human review decide whether anything moves. What failure mode do you test first - bad prompt, compromised credential, or valid action at the wrong time? #AI"
-    },
-    {
-      "author": "CA Ankur Sharma",
-      "url": "https://www.linkedin.com/posts/ca-ankur-sharma_dreamforce-df26-dreamforce2026-activity-7504138197397028864-dDJZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG38qDIBACna9g6gjRwkcRP2WYfRkHZYpQg",
-      "engagement": "9 reactions / 1 comments",
-      "comment": "Multi-agent governance gets real only when traces, evals, and API policy live in the same review loop. Otherwise teams end up debugging agent behavior after the blast radius is already visible. Curious if the sessions will cover how to define ownership when one agent\u2019s output becomes another agent\u2019s input."
-    },
-    {
-      "author": "Przemek Tomczak, CPA, CA, CISA",
-      "url": "https://www.linkedin.com/posts/przemektomczak_great-energy-and-a-full-house-at-the-first-activity-7504139617193848832-3uYO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG38qDIBACna9g6gjRwkcRP2WYfRkHZYpQg",
-      "engagement": "5 reactions / 2 comments",
-      "comment": "The token reduction example is the part most teams should study: tool selection is often a retrieval problem before it is an agent problem. In production, I\u2019ve seen evals become useful when they test \u201callowed but wrong\u201d actions, not just pass/fail task completion. How are people here separating policy violations from operationally bad decisions in their eval suites? #AgenticAI"
-    },
-    {
-      "author": "Vladyslav Nyzhashchyy \ud83e\uddab",
-      "url": "https://www.linkedin.com/posts/v-nyz_product-pitches-are-the-most-boring-thing-activity-7504149163475918849-wJpG?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG38qDIBACna9g6gjRwkcRP2WYfRkHZYpQg",
-      "engagement": "5 reactions / 1 comments",
-      "comment": "290,000 possible paths is exactly where voice agents stop being demo problems and start becoming state-management problems. The useful pattern I\u2019ve seen is to treat the LLM as the language layer, but keep routing, retries, tool eligibility, and handoff criteria as explicit control logic. Curious how much of that pipeline was deterministic vs model-decided?"
+      "author": "Shantanu Ladhwe",
+      "url": "https://www.linkedin.com/posts/shantanuladhwe_the-data-scientist-ai-engineer-transition-activity-7504511288614645762-dLRE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4CxAcB6_pgQEaVkvg6_crKOHQAqwoPN7M",
+      "engagement": "8 reactions / 7 comments",
+      "comment": "The fastest DS to AI engineer shift I\u2019ve seen is when they start owning failure modes after the model call: retries, latency budgets, eval regressions, observability, and bad user inputs. Notebooks teach signal, production teaches surface area."
     }
   ]
 }
