@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-12",
+  "comments": [
+    {
+      "author": "Dr Emmanuel Ogungbemi",
+      "url": "https://www.linkedin.com/posts/eoogungbemi_most-people-will-read-9-ai-concepts-and-activity-7504494103859138560-Asea?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4CxAcB6_pgQEaVkvg6_crKOHQAqwoPN7M",
+      "engagement": "125 reactions / 11 comments",
+      "comment": "The gap I see most often is evals at the wrong level. Final-answer grading misses the bad tool call, bad retrieval, or bad handoff that caused the failure, so agent traces need step-level assertions before the judge ever scores the output."
+    },
+    {
+      "author": "Razvan ROMAN",
+      "url": "https://www.linkedin.com/posts/razvanr_you-can-now-open-any-terminal-in-your-org-activity-7504283781667647488-4MOb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4CxAcB6_pgQEaVkvg6_crKOHQAqwoPN7M",
+      "engagement": "20 reactions / 4 comments",
+      "comment": "The hard part is not streaming a PTY, it is attribution when humans and agents are both writing into the same process. A useful test: can the audit trail distinguish typed input, pasted multi-line scripts, agent-generated commands, and resumed sessions after reconnect? #AgenticAI"
+    },
+    {
+      "author": "Shantanu Ladhwe",
+      "url": "https://www.linkedin.com/posts/shantanuladhwe_the-data-scientist-ai-engineer-transition-activity-7504511288614645762-dLRE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4CxAcB6_pgQEaVkvg6_crKOHQAqwoPN7M",
+      "engagement": "8 reactions / 7 comments",
+      "comment": "The fastest DS to AI engineer shift I\u2019ve seen is when they start owning failure modes after the model call: retries, latency budgets, eval regressions, observability, and bad user inputs. Notebooks teach signal, production teaches surface area."
+    }
+  ]
+}
