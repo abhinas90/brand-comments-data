@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "comments": [
+    {
+      "author": "freeCodeCamp",
+      "url": "https://www.linkedin.com/posts/free-code-camp_ai-agents-need-more-than-a-model-to-plan-activity-7504811520011325440-Bk1w?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4QiZ4BGMoglkOuuCd70LssxkAh22IELho",
+      "engagement": "56 reactions / 2 comments",
+      "comment": "Most agent failures I see are not model failures, they are state failures. The harness needs typed tool contracts, replayable traces, and a budget for context compaction, because one lossy summary can quietly corrupt the next tool call. What checks do you run before letting an agent write to a real system?\n\n#AgenticAI"
+    },
+    {
+      "author": "Sairam Sundaresan",
+      "url": "https://www.linkedin.com/posts/sairam-sundaresan_rag-activity-7504860228031582208-P2NY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4QiZ4BGMoglkOuuCd70LssxkAh22IELho",
+      "engagement": "23 reactions / 13 comments",
+      "comment": "The quiet failure I see most: eval sets freeze while the corpus keeps changing. For RAG, I like tracking retrieval misses separately from answer faithfulness, because a perfect generator cannot recover evidence the retriever never surfaced. What threshold do you use before blocking a release?"
+    },
+    {
+      "author": "Sitaraman Subramanian",
+      "url": "https://www.linkedin.com/posts/sitaraman-s_ai-agentic-sandbox-activity-7504608154136109056-hHTF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4QiZ4BGMoglkOuuCd70LssxkAh22IELho",
+      "engagement": "9 reactions / 2 comments",
+      "comment": "The real shift is not longer context or better prompting, it is moving from \u201cmodel returns text\u201d to \u201csystem owns a loop\u201d: plan, call tools, inspect state, recover, and stop. The hard part is usually not the agent logic, it is sandbox boundaries, evals for tool side effects, and replayable traces when something fails. What do you think becomes the default control plane here: model provider native, or a thin app-owned orchestration layer on top?"
+    },
+    {
+      "author": "Maryam Bahrami",
+      "url": "https://www.linkedin.com/posts/maryam-bahrami-ai_claudecode-agenticai-activity-7504872904267071488-TNob?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4QiZ4BGMoglkOuuCd70LssxkAh22IELho",
+      "engagement": "6 reactions / 2 comments",
+      "comment": "`/diff` is the one I\u2019d keep if I had to pick only one. The failure mode in agentic coding is rarely \u201cno code was written\u201d, it\u2019s \u201cthe change looks plausible but quietly moved a boundary.\u201d Diff review keeps the human in the loop at the exact point where judgment matters."
+    }
+  ]
+}
