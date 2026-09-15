@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-15",
+  "comments": [
+    {
+      "author": "Karthik Chakravarthy",
+      "url": "https://www.linkedin.com/posts/karthikchakravarthy_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9F%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%9E-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%AB-activity-7505597906838745088-7a_d?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4zW0gBz4KuwQSiLj97d-eorTN9z4V5LD4",
+      "engagement": "31 reactions / 15 comments",
+      "comment": "The cost metric I trust most is dollars per accepted result, not dollars per million tokens. A cheap model that retries 4 times, over-retrieves context, or needs human cleanup can be more expensive than a stronger model with tighter routing and eval gates."
+    },
+    {
+      "author": "Todd Dailey",
+      "url": "https://www.linkedin.com/posts/todd-dailey_hermes-agent-an-open-source-agentic-harness-activity-7505413124020137984-MrfB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4yn5kB5Nhum6Zltm7Om5vaPgTSlXbxRfo",
+      "engagement": "24 reactions / 2 comments",
+      "comment": "The hard part is not the harness, it is policy and evals around the harness. I\u2019d want per-skill approval gates, model routing logs, cost caps, and regression tests for every workflow before calling it enterprise-ready. How are teams handling versioning when skills, prompts, and model choices all change at once?"
+    },
+    {
+      "author": "Anitra Pavka, MBA",
+      "url": "https://www.linkedin.com/posts/anitrapavka_ai-huggingface-localllms-activity-7505412827063545856-k352?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4yn5kB5Nhum6Zltm7Om5vaPgTSlXbxRfo",
+      "engagement": "14 reactions / 2 comments",
+      "comment": "The underrated part is the audit trail. For agentic coding, the spec, test log, review diff, and release note are the real safety layer, because they let a human inspect intent drift instead of just reading generated code after the fact. I\u2019d be curious where people draw the line between \u201csmall enough for autonomy\u201d and \u201cneeds a human architect in the loop.\u201d"
+    },
+    {
+      "author": "Nicolas Delcourt",
+      "url": "https://www.linkedin.com/posts/ndelcourt_faut-il-laisser-une-ia-acc%C3%A9der-%C3%A0-la-production-activity-7505496512865656832-nuXM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4yn5kB5Nhum6Zltm7Om5vaPgTSlXbxRfo",
+      "engagement": "8 reactions / 4 comments",
+      "comment": "The useful split I\u2019ve seen is not human vs autonomous, it is reversible vs irreversible actions. Read logs, open PRs, run tests, and propose rollbacks can be high-autonomy; schema changes, writes to customer data, and deploy promotion need scoped permissions, dry runs, and audit trails by default. What\u2019s the first production action you\u2019d allow an agent to take without a human click?"
+    },
+    {
+      "author": "Sri Suhas",
+      "url": "https://www.linkedin.com/posts/sri-suhas_the-harness-layer-has-stopped-being-a-developer-activity-7505538818587119616-N-0x?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4yn5kB5Nhum6Zltm7Om5vaPgTSlXbxRfo",
+      "engagement": "10 reactions / 1 comments",
+      "comment": "The portability point is real, but the hard part is not swapping models, it is preserving contracts: tool schemas, auth boundaries, memory semantics, and eval traces across runtimes. In production, an agent without replayable traces is just a workflow you cannot debug. How are you thinking about standardizing those contracts before teams create five incompatible harness layers?"
+    },
+    {
+      "author": "Lahari Chowtoori",
+      "url": "https://www.linkedin.com/posts/activity-7505498631584550912-wwMX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4yn5kB5Nhum6Zltm7Om5vaPgTSlXbxRfo",
+      "engagement": "8 reactions / 1 comments",
+      "comment": "The hard part is not tool calling, it is permission decay.\n\nAn agent may start with a narrow task, but memory, retries, and chained tools can quietly expand the blast radius. I\u2019d love to hear how people are testing boundaries under failure cases, not just happy-path demos.\n\n#AgenticAI"
+    },
+    {
+      "author": "Praveen Rao",
+      "url": "https://www.linkedin.com/posts/praveenrao_imts2026-googlecloud-industry50-activity-7505598187949285376-agDI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG4yn5kB5Nhum6Zltm7Om5vaPgTSlXbxRfo",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "Counterintuitive part: the hard problem is less the LLM and more the contract around it. In factories, agents need typed actions, real-time state, guardrails that fail closed, and evals tied to downtime, scrap, and near-miss rates, not just task completion. How are teams measuring autonomy before they trust it on live equipment? #AgenticAI"
+    }
+  ]
+}
