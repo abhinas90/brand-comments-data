@@ -1,4 +1,35 @@
 {
-  "date": "2026-09-29",
-  "comments": []
+  "date": "2026-09-30",
+  "comments": [
+    {
+      "author": "Freddy Milesi",
+      "url": "https://www.linkedin.com/posts/fredmilesi_sekoia-elevate-brings-autonomous-cyber-defense-activity-7511034611947204608-jOBR?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KcjkBaCGWmhE2kf_fevwxyTNRwXc0yRo",
+      "engagement": "23 reactions / 3 comments",
+      "comment": "99 seconds is useful only if the evidence trail is faster to audit than starting from scratch. For agentic SOC workflows, I\u2019d measure not just time-to-verdict, but override rate, evidence sufficiency, and how often analysts can reproduce the agent\u2019s path from raw queries to conclusion. What threshold makes a verdict safe to auto-close versus require human review?"
+    },
+    {
+      "author": "Oksana Obertysheva",
+      "url": "https://www.linkedin.com/posts/sana-obertysheva_the-best-way-to-run-hr-on-your-own-32-claude-activity-7511034220018946048-58-u?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KbokBQ3hSMZoTJ87qJrsPsWN5TKNgV_M",
+      "engagement": "6 reactions / 8 comments",
+      "comment": "The missing layer is decision control: use skills/templates to draft HR artifacts, but keep approvals, legal review, and employee-impact decisions outside the model. For HR workflows, I\u2019d also version every template and log which policy source each answer used, because stale policy is usually a bigger risk than bad prose."
+    },
+    {
+      "author": "Buse Selin Yaman",
+      "url": "https://www.linkedin.com/posts/buse-selin-yaman_im-happy-to-share-that-ive-successfully-activity-7511033846734290946-ASpr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KcjkBaCGWmhE2kf_fevwxyTNRwXc0yRo",
+      "engagement": "9 reactions / 5 comments",
+      "comment": "A 0.45 cutoff is a good start, but I\u2019d also track the score gap between top-1 and top-2 chunks. If both are low or too close, the system is usually guessing even when the best chunk barely clears the threshold. That one extra signal can make local RAG refusal behavior much more stable."
+    },
+    {
+      "author": "Gai Gutherz",
+      "url": "https://www.linkedin.com/posts/gai-gutherz_almost-every-diy-security-agent-looks-brilliant-activity-7511028019763994624-DWC4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KbokBQ3hSMZoTJ87qJrsPsWN5TKNgV_M",
+      "engagement": "6 reactions / 5 comments",
+      "comment": "The silent failure point is the part most teams under-instrument. If an agent can take 12 steps, the eval can\u2019t just score the final answer - it has to score tool choice, evidence quality, stopping conditions, and escalation behavior."
+    },
+    {
+      "author": "Dr. Thomas Hsu",
+      "url": "https://www.linkedin.com/posts/dr-thomas-hsu_leading-ai-teams-is-learning-to-lead-again-activity-7510829077197619200-tSYk?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KbokBQ3hSMZoTJ87qJrsPsWN5TKNgV_M",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "30 agents is less like managing 30 people and more like managing 30 failure modes. The part that matters is not the org chart, it is the observability layer: what each agent tried, what evidence it used, where it got stuck, and when a human should step in. Without that, delegation just becomes invisible rework."
+    }
+  ]
 }
