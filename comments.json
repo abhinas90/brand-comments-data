@@ -1,35 +1,41 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "comments": [
     {
-      "author": "Freddy Milesi",
-      "url": "https://www.linkedin.com/posts/fredmilesi_sekoia-elevate-brings-autonomous-cyber-defense-activity-7511034611947204608-jOBR?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KcjkBaCGWmhE2kf_fevwxyTNRwXc0yRo",
-      "engagement": "23 reactions / 3 comments",
-      "comment": "99 seconds is useful only if the evidence trail is faster to audit than starting from scratch. For agentic SOC workflows, I\u2019d measure not just time-to-verdict, but override rate, evidence sufficiency, and how often analysts can reproduce the agent\u2019s path from raw queries to conclusion. What threshold makes a verdict safe to auto-close versus require human review?"
+      "author": "Bojan Radojicic",
+      "url": "https://www.linkedin.com/posts/bojan-radojicic-a132a526_claude-cloudflare-and-gitgithub-with-these-activity-7511396734305099776-ibUY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Qm0wB_gb2j_JbKqQFAso7aJjtckKAA7c",
+      "engagement": "21 reactions / 12 comments",
+      "comment": "The hard part is not generating the report, it is proving every number has lineage back to source rows. I\u2019d trust this fastest when the app treats AI output as a draft layer only, with deterministic checks for balances, mappings, and variance thresholds before any commentary gets reviewed."
     },
     {
-      "author": "Oksana Obertysheva",
-      "url": "https://www.linkedin.com/posts/sana-obertysheva_the-best-way-to-run-hr-on-your-own-32-claude-activity-7511034220018946048-58-u?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KbokBQ3hSMZoTJ87qJrsPsWN5TKNgV_M",
-      "engagement": "6 reactions / 8 comments",
-      "comment": "The missing layer is decision control: use skills/templates to draft HR artifacts, but keep approvals, legal review, and employee-impact decisions outside the model. For HR workflows, I\u2019d also version every template and log which policy source each answer used, because stale policy is usually a bigger risk than bad prose."
+      "author": "Umair Ahmad",
+      "url": "https://www.linkedin.com/posts/umairahmadpm_most-companies-still-think-scalable-ai-platforms-activity-7511396325293424640-O7wz?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Q7YsBYwdHAxoUJjdgGxTmh3NoMyg49QQ",
+      "engagement": "14 reactions / 8 comments",
+      "comment": "One thing I see teams underweight: eval data becomes platform infrastructure once agents start taking actions, not just answering.\n\nA small, versioned eval set tied to real failure modes can save more money than another round of model routing, because it tells you when routing, retrieval, or tools actually got better.\n\nWhere do you see teams hit the first reliability wall: retrieval quality, tool execution, or observability?"
     },
     {
-      "author": "Buse Selin Yaman",
-      "url": "https://www.linkedin.com/posts/buse-selin-yaman_im-happy-to-share-that-ive-successfully-activity-7511033846734290946-ASpr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KcjkBaCGWmhE2kf_fevwxyTNRwXc0yRo",
-      "engagement": "9 reactions / 5 comments",
-      "comment": "A 0.45 cutoff is a good start, but I\u2019d also track the score gap between top-1 and top-2 chunks. If both are low or too close, the system is usually guessing even when the best chunk barely clears the threshold. That one extra signal can make local RAG refusal behavior much more stable."
+      "author": "Connor Stevens",
+      "url": "https://www.linkedin.com/posts/connor-stevens-5203bb3b2_a-claude-team-behind-your-hr-lead-with-32-activity-7511396415470731264-nWeB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Qm0wB_gb2j_JbKqQFAso7aJjtckKAA7c",
+      "engagement": "6 reactions / 7 comments",
+      "comment": "The useful part is not the 32 skills, it is whether each skill has a clear input contract, approval boundary, and audit trail.\n\nFor HR workflows, I\u2019d rather see a smaller set of agents that reliably escalate edge cases than a huge skill library that quietly drafts policy-sensitive output without context."
     },
     {
-      "author": "Gai Gutherz",
-      "url": "https://www.linkedin.com/posts/gai-gutherz_almost-every-diy-security-agent-looks-brilliant-activity-7511028019763994624-DWC4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KbokBQ3hSMZoTJ87qJrsPsWN5TKNgV_M",
-      "engagement": "6 reactions / 5 comments",
-      "comment": "The silent failure point is the part most teams under-instrument. If an agent can take 12 steps, the eval can\u2019t just score the final answer - it has to score tool choice, evidence quality, stopping conditions, and escalation behavior."
+      "author": "Rizwan Tufail",
+      "url": "https://www.linkedin.com/posts/rizwantufail_almost-every-large-institution-now-has-an-activity-7511396933513404416-cBVe?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Q7YsBYwdHAxoUJjdgGxTmh3NoMyg49QQ",
+      "engagement": "6 reactions / 6 comments",
+      "comment": "A policy tells you what people intended. An inventory tells you what can actually happen.\n\nThe sharp distinction for agentic systems is capability vs reach:\n- capability: what the model/toolchain can decide or generate\n- reach: what APIs, data, credentials, and side effects it can touch\n\nMost incidents come from reach being larger than anyone realized.\n\nWhat is the minimum inventory field you would require before an agent is allowed into production?"
     },
     {
-      "author": "Dr. Thomas Hsu",
-      "url": "https://www.linkedin.com/posts/dr-thomas-hsu_leading-ai-teams-is-learning-to-lead-again-activity-7510829077197619200-tSYk?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8KbokBQ3hSMZoTJ87qJrsPsWN5TKNgV_M",
-      "engagement": "7 reactions / 1 comments",
-      "comment": "30 agents is less like managing 30 people and more like managing 30 failure modes. The part that matters is not the org chart, it is the observability layer: what each agent tried, what evidence it used, where it got stuck, and when a human should step in. Without that, delegation just becomes invisible rework."
+      "author": "Quentin Gavila",
+      "url": "https://www.linkedin.com/posts/quentin-gavila-469890242_le-top-40-des-technos-open-source-quon-activity-7511374042789171201-s72N?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Qm0wB_gb2j_JbKqQFAso7aJjtckKAA7c",
+      "engagement": "10 reactions / 1 comments",
+      "comment": "The missing category I\u2019d add is replayable eval infrastructure: same inputs, same retrieved context, same tool responses, same judge version.\n\nWithout that, agent \u201cquality\u201d turns into vibes fast, because every regression can hide behind nondeterminism.\n\nWhat are you using to make failures reproducible before you tune the agent? #AgenticAI"
+    },
+    {
+      "author": "Joel Van Veluwen",
+      "url": "https://www.linkedin.com/posts/joelvanveluwen_openai-announced-dots-this-week-at-its-activity-7511336024896139264-5QvY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Qm0wB_gb2j_JbKqQFAso7aJjtckKAA7c",
+      "engagement": "6 reactions / 2 comments",
+      "comment": "The hard part is not keeping an agent running for 30 hours, it is defining what it is allowed to wake you up for. I\u2019d want every always-on agent to have a small \u201cinterrupt budget\u201d - maybe 3 pings/day max unless severity crosses a threshold. How are you deciding which findings deserve a notification versus a daily digest?"
     }
   ]
 }
