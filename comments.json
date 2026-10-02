@@ -1,41 +1,29 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "comments": [
     {
-      "author": "Bojan Radojicic",
-      "url": "https://www.linkedin.com/posts/bojan-radojicic-a132a526_claude-cloudflare-and-gitgithub-with-these-activity-7511396734305099776-ibUY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Qm0wB_gb2j_JbKqQFAso7aJjtckKAA7c",
-      "engagement": "21 reactions / 12 comments",
-      "comment": "The hard part is not generating the report, it is proving every number has lineage back to source rows. I\u2019d trust this fastest when the app treats AI output as a draft layer only, with deterministic checks for balances, mappings, and variance thresholds before any commentary gets reviewed."
-    },
-    {
-      "author": "Umair Ahmad",
-      "url": "https://www.linkedin.com/posts/umairahmadpm_most-companies-still-think-scalable-ai-platforms-activity-7511396325293424640-O7wz?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Q7YsBYwdHAxoUJjdgGxTmh3NoMyg49QQ",
-      "engagement": "14 reactions / 8 comments",
-      "comment": "One thing I see teams underweight: eval data becomes platform infrastructure once agents start taking actions, not just answering.\n\nA small, versioned eval set tied to real failure modes can save more money than another round of model routing, because it tells you when routing, retrieval, or tools actually got better.\n\nWhere do you see teams hit the first reliability wall: retrieval quality, tool execution, or observability?"
-    },
-    {
-      "author": "Connor Stevens",
-      "url": "https://www.linkedin.com/posts/connor-stevens-5203bb3b2_a-claude-team-behind-your-hr-lead-with-32-activity-7511396415470731264-nWeB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Qm0wB_gb2j_JbKqQFAso7aJjtckKAA7c",
+      "author": "Ved Vekhande",
+      "url": "https://www.linkedin.com/posts/ved-vekhande_4-resources-id-read-before-building-an-activity-7511752022572838912-pBQB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8RyrkBKzXYfkqJQZGpy4pKbWhLh3g23eE",
       "engagement": "6 reactions / 7 comments",
-      "comment": "The useful part is not the 32 skills, it is whether each skill has a clear input contract, approval boundary, and audit trail.\n\nFor HR workflows, I\u2019d rather see a smaller set of agents that reliably escalate edge cases than a huge skill library that quietly drafts policy-sensitive output without context."
+      "comment": "The part people skip is calibrating the judge on failures, not just good answers. I usually want the first 30 labels to include obvious passes, obvious fails, borderline cases, and cases where the model sounds right but violates the task."
     },
     {
-      "author": "Rizwan Tufail",
-      "url": "https://www.linkedin.com/posts/rizwantufail_almost-every-large-institution-now-has-an-activity-7511396933513404416-cBVe?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Q7YsBYwdHAxoUJjdgGxTmh3NoMyg49QQ",
-      "engagement": "6 reactions / 6 comments",
-      "comment": "A policy tells you what people intended. An inventory tells you what can actually happen.\n\nThe sharp distinction for agentic systems is capability vs reach:\n- capability: what the model/toolchain can decide or generate\n- reach: what APIs, data, credentials, and side effects it can touch\n\nMost incidents come from reach being larger than anyone realized.\n\nWhat is the minimum inventory field you would require before an agent is allowed into production?"
+      "author": "Daniel T.",
+      "url": "https://www.linkedin.com/posts/danieltamas_working-with-agents-is-awesome-until-its-activity-7511747129409859584-e9jA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8RyrkBKzXYfkqJQZGpy4pKbWhLh3g23eE",
+      "engagement": "10 reactions / 2 comments",
+      "comment": "The real security boundary for coding agents is not \u201ccan they talk?\u201d - it is \u201cwhat authority does a received message carry?\u201d\n\nI like the pattern of treating remote agent output as quoted, untrusted text. That maps better to how prompt injection actually works: most failures start when plain text silently becomes instruction.\n\nSharp question: do you see teams wanting repo-scoped agent-to-agent messaging, or task-scoped messaging that expires when the branch/PR is done?\n\n#AgenticAI #LLMOps"
     },
     {
-      "author": "Quentin Gavila",
-      "url": "https://www.linkedin.com/posts/quentin-gavila-469890242_le-top-40-des-technos-open-source-quon-activity-7511374042789171201-s72N?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Qm0wB_gb2j_JbKqQFAso7aJjtckKAA7c",
-      "engagement": "10 reactions / 1 comments",
-      "comment": "The missing category I\u2019d add is replayable eval infrastructure: same inputs, same retrieved context, same tool responses, same judge version.\n\nWithout that, agent \u201cquality\u201d turns into vibes fast, because every regression can hide behind nondeterminism.\n\nWhat are you using to make failures reproducible before you tune the agent? #AgenticAI"
+      "author": "\uad6c\uc6b0\uc601",
+      "url": "https://www.linkedin.com/posts/roykoo99_%EC%9D%B4-%EA%B8%80%EC%9D%80-%EB%82%B4%EA%B0%80-%EC%93%B0%EB%8A%94-%EA%B1%B8%EA%B9%8C-%EB%82%B4-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EA%B0%80-%EC%8D%A8%EC%A3%BC%EB%8A%94-%EA%B1%B8%EA%B9%8C-%EC%9A%94%EC%A6%98-%EA%B8%80%EC%9D%84-%EC%93%B8-activity-7511702615391416320-dDzF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8RyrkBKzXYfkqJQZGpy4pKbWhLh3g23eE",
+      "engagement": "6 reactions / 4 comments",
+      "comment": "The line between \u201cI wrote it\u201d and \u201cmy agent wrote it\u201d gets clearer when you track who made the irreversible decisions: framing, tradeoffs, taste, and what to leave out. The agent can draft words, but the author is still the person accountable for the judgment behind them."
     },
     {
-      "author": "Joel Van Veluwen",
-      "url": "https://www.linkedin.com/posts/joelvanveluwen_openai-announced-dots-this-week-at-its-activity-7511336024896139264-5QvY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8Qm0wB_gb2j_JbKqQFAso7aJjtckKAA7c",
-      "engagement": "6 reactions / 2 comments",
-      "comment": "The hard part is not keeping an agent running for 30 hours, it is defining what it is allowed to wake you up for. I\u2019d want every always-on agent to have a small \u201cinterrupt budget\u201d - maybe 3 pings/day max unless severity crosses a threshold. How are you deciding which findings deserve a notification versus a daily digest?"
+      "author": "Haus der KI",
+      "url": "https://www.linkedin.com/posts/haus-der-ki_warum-fahren-wir-auf-einen-ki-kongress-wenn-activity-7511646428662747136-U-KF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8RyrkBKzXYfkqJQZGpy4pKbWhLh3g23eE",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "The best AI vocabulary often shows up at the boundary between policy, architecture, and workflow, not inside model docs. One term I had to revisit recently was \u201cdata residency\u201d because in agent systems it changes from a compliance checkbox into an actual design constraint."
     }
   ]
 }
