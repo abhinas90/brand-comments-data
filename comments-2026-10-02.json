@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-02",
+  "comments": [
+    {
+      "author": "Ved Vekhande",
+      "url": "https://www.linkedin.com/posts/ved-vekhande_4-resources-id-read-before-building-an-activity-7511752022572838912-pBQB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8RyrkBKzXYfkqJQZGpy4pKbWhLh3g23eE",
+      "engagement": "6 reactions / 7 comments",
+      "comment": "The part people skip is calibrating the judge on failures, not just good answers. I usually want the first 30 labels to include obvious passes, obvious fails, borderline cases, and cases where the model sounds right but violates the task."
+    },
+    {
+      "author": "Daniel T.",
+      "url": "https://www.linkedin.com/posts/danieltamas_working-with-agents-is-awesome-until-its-activity-7511747129409859584-e9jA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8RyrkBKzXYfkqJQZGpy4pKbWhLh3g23eE",
+      "engagement": "10 reactions / 2 comments",
+      "comment": "The real security boundary for coding agents is not \u201ccan they talk?\u201d - it is \u201cwhat authority does a received message carry?\u201d\n\nI like the pattern of treating remote agent output as quoted, untrusted text. That maps better to how prompt injection actually works: most failures start when plain text silently becomes instruction.\n\nSharp question: do you see teams wanting repo-scoped agent-to-agent messaging, or task-scoped messaging that expires when the branch/PR is done?\n\n#AgenticAI #LLMOps"
+    },
+    {
+      "author": "\uad6c\uc6b0\uc601",
+      "url": "https://www.linkedin.com/posts/roykoo99_%EC%9D%B4-%EA%B8%80%EC%9D%80-%EB%82%B4%EA%B0%80-%EC%93%B0%EB%8A%94-%EA%B1%B8%EA%B9%8C-%EB%82%B4-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EA%B0%80-%EC%8D%A8%EC%A3%BC%EB%8A%94-%EA%B1%B8%EA%B9%8C-%EC%9A%94%EC%A6%98-%EA%B8%80%EC%9D%84-%EC%93%B8-activity-7511702615391416320-dDzF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8RyrkBKzXYfkqJQZGpy4pKbWhLh3g23eE",
+      "engagement": "6 reactions / 4 comments",
+      "comment": "The line between \u201cI wrote it\u201d and \u201cmy agent wrote it\u201d gets clearer when you track who made the irreversible decisions: framing, tradeoffs, taste, and what to leave out. The agent can draft words, but the author is still the person accountable for the judgment behind them."
+    },
+    {
+      "author": "Haus der KI",
+      "url": "https://www.linkedin.com/posts/haus-der-ki_warum-fahren-wir-auf-einen-ki-kongress-wenn-activity-7511646428662747136-U-KF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8RyrkBKzXYfkqJQZGpy4pKbWhLh3g23eE",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "The best AI vocabulary often shows up at the boundary between policy, architecture, and workflow, not inside model docs. One term I had to revisit recently was \u201cdata residency\u201d because in agent systems it changes from a compliance checkbox into an actual design constraint."
+    }
+  ]
+}
