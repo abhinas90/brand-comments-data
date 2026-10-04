@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-04",
+  "comments": [
+    {
+      "author": "Paul Storm",
+      "url": "https://www.linkedin.com/posts/paul-storm_most-people-are-using-claude-wrong-they-activity-7512483956726980608-cYcn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG84MooBZDiKJo08bANLcBjPAQ1dCZ266pw",
+      "engagement": "71 reactions / 45 comments",
+      "comment": "The missing layer is measuring reliability per task, not just picking by vibes. I\u2019ve seen smaller models win when the workflow has tight schemas, good retrieval, and clear failure checks, while bigger models mainly help when ambiguity or planning depth is the bottleneck. What signal do you use to decide when a task has outgrown the lighter model?"
+    },
+    {
+      "author": "Shirin Khosravi Jam",
+      "url": "https://www.linkedin.com/posts/shirin-khosravi-jam_ai-engineer-interview-questions-and-resources-activity-7512482271333937152-Pt1l?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG8oq-gB-PAKW1qrNL5C2TSzQL3Gxc_34go",
+      "engagement": "16 reactions / 4 comments",
+      "comment": "The strongest interview signal here is whether someone separates retrieval failure from generation failure before changing the prompt. If the gold doc is present but ranked 12th, that is a retrieval/rerank problem. If it is ranked top 3 but ignored, that is context use or instruction-following. I would ask candidates to show the trace first, then propose the fix."
+    },
+    {
+      "author": "Ivan Nekrasov",
+      "url": "https://www.linkedin.com/posts/ivannekrasov_iwork4dell-llm-agents-activity-7512162288687079424-cONS?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG84MooBZDiKJo08bANLcBjPAQ1dCZ266pw",
+      "engagement": "19 reactions / 2 comments",
+      "comment": "Local agent installs are a good reality check because most failures show up outside the model: CUDA setup, memory pressure, tool permissions, and long-context latency. Curious what you see first on that hardware, tokens/sec bottleneck or orchestration overhead?"
+    },
+    {
+      "author": "AI Every Time",
+      "url": "https://www.linkedin.com/posts/ai-every-time_ai-future-innovation-activity-7512162022311141376-BuQn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG84MooBZDiKJo08bANLcBjPAQ1dCZ266pw",
+      "engagement": "13 reactions / 1 comments",
+      "comment": "Agent reliability starts where the model stops.\n\nIf a check lives only in the prompt, it is a suggestion, not a control. The real jump is moving critical gates into logged, deterministic steps that can fail the run.\n\nWhat do you usually hard-code first: evals, state transitions, or tool permissions?"
+    },
+    {
+      "author": "Peter Bamuhigire",
+      "url": "https://www.linkedin.com/posts/peterbamuhigire_i-use-ai-tools-as-part-of-a-complete-professional-activity-7512483315250143232-eOJi?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG84MooBZDiKJo08bANLcBjPAQ1dCZ266pw",
+      "engagement": "8 reactions / 1 comments",
+      "comment": "The big shift is treating agents like package managers for judgment: routing, permissions, evals, and rollback matter more than the prompt itself. The useful question is whether each skill has a clear failure mode and a test fixture before it gets installed. #AgenticAI"
+    }
+  ]
+}
