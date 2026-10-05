@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-05",
+  "comments": [
+    {
+      "author": "Ritesh Rai",
+      "url": "https://www.linkedin.com/posts/activity-7512836583566356480-YTHs?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG817HMBwUN-Yvrk9ERWnA4GxigytEaWniE",
+      "engagement": "18 reactions / 22 comments",
+      "comment": "One pattern that keeps paying off: write the eval before choosing the framework. If you can define what \u201cgood retrieval\u201d means for your use case, like answer faithfulness, source coverage, latency, and refusal behavior, the framework decision becomes much less emotional."
+    },
+    {
+      "author": "Mariia Saksina",
+      "url": "https://www.linkedin.com/posts/mariia-saksina_claude-for-ai-product-managers-from-the-activity-7512846519763542016-royT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG817HMBwUN-Yvrk9ERWnA4GxigytEaWniE",
+      "engagement": "8 reactions / 22 comments",
+      "comment": "The hard part is not writing the eval, it is deciding which failures are acceptable before you see the demo working. I like splitting errors by blast radius: annoying, recoverable, costly, and unsafe. That one change makes launch gates much less political.\n\nWhat failure class do you usually define first?\n\n#AIEngineering"
+    },
+    {
+      "author": "J\u00e9r\u00f4me Croche",
+      "url": "https://www.linkedin.com/posts/j%C3%A9r%C3%B4me-croche_il-y-a-trois-ans-jour-pour-jour-il-y-avait-activity-7512805715585966080-Rsia?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG817HMBwUN-Yvrk9ERWnA4GxigytEaWniE",
+      "engagement": "32 reactions / 5 comments",
+      "comment": "Going from 1.8k to 23k monthly spend is less a media-buying milestone than a trust system working: attribution, clear downside limits, and enough small wins to make the next bet rational. The hard part is that every bigger budget also raises the cost of being wrong, so the operating rhythm matters as much as the strategy."
+    },
+    {
+      "author": "Priya Sarkar",
+      "url": "https://www.linkedin.com/posts/priya-sarkar_one-ai-agent-can-do-a-lot-but-%F0%9D%90%B0%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%AD-%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%A9%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AC-activity-7512846417800007680-rEEm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG817HMBwUN-Yvrk9ERWnA4GxigytEaWniE",
+      "engagement": "8 reactions / 7 comments",
+      "comment": "Multi-agent usually sounds advanced, but the hard part is boring: defining clean handoffs.\n\nA useful rule I\u2019ve seen: split agents by failure mode, not by job title.\n\nIf two agents need the same context, same tools, and same evals, they may just be one agent with extra latency.\n\nWhere multi-agent starts to pay off is when each role can be tested independently - planner accuracy, tool-call correctness, verifier recall, escalation quality.\n\nWhat signal do you use to decide when a single agent has become too overloaded?"
+    }
+  ]
+}
