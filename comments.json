@@ -1,17 +1,23 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "comments": [
     {
-      "author": "Farshid Shirafkan, PhD",
-      "url": "https://www.linkedin.com/posts/fshirafkan_farshidshirafkan-activity-7513208301103325184-PUX2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9MBeUBwD7csQXaMVBYYUSX_hvN4sCywp0",
-      "engagement": "7 reactions / 8 comments",
-      "comment": "The highest ROI topic here is evaluation: define failure modes before optimizing prompts, RAG, or agent loops. A knowledge assistant that can say \u201cnot enough evidence\u201d with citations is often more production-ready than one that answers every question confidently."
+      "author": "Charlie Hills AI",
+      "url": "https://www.linkedin.com/posts/charlie-hills_you-use-claude-like-a-search-bar-here-are-activity-7513570997430534147-yPbt?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9g58wBLENrYUPY6QrVxACZAeUKSrUb1jo",
+      "engagement": "8 reactions / 2 comments",
+      "comment": "The biggest shift is treating Claude Code less like autocomplete and more like a junior engineer with a harness: clear task, repo context, tests, and review loops.\n\nOne practical filter I use: if the prompt cannot produce a diff I can validate, it is probably still too vague."
     },
     {
-      "author": "Nick Gushchin",
-      "url": "https://www.linkedin.com/posts/nickgushchin_dots-muse-grokbot-activity-7513108653856583680-GpY1?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9MGPsBFfehuiuxtC2dGdMeu4qOD01tWZg",
-      "engagement": "9 reactions / 6 comments",
-      "comment": "The autonomy/control tradeoff gets much sharper once you add failure recovery.\n\nA real persistent agent needs more than memory + triggers, it needs inspectable state, resumable workflows, and a clean handoff path when confidence drops. Without that, \u201calways on\u201d turns into \u201calways debugging.\u201d"
+      "author": "Vitaliy Urban",
+      "url": "https://www.linkedin.com/posts/vitaliyurban_openai-made-the-largest-bet-yet-on-anthropomorphic-activity-7513531866163953666-PDXA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9g58wBLENrYUPY6QrVxACZAeUKSrUb1jo",
+      "engagement": "6 reactions / 2 comments",
+      "comment": "The anthropomorphic layer changes the failure mode: people forgive a workflow tool for being wrong, but they trust a named companion faster than they should.\n\nFor agentic systems, I care less about the face and more about memory permissions, revocation, and evals around proactive behavior.\n\nWho owns the failure when the agent remembers the wrong thing and acts on it first?"
+    },
+    {
+      "author": "Kudakwashe Magwenzi",
+      "url": "https://www.linkedin.com/posts/kudakwashe-magwenzi_aiagents-opensource-buildinpublic-activity-7513481133402255360-X9jI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9g58wBLENrYUPY6QrVxACZAeUKSrUb1jo",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "The missing unit is not the prompt, it is the trace.\n\nFor agents, I\u2019ve found the useful artifact is usually a tuple: intent, context loaded, action taken, result, and human approval state. Without that, you can reproduce the output but not the decision path.\n\nHow are you thinking about garbage collection when the episode log starts getting noisy?"
     }
   ]
 }
