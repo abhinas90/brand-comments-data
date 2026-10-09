@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-09",
+  "comments": [
+    {
+      "author": "Taha K.",
+      "url": "https://www.linkedin.com/posts/tahakarim_alright-so-i-built-confidential-vms-that-activity-7514200929643196416-gTpL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9r5JkBpCQI73lJ1m36Jj9GzArwW9EOPG0",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "The hard part is not \u201crun inference in a TEE\u201d, it is making the attestation useful enough that security teams can verify the exact code path, model artifact, config, and logging surface before sending data. A public verifier flow with reproducible measurements would make this much easier to trust and audit."
+    }
+  ]
+}
