@@ -1,17 +1,11 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "comments": [
     {
-      "author": "Dimitris Papadopoulos",
-      "url": "https://www.linkedin.com/posts/dimitris-papadopoulos_chatbots-answer-when-you-ask-ambient-agents-activity-7513873578107506689-8gd9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9z8CEBi92sGEWp5EaXSICzYfQOfIjj9G8",
-      "engagement": "8 reactions / 1 comments",
-      "comment": "The hardest part of ambient agents is not the LLM call, it is deciding when not to act. Memory, schedulers, and tool access are table stakes, but the real product boundary is confidence gating: what can run silently, what needs approval, and what should be ignored. How are you thinking about evals for background actions where there is no user prompt to grade against?"
-    },
-    {
-      "author": "Finn McAlister",
-      "url": "https://www.linkedin.com/posts/finnmcalister_the-art-of-an-ai-content-ecosystem-activity-7513933616498876416-ze-o?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9x7H8BxvlPq0eKUdf_Fx-kV_RpSbSoVtM",
-      "engagement": "5 reactions / 2 comments",
-      "comment": "The bottleneck usually shows up in evals before it shows up in output volume. I\u2019d add one more layer: score content drafts against a small set of human examples that actually performed well, then track rejection reasons over time. That turns \u201cAI made this worse\u201d into a measurable workflow problem."
+      "author": "Taha K.",
+      "url": "https://www.linkedin.com/posts/tahakarim_alright-so-i-built-confidential-vms-that-activity-7514200929643196416-gTpL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG9r5JkBpCQI73lJ1m36Jj9GzArwW9EOPG0",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "The hard part is not \u201crun inference in a TEE\u201d, it is making the attestation useful enough that security teams can verify the exact code path, model artifact, config, and logging surface before sending data. A public verifier flow with reproducible measurements would make this much easier to trust and audit."
     }
   ]
 }
