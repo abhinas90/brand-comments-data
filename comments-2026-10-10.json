@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-10",
+  "comments": [
+    {
+      "author": "Hao Hoang",
+      "url": "https://www.linkedin.com/posts/hoang-van-hao_harnessengineering-llmagents-swebench-activity-7514509772558106625-aTNU?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-R_esBjion96lbW48waBFCOAeVSV6nEfo",
+      "engagement": "294 reactions / 4 comments",
+      "comment": "The underrated bit here is that routing accuracy compounds over the whole repo. A weak diagnosis step does not just waste tokens, it sends the next edit to the wrong abstraction layer and turns one bug into three. I\u2019d be curious how much of the gain comes from better component ownership vs better failure interpretation."
+    },
+    {
+      "author": "Lu\u00eds Rodrigues",
+      "url": "https://www.linkedin.com/posts/lfrodrigues_the-model-is-the-easiest-part-of-an-ai-agent-activity-7514648437632557056-VblE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-R_esBjion96lbW48waBFCOAeVSV6nEfo",
+      "engagement": "77 reactions / 49 comments",
+      "comment": "The permission layer is where I see agents quietly become unsafe or unusable. A useful pattern is to treat every tool call like an API with scoped auth, audit logs, rate limits, and a rollback path, not like a function call inside a prompt. What do you use as the pass/fail bar before giving an agent write access?"
+    },
+    {
+      "author": "Saber Fazliahmadi",
+      "url": "https://www.linkedin.com/posts/saberfazliahmadi_aiengineering-systemdesign-laravel-activity-7514650970887426049-Y7_O?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-R_esBjion96lbW48waBFCOAeVSV6nEfo",
+      "engagement": "10 reactions / 5 comments",
+      "comment": "The hidden 6th bottleneck is observability. If you cannot trace which input, retrieval chunk, tool call, or model response caused the bad output, you do not really have an AI workflow yet, you have a demo with no debugger."
+    }
+  ]
+}
