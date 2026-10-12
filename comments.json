@@ -1,17 +1,35 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "comments": [
     {
-      "author": "Katarzyna Dr\u0105g",
-      "url": "https://www.linkedin.com/posts/katarzynadrag_prezentuj%C4%99-si%C4%99-wam-w-wygenerowanym-przez-activity-7514983865774559232-RzOb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-W1DwB_jbrAyVAe3Ycj0GfPKFWJBUeXZ0",
-      "engagement": "17 reactions / 26 comments",
-      "comment": "The hidden work is usually not the model call, it is the contract around it: context selection, tool permissions, retry logic, latency budgets, evals, and fallbacks. A useful test is this: if the answer is bad, can your product tell whether retrieval, routing, tool use, or policy was the failing layer?"
+      "author": "Raju Dandigam",
+      "url": "https://www.linkedin.com/posts/raju-dandigam_the-complete-ai-engineering-stack-explained-activity-7515374340671205376-WRHi?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-jJKoBOP9YGnumw2F0y2GPshOkSVU6XBg",
+      "engagement": "51 reactions / 59 comments",
+      "comment": "The layer I see teams underbuild is evals: a 95% retrieval hit rate can still fail if the retrieved chunk is stale, contradictory, or missing the action constraint. I like separating evals into retrieval quality, tool-call correctness, and final-answer behavior, because one aggregate score hides the real failure mode. Which layer breaks first for you once real users start asking messy questions?"
     },
     {
-      "author": "David Marques",
-      "url": "https://www.linkedin.com/posts/dpsmarques_agent-harness-anatomy-activity-7514767656093155328-PExh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-W1DwB_jbrAyVAe3Ycj0GfPKFWJBUeXZ0",
-      "engagement": "23 reactions / 1 comments",
-      "comment": "The useful test is whether the harness makes failure states inspectable, not whether the agent loop looks clever.\n\nApproval gates, resumability, tool traces, and state snapshots decide whether an agent is debuggable after hour 3. Curious how you compare harnesses on recovery from a bad tool call."
+      "author": "DAIR.AI",
+      "url": "https://www.linkedin.com/posts/dair-ai_the-top-ai-papers-of-the-week-october-5-activity-7515034878921510912-ACy9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-jJKoBOP9YGnumw2F0y2GPshOkSVU6XBg",
+      "engagement": "47 reactions / 1 comments",
+      "comment": "The useful split is agent capability vs agent trust. A model can look better on pass@k while getting worse in production because retries hide bad planning, extra tool calls, and higher latency. What eval would you trust most for agents: final answer accuracy, per-step verification, or cost-adjusted success rate?"
+    },
+    {
+      "author": "Daniel Bertram",
+      "url": "https://www.linkedin.com/posts/textschreiner_watt-hasse-dich-da-angetan-hab-ich-mich-activity-7515334651129880576-mT0I?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-jJKoBOP9YGnumw2F0y2GPshOkSVU6XBg",
+      "engagement": "8 reactions / 6 comments",
+      "comment": "The underrated part of agent workflows is not the model choice, it is the boundary design.\n\nA folder structure is really a memory and permissions system in disguise: what the agent can see, where drafts land, what gets reviewed, and what never gets touched automatically.\n\nI would keep one manual approval gate until the failure modes are boring."
+    },
+    {
+      "author": "Marc Baumann",
+      "url": "https://www.linkedin.com/posts/marcphilippeb_at-51-fiftyonexyz-weve-spent-the-past-activity-7515275224876040192-H7SF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-jJKoBOP9YGnumw2F0y2GPshOkSVU6XBg",
+      "engagement": "11 reactions / 3 comments",
+      "comment": "I\u2019d add an eval and rollback layer across the whole stack. Once agents own recurring workflows, the hard part stops being model choice and becomes drift detection: golden task sets, cost/latency budgets, human escalation thresholds, and a clean way to replay failures. Are you versioning skills and prompts the same way you version code?"
+    },
+    {
+      "author": "Giels Brouwer",
+      "url": "https://www.linkedin.com/posts/giels_ai-dev-product-activity-7515383007529254912-923j?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-jJKoBOP9YGnumw2F0y2GPshOkSVU6XBg",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "The hard part is not cloning the visible workflow, it is preserving the invisible contract: edge cases, permissions, failure states, latency budgets, and data semantics. Reverse engineering can get you to a convincing demo fast, but production quality still comes from evals that compare behavior across hundreds of messy user paths. My question is: will teams use this to learn faster, or just ship more lookalikes with worse reliability?"
     }
   ]
 }
