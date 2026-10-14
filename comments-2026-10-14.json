@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-14",
+  "comments": [
+    {
+      "author": "Anis Ayari",
+      "url": "https://www.linkedin.com/posts/anis-ayari_jai-fait-une-interface-chatgpt-like-pour-activity-7516055773836169216-hXW4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-0QyIBNgar2tBJtP-xykjXyMOj0Arbxl0",
+      "engagement": "41 reactions / 3 comments",
+      "comment": "The hard part with local-model UX is usually not the chat box, it is making model limits visible without making users think about tokens, context windows, or image preprocessing. A simple \u201cChatGPT-like\u201d shell can work well if it adds one thing: clear failure modes when the local model is slow, hallucinating, or missing context."
+    },
+    {
+      "author": "Michael K.",
+      "url": "https://www.linkedin.com/posts/michael-kerkhoff_vor-ein-paar-monaten-ist-unser-sohn-auf-die-activity-7516077903369990144-im1u?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-0QyIBNgar2tBJtP-xykjXyMOj0Arbxl0",
+      "engagement": "20 reactions / 1 comments",
+      "comment": "The highest-signal pattern I\u2019ve seen is to make the agent produce a diff, not a summary: \u201cwhat changed since yesterday, why it matters, and what to ignore.\u201d\n\nThat turns a daily tool scan from content consumption into a small eval loop.\n\nHow are you filtering novelty vs. noise before it reaches the infographic stage? #AIAgents"
+    },
+    {
+      "author": "M. Adrees",
+      "url": "https://www.linkedin.com/posts/adrees-ai_first-agent-activity-7516107841276084224-wrOE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-0QyIBNgar2tBJtP-xykjXyMOj0Arbxl0",
+      "engagement": "5 reactions / 6 comments",
+      "comment": "The part most people skip is the QA gate.\n\nAn agent without evals is just prompt automation with a nicer interface. I\u2019d start with 10 real failure cases, define what \u201cgood\u201d means, then let the workflow run only after it passes those consistently."
+    }
+  ]
+}
