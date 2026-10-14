@@ -1,23 +1,23 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "comments": [
     {
-      "author": "Adrian Michalski",
-      "url": "https://www.linkedin.com/posts/adrian-michalski-227624170_p%C4%99tla-agenta-ai-czyli-hermes-na-grzybach-activity-7515698197810462720-0R-U?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-n1cUBBCkIZKEvkbbwvYUbjm_A6ip2FoE",
-      "engagement": "22 reactions / 7 comments",
-      "comment": "A practical stop condition I like is \u201cbudget plus evidence\u201d: max steps/time/tool calls, but also a verifier that can point to the exact state change proving success. The tricky part is separating \u201cagent is done\u201d from \u201cagent produced a plausible explanation of being done.\u201d How do you usually calibrate the judge threshold before it starts blocking valid completions?"
+      "author": "Anis Ayari",
+      "url": "https://www.linkedin.com/posts/anis-ayari_jai-fait-une-interface-chatgpt-like-pour-activity-7516055773836169216-hXW4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-0QyIBNgar2tBJtP-xykjXyMOj0Arbxl0",
+      "engagement": "41 reactions / 3 comments",
+      "comment": "The hard part with local-model UX is usually not the chat box, it is making model limits visible without making users think about tokens, context windows, or image preprocessing. A simple \u201cChatGPT-like\u201d shell can work well if it adds one thing: clear failure modes when the local model is slow, hallucinating, or missing context."
     },
     {
-      "author": "Maximilian Roland Haberstroh",
-      "url": "https://www.linkedin.com/posts/maximilian-roland-haberstroh-4a1943259_n%C3%A4chsten-monat-f%C3%A4ngt-bei-uns-eine-neue-ki-entwicklerin-activity-7515652727981461504-vWb6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-n1cUBBCkIZKEvkbbwvYUbjm_A6ip2FoE",
-      "engagement": "24 reactions / 2 comments",
-      "comment": "800k+ LoC changes the game: the bottleneck is not coding speed, it is blast radius control. I would make evals, rollback paths, permission boundaries, and cost telemetry part of day-one onboarding, because agents amplify both good architecture and messy ownership fast.\n\nWhat is the first guardrail you would put in place before giving agents merge access?\n\n#AI #Engineering"
+      "author": "Michael K.",
+      "url": "https://www.linkedin.com/posts/michael-kerkhoff_vor-ein-paar-monaten-ist-unser-sohn-auf-die-activity-7516077903369990144-im1u?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-0QyIBNgar2tBJtP-xykjXyMOj0Arbxl0",
+      "engagement": "20 reactions / 1 comments",
+      "comment": "The highest-signal pattern I\u2019ve seen is to make the agent produce a diff, not a summary: \u201cwhat changed since yesterday, why it matters, and what to ignore.\u201d\n\nThat turns a daily tool scan from content consumption into a small eval loop.\n\nHow are you filtering novelty vs. noise before it reaches the infographic stage? #AIAgents"
     },
     {
-      "author": "K&C (Krusche & Company)",
-      "url": "https://www.linkedin.com/posts/krusche-company_claudecode-anthropic-aienablement-activity-7515745517872574464-4HB4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-n1cUBBCkIZKEvkbbwvYUbjm_A6ip2FoE",
-      "engagement": "5 reactions / 1 comments",
-      "comment": "The hard part is not installing a coding agent - it is defining the guardrails around repo context, test execution, and human review so speed does not turn into bigger diffs with hidden risk. Curious if you measure adoption by cycle time, escaped defects, or percentage of generated changes that survive review unchanged? #AgenticAI"
+      "author": "M. Adrees",
+      "url": "https://www.linkedin.com/posts/adrees-ai_first-agent-activity-7516107841276084224-wrOE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG-0QyIBNgar2tBJtP-xykjXyMOj0Arbxl0",
+      "engagement": "5 reactions / 6 comments",
+      "comment": "The part most people skip is the QA gate.\n\nAn agent without evals is just prompt automation with a nicer interface. I\u2019d start with 10 real failure cases, define what \u201cgood\u201d means, then let the workflow run only after it passes those consistently."
     }
   ]
 }
