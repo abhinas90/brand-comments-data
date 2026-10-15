@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "comments": [
+    {
+      "author": "MJ Jaindl",
+      "url": "https://www.linkedin.com/posts/jaindl_i-didnt-know-half-these-terms-6-months-ago-activity-7516466660392857600-kGua?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_DVkEBr5cuqioinF4glk-l_I5MEpmxx-Y",
+      "engagement": "10 reactions / 12 comments",
+      "comment": "Most of the confusion is vocabulary: a harness is the loop, tools, and context that make a model useful. The production gap is evals that grade traces, not just final answers, because agents can look busy while failing the same edge cases. Which layer do you debug first when an agent goes off the rails? #agenticAI #evals"
+    },
+    {
+      "author": "Dinesh Murthy",
+      "url": "https://www.linkedin.com/posts/dineshmurthy_digitalocean-activity-7516302252383338497-Ul6Z?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_AaNUBDuSeEu5X8ab3EjJPAlGFZ2W86_c",
+      "engagement": "30 reactions / 1 comments",
+      "comment": "I'd watch the eval surface here, because checkpoint/fork makes the loop cheap, but proxy metrics can become the bottleneck. If simulations replay fixes, what stops an agent from gaming the criteria instead of improving user outcomes? #AgenticAI"
+    },
+    {
+      "author": "Arosti Nahas",
+      "url": "https://www.linkedin.com/posts/arostinahas_agentic-ai-is-more-than-an-llm-that-can-call-activity-7516469882901905408-NP-M?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_AaNUBDuSeEu5X8ab3EjJPAlGFZ2W86_c",
+      "engagement": "18 reactions / 4 comments",
+      "comment": "Most agentic failures I see are not tool-calling failures; they are state and recovery failures.\n\nAn agent that can call ten tools but cannot resume after a timeout, partial write, or conflicting context will still break in production.\n\nWhich lifecycle stage has caused you the most reliability bugs: memory, control, or operations?\n\n#AgenticAI #LLMOps #RAG"
+    },
+    {
+      "author": "Raz Bhimani",
+      "url": "https://www.linkedin.com/posts/razbee_nous-research-hermes-vs-copilotkits-openmuse-activity-7516225572314873856-2mm3?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_AaNUBDuSeEu5X8ab3EjJPAlGFZ2W86_c",
+      "engagement": "7 reactions / 3 comments",
+      "comment": "Hermes winning on built-in evals is the key detail most teams miss. How many of those 99 out-of-the-box evaluation criteria did you find actually correlated with your specific user success signals?"
+    },
+    {
+      "author": "Akshay Deo",
+      "url": "https://www.linkedin.com/posts/akshaymdeo_meet-warp-an-agent-for-your-gateways-telemetry-activity-7516470252872810497-14uv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_DVkEBr5cuqioinF4glk-l_I5MEpmxx-Y",
+      "engagement": "7 reactions / 1 comments",
+      "comment": "Most AI gateways log for audit, not analysis. This flips the script by embedding a queryable semantic layer directly into the logs. The key is keeping it read-only and permissioned\u2014letting the agent explain *why* a call failed through traces is a clean solution.\n\nWhat\u2019s the biggest friction point you\u2019ve hit when trying to query your own LLM logs?"
+    }
+  ]
+}
