@@ -1,35 +1,23 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "comments": [
     {
-      "author": "MJ Jaindl",
-      "url": "https://www.linkedin.com/posts/jaindl_i-didnt-know-half-these-terms-6-months-ago-activity-7516466660392857600-kGua?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_DVkEBr5cuqioinF4glk-l_I5MEpmxx-Y",
-      "engagement": "10 reactions / 12 comments",
-      "comment": "Most of the confusion is vocabulary: a harness is the loop, tools, and context that make a model useful. The production gap is evals that grade traces, not just final answers, because agents can look busy while failing the same edge cases. Which layer do you debug first when an agent goes off the rails? #agenticAI #evals"
+      "author": "Matthew Coombs",
+      "url": "https://www.linkedin.com/posts/matthew-coombs-a56714127_ai-pilots-are-easy-scaling-ai-is-the-real-activity-7516832627895492608-TVXF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_FZNwBFnb4QxI77gCMjLVBU-wgU8u-kVI",
+      "engagement": "34 reactions / 24 comments",
+      "comment": "Most teams focus on RAG accuracy, but a silent killer is latency creep from over-engineering. Each new guardrail or validation step can stack 200+ ms, making the system unusable. \n\nWhat's the highest p95 latency you've seen a user-facing RAG system tolerate before adoption dropped?"
     },
     {
-      "author": "Dinesh Murthy",
-      "url": "https://www.linkedin.com/posts/dineshmurthy_digitalocean-activity-7516302252383338497-Ul6Z?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_AaNUBDuSeEu5X8ab3EjJPAlGFZ2W86_c",
-      "engagement": "30 reactions / 1 comments",
-      "comment": "I'd watch the eval surface here, because checkpoint/fork makes the loop cheap, but proxy metrics can become the bottleneck. If simulations replay fixes, what stops an agent from gaming the criteria instead of improving user outcomes? #AgenticAI"
+      "author": "Shirin Khosravi Jam",
+      "url": "https://www.linkedin.com/posts/shirin-khosravi-jam_everyone-get-excited-when-a-new-model-tops-activity-7516830756762148865-HJ9-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_FZNwBFnb4QxI77gCMjLVBU-wgU8u-kVI",
+      "engagement": "14 reactions / 7 comments",
+      "comment": "Most production RAG evals still focus on retrieval recall. But if the LLM misreads the correct document, the system still fails. How are you instrumenting your pipeline to catch generation failures that happen *despite* good retrieval?"
     },
     {
-      "author": "Arosti Nahas",
-      "url": "https://www.linkedin.com/posts/arostinahas_agentic-ai-is-more-than-an-llm-that-can-call-activity-7516469882901905408-NP-M?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_AaNUBDuSeEu5X8ab3EjJPAlGFZ2W86_c",
-      "engagement": "18 reactions / 4 comments",
-      "comment": "Most agentic failures I see are not tool-calling failures; they are state and recovery failures.\n\nAn agent that can call ten tools but cannot resume after a timeout, partial write, or conflicting context will still break in production.\n\nWhich lifecycle stage has caused you the most reliability bugs: memory, control, or operations?\n\n#AgenticAI #LLMOps #RAG"
-    },
-    {
-      "author": "Raz Bhimani",
-      "url": "https://www.linkedin.com/posts/razbee_nous-research-hermes-vs-copilotkits-openmuse-activity-7516225572314873856-2mm3?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_AaNUBDuSeEu5X8ab3EjJPAlGFZ2W86_c",
-      "engagement": "7 reactions / 3 comments",
-      "comment": "Hermes winning on built-in evals is the key detail most teams miss. How many of those 99 out-of-the-box evaluation criteria did you find actually correlated with your specific user success signals?"
-    },
-    {
-      "author": "Akshay Deo",
-      "url": "https://www.linkedin.com/posts/akshaymdeo_meet-warp-an-agent-for-your-gateways-telemetry-activity-7516470252872810497-14uv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_DVkEBr5cuqioinF4glk-l_I5MEpmxx-Y",
-      "engagement": "7 reactions / 1 comments",
-      "comment": "Most AI gateways log for audit, not analysis. This flips the script by embedding a queryable semantic layer directly into the logs. The key is keeping it read-only and permissioned\u2014letting the agent explain *why* a call failed through traces is a clean solution.\n\nWhat\u2019s the biggest friction point you\u2019ve hit when trying to query your own LLM logs?"
+      "author": "Pedro Armbrust",
+      "url": "https://www.linkedin.com/posts/pedro-armbrust_marketing-aios-guia-para-l%C3%ADderes-activity-7516817166877429761-1pS3?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_FZNwBFnb4QxI77gCMjLVBU-wgU8u-kVI",
+      "engagement": "15 reactions / 5 comments",
+      "comment": "A pilot project that fails to define a clear \"done\" condition for the human-in-the-loop will fail twice as fast\u2014once on delivery, once on adoption.\n\nThe most specific, measurable acceptance criteria you can write for that final human approval step is your project's real success metric. Everything else is just setup.\n\nWhat's the single most effective guardrail you've built to keep an agentic workflow from going off-brand or off-script?"
     }
   ]
 }
