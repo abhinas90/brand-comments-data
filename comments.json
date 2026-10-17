@@ -1,23 +1,4 @@
 {
-  "date": "2026-10-16",
-  "comments": [
-    {
-      "author": "Matthew Coombs",
-      "url": "https://www.linkedin.com/posts/matthew-coombs-a56714127_ai-pilots-are-easy-scaling-ai-is-the-real-activity-7516832627895492608-TVXF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_FZNwBFnb4QxI77gCMjLVBU-wgU8u-kVI",
-      "engagement": "34 reactions / 24 comments",
-      "comment": "Most teams focus on RAG accuracy, but a silent killer is latency creep from over-engineering. Each new guardrail or validation step can stack 200+ ms, making the system unusable. \n\nWhat's the highest p95 latency you've seen a user-facing RAG system tolerate before adoption dropped?"
-    },
-    {
-      "author": "Shirin Khosravi Jam",
-      "url": "https://www.linkedin.com/posts/shirin-khosravi-jam_everyone-get-excited-when-a-new-model-tops-activity-7516830756762148865-HJ9-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_FZNwBFnb4QxI77gCMjLVBU-wgU8u-kVI",
-      "engagement": "14 reactions / 7 comments",
-      "comment": "Most production RAG evals still focus on retrieval recall. But if the LLM misreads the correct document, the system still fails. How are you instrumenting your pipeline to catch generation failures that happen *despite* good retrieval?"
-    },
-    {
-      "author": "Pedro Armbrust",
-      "url": "https://www.linkedin.com/posts/pedro-armbrust_marketing-aios-guia-para-l%C3%ADderes-activity-7516817166877429761-1pS3?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG_FZNwBFnb4QxI77gCMjLVBU-wgU8u-kVI",
-      "engagement": "15 reactions / 5 comments",
-      "comment": "A pilot project that fails to define a clear \"done\" condition for the human-in-the-loop will fail twice as fast\u2014once on delivery, once on adoption.\n\nThe most specific, measurable acceptance criteria you can write for that final human approval step is your project's real success metric. Everything else is just setup.\n\nWhat's the single most effective guardrail you've built to keep an agentic workflow from going off-brand or off-script?"
-    }
-  ]
+  "date": "2026-10-17",
+  "comments": []
 }
