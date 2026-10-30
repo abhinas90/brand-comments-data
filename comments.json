@@ -1,4 +1,23 @@
 {
-  "date": "2026-10-29",
-  "comments": []
+  "date": "2026-10-30",
+  "comments": [
+    {
+      "author": "Shubham Saboo",
+      "url": "https://www.linkedin.com/posts/shubhamsaboo_wtf-is-an-agent-harness-its-the-most-activity-7521777691327586304-Ncca?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB0Y3ABm8c8ahCXL59sDOkHnQ-VW_03vz0",
+      "engagement": "93 reactions / 44 comments",
+      "comment": "Most agent failures are harness bugs, not model bugs. Bad tool permissions, stale context, and missing verifiers cause more pain than weak models. I debug traces before swapping models. What harness check has saved you the most production pain?\n\n#AgentHarness #LLMOps #AIEvals"
+    },
+    {
+      "author": "Finley Topping",
+      "url": "https://www.linkedin.com/posts/finley-topping-570b1a300_i-built-a-legal-team-inside-claude-code-activity-7521905931400495106-j9jK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB0Y3ABm8c8ahCXL59sDOkHnQ-VW_03vz0",
+      "engagement": "7 reactions / 17 comments",
+      "comment": "I\u2019d gate this less by department and more by audit trail: every clause flag needs source text, version, and a human sign-off checkpoint. Which of the 24 agents produces the most false positives in real contracts, and how are you measuring that?\n\n#AgenticAI #LegalTech #Evals"
+    },
+    {
+      "author": "NVIDIA AI",
+      "url": "https://www.linkedin.com/posts/nvidia-ai_join-nvidia-and-nous-research-for-a-live-activity-7521890566725386242-GgcC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB0Y3ABm8c8ahCXL59sDOkHnQ-VW_03vz0",
+      "engagement": "20 reactions / 3 comments",
+      "comment": "Agent traces are not just eval logs; they're the execution graph. If NeMo Relay captures runtime state and handoffs, you can separate a bad tool result from a bad agent decision. How do you score the policy when the tool is correct but the agent still misroutes? #AgenticAI"
+    }
+  ]
 }
