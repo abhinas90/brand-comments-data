@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-31",
+  "comments": [
+    {
+      "author": "Poornachandra Kongara",
+      "url": "https://www.linkedin.com/posts/poornachandra-kongara_building-an-enterprise-ai-agent-start-with-activity-7522264880322621440-xHma?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB-EWgBAFRB5LTqTcIjmWK4gnSQUys2aA4",
+      "engagement": "47 reactions / 49 comments",
+      "comment": "Evals are the component I see overlooked most often. An agent can pass 20 happy-path prompts and still fail on tool timeouts, partial results, or adversarial inputs. Start with a small regression set before scaling agents. Which failure mode surprised you first? #AgentOps"
+    },
+    {
+      "author": "Carlos Budiman",
+      "url": "https://www.linkedin.com/posts/carlosbudiman_as-offensive-security-becomes-increasingly-activity-7522092498182397952-jQzZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB-EWgBAFRB5LTqTcIjmWK4gnSQUys2aA4",
+      "engagement": "73 reactions / 6 comments",
+      "comment": "For offsec agents, I\u2019d rank models by eval pass-rate per dollar on a fixed harness, not vibes. A model that needs 20 retries to dodge guardrails can burn more than a stricter model that solves once. Are you tracking refusal rate, task completion, and token cost separately? #AgenticAI"
+    },
+    {
+      "author": "Shivani Virdi",
+      "url": "https://www.linkedin.com/posts/shivanivirdi_i-built-a-human-in-the-loop-ai-ta-for-my-activity-7522268225733095425-Nare?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB-EWgBAFRB5LTqTcIjmWK4gnSQUys2aA4",
+      "engagement": "9 reactions / 8 comments",
+      "comment": "The refine count is the best production signal here. It separates retrieval misses from reasoning misses without guessing. Did you bucket refine count by course module?\n\n#AgenticAI #Evals #RAG"
+    },
+    {
+      "author": "AI For Executives",
+      "url": "https://www.linkedin.com/posts/infographichq_the-ai-mastery-all-in-one-mindmap-%F0%9D%97%95%F0%9D%97%B2%F0%9D%97%B0-activity-7522266388842033153-_neb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB7jWYB5NvkBlSG5I7DNUSABvlUr_ywyNc",
+      "engagement": "11 reactions / 5 comments",
+      "comment": "Most AI projects don't fail because the model is weak.\nThey fail because evaluation comes too late.\nI've seen agents pass a demo and break on real tool calls.\nWhat eval metric do you use before production?\n\n#AIEvaluation #AgenticAI #LLMs"
+    },
+    {
+      "author": "Mervin Praison \u2705",
+      "url": "https://www.linkedin.com/posts/mervinpraison_nvidia-vp-same-ai-model-30-to-100-activity-7522084191635910656-BgkN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB-EWgBAFRB5LTqTcIjmWK4gnSQUys2aA4",
+      "engagement": "5 reactions / 3 comments",
+      "comment": "I keep seeing this pattern: the harness can move a model from 30% to 100% without changing weights. That makes step-level traces and evals the first budget line, not a later cleanup task. Which harness layer gives you the most pain right now: routing, state, tools, or guardrails? #AgenticAI #LLMEvals"
+    },
+    {
+      "author": "Manoj Ganapathi",
+      "url": "https://www.linkedin.com/posts/manojg_water-scrum-fall-now-with-agents-when-the-activity-7522268284927549441-Lw_y?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB-EWgBAFRB5LTqTcIjmWK4gnSQUys2aA4",
+      "engagement": "8 reactions / 1 comments",
+      "comment": "Agents amplify the bottleneck, not remove it. When requirements, tests, and release ownership are split, more agent throughput just creates more inventory and more review debt. I would start by measuring one thing: time from accepted story to production signal, not PR count or token burn. What is the smallest end-to-end slice you can put agents behind: one story, one test suite, one deployable service?"
+    },
+    {
+      "author": "Jason Low \u5218\u5b50\u6770",
+      "url": "https://www.linkedin.com/posts/activity-7522268397041287170-YM8J?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHB-EWgBAFRB5LTqTcIjmWK4gnSQUys2aA4",
+      "engagement": "6 reactions / 1 comments",
+      "comment": "I\u2019d shift the eval boundary from model output to harness side effects: file writes, shell commands, tool calls, and permission denials. ACP can standardize sessions, but capability parity is where orchestration gets fragile. How do you score non-deterministic harnesses when one has subagents and another does not? #AgenticAI #Evals"
+    }
+  ]
+}
