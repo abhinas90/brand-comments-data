@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-01",
+  "comments": [
+    {
+      "author": "Artificial intelligence",
+      "url": "https://www.linkedin.com/posts/artificial-intelligence2026_how-to-build-ai-agents-from-scratch-even-activity-7522629895475359744-aki6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCKwrUB2Gm5nHKeisxPqLSGhQJ3j6W6c-U",
+      "engagement": "37 reactions / 7 comments",
+      "comment": "Most beginners skip step 5 (memory) and their agent forgets the user's name three turns in. What's the most surprising bug you've seen from a missed step?"
+    },
+    {
+      "author": "Tommy Evensen",
+      "url": "https://www.linkedin.com/posts/tommyevensen_fiddling-around-with-self-hosted-llm-and-activity-7522319241962999808-6Lx2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCKwrUB2Gm5nHKeisxPqLSGhQJ3j6W6c-U",
+      "engagement": "8 reactions / 6 comments",
+      "comment": "Most agents fail before they ever run a tool because their planners hallucinate arguments the tools don't accept. How do you validate your agent's reasoning loop?\n\n#LLM #AIagents #OpenSource"
+    }
+  ]
+}
