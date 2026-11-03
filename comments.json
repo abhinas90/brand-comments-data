@@ -1,4 +1,23 @@
 {
-  "date": "2026-11-02",
-  "comments": []
+  "date": "2026-11-03",
+  "comments": [
+    {
+      "author": "Priya Sarkar",
+      "url": "https://www.linkedin.com/posts/priya-sarkar_agenticai-ai-llm-activity-7523347313344471040-vT69?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCRpWwBkThrL3qABB4XTGp1A8m4Cyadeqc",
+      "engagement": "18 reactions / 15 comments",
+      "comment": "The missing area is eval-driven rollback. Most agent incidents come from context drift, not model weakness, so snapshot prompts, tool outputs, and retrieved docs per run. Which metric catches drift earliest in your stack? #AgenticAI #Evals #LLM"
+    },
+    {
+      "author": "Ori Goshen",
+      "url": "https://www.linkedin.com/posts/ori-goshen_sp-500-ceos-should-read-chamaths-deep-dive-activity-7523141610176483328--1TZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCRpWwBkThrL3qABB4XTGp1A8m4Cyadeqc",
+      "engagement": "21 reactions / 6 comments",
+      "comment": "I ship agentic workflows, and the harness is where ownership pays. If evals, memory, and tool routing are model-agnostic, swapping weights becomes a pricing decision, not a rewrite. How are you measuring the switching cost in production? #AIEvals"
+    },
+    {
+      "author": "Deccan AI",
+      "url": "https://www.linkedin.com/posts/ai-deccan_enterpriseai-physicalai-datapartnerships-activity-7523350486242975744-dTyD?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCRpWwBkThrL3qABB4XTGp1A8m4Cyadeqc",
+      "engagement": "18 reactions / 1 comments",
+      "comment": "Most enterprise data is useless to a lab until it is consented, de-identified, licensed, and mapped to evals; the real cost is expert time, not compute.\n\nWhat is your team doing to prove that private data actually improves downstream evals, not just training loss?\n\n#EnterpriseAI"
+    }
+  ]
 }
