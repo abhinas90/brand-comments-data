@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "comments": [
+    {
+      "author": "Aiswarya Venkitesh",
+      "url": "https://www.linkedin.com/posts/aiswarya-venkitesh_want-to-become-an-ai-engineer-start-here-activity-7523717874226647040-JZj8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
+      "engagement": "52 reactions / 42 comments",
+      "comment": "Most AI roadmaps put evals after agents, but that order is backwards. If you can't measure retrieval quality, tool-call success, and failure modes, agents become guesswork. Which stage is your current bottleneck: chunking, reranking, or state management?\n\n#AIEngineering #RAG #Evals"
+    },
+    {
+      "author": "Jonny Tooze",
+      "url": "https://www.linkedin.com/posts/jonnytooze_evals-shouldnt-wait-for-a-human-to-start-activity-7523715842027585536-nWDJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
+      "engagement": "38 reactions / 40 comments",
+      "comment": "LLM judges are useful, but they should never be the sole blocker. In production agentic systems, I gate deploys on deterministic schema and tool use checks, then use the judge for soft signals and route disagreements to humans. How are you measuring judge-human agreement when the rubric changes?\n\n#Evals #AgenticAI"
+    },
+    {
+      "author": "Jasson Franklyn",
+      "url": "https://www.linkedin.com/posts/franklynical_with-agentic-ai-developers-can-focus-more-activity-7523563031310827520-1OHv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
+      "engagement": "28 reactions / 5 comments",
+      "comment": "I keep seeing the same failure mode: not agent capability, but unscoped tools. A narrow agent with read-only access, rollback, and eval gates beats a generalist with broad write access every time. Which guardrail has saved you the most pain in production? #AgenticAI #Evals #LLM"
+    },
+    {
+      "author": "Shivani Virdi",
+      "url": "https://www.linkedin.com/posts/shivanivirdi_this-is-the-guide-i-wish-i-had-when-i-first-activity-7523717960306376704-aMwL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
+      "engagement": "7 reactions / 8 comments",
+      "comment": "The hidden tax in MCP is context: every tool description is sent with every request, so 30+ tools can make the model pick wrong more often. I\u2019d treat dynamic tool search and sandboxed code execution as core architecture, not optional. How do you test whether a model actually chooses the right tool at scale? #MCP #AgenticAI #LLMOps"
+    },
+    {
+      "author": "Gabriel Laranja",
+      "url": "https://www.linkedin.com/posts/gabriel-laranja_sa%C3%AD-do-encontro-a-f%C3%A1brica-de-software-ag%C3%AAntica-activity-7523527849421692928-7RkQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
+      "engagement": "10 reactions / 1 comments",
+      "comment": "Agents are cheap; the factory is the expensive part. I treat each agentic PR as a bounded task with entry criteria, output checks, and a kill switch. What is your hardest gate when a bot asks for repo write access? #AgenticAI"
+    }
+  ]
+}
