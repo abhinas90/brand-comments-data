@@ -1,35 +1,35 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "comments": [
     {
-      "author": "Aiswarya Venkitesh",
-      "url": "https://www.linkedin.com/posts/aiswarya-venkitesh_want-to-become-an-ai-engineer-start-here-activity-7523717874226647040-JZj8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
-      "engagement": "52 reactions / 42 comments",
-      "comment": "Most AI roadmaps put evals after agents, but that order is backwards. If you can't measure retrieval quality, tool-call success, and failure modes, agents become guesswork. Which stage is your current bottleneck: chunking, reranking, or state management?\n\n#AIEngineering #RAG #Evals"
+      "author": "Poornachandra Kongara",
+      "url": "https://www.linkedin.com/posts/poornachandra-kongara_want-to-master-generative-ai-in-2027-heres-activity-7524079010843086848-7szf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCwJzEBnJk7-2J5EHHBhnTLFM8EEKUjmAM",
+      "engagement": "44 reactions / 65 comments",
+      "comment": "Most 2027 GenAI roadmaps skip the boring part: evals. If you cannot measure task success, cost, latency, and failure modes, agents are just demos. I would add an eval-first step before agentic GenAI. What is the first metric you track when an agent starts drifting?\n\n#GenAI #AIEvals #LLMEngineering"
     },
     {
-      "author": "Jonny Tooze",
-      "url": "https://www.linkedin.com/posts/jonnytooze_evals-shouldnt-wait-for-a-human-to-start-activity-7523715842027585536-nWDJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
-      "engagement": "38 reactions / 40 comments",
-      "comment": "LLM judges are useful, but they should never be the sole blocker. In production agentic systems, I gate deploys on deterministic schema and tool use checks, then use the judge for soft signals and route disagreements to humans. How are you measuring judge-human agreement when the rubric changes?\n\n#Evals #AgenticAI"
+      "author": "S\u00f6nke Venjacob \u2b50\ufe0f",
+      "url": "https://www.linkedin.com/posts/soenkevenjacob_gtm-outbound-ad-activity-7524080454472294400-Cvq9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCoekkBrk5lsVzAoFf4NS2XO-wP4NHq4zM",
+      "engagement": "11 reactions / 9 comments",
+      "comment": "You can have Claude read the room before you make a move.\n\nOne instruction\u2014\"change nothing, show me first\"\u2014turns an AI from an actor into a perfect analyst. It pulls the data, flags the issues, and drafts the narrative, but leaves the final call to you.\n\nWhere else does that \"analyze, don't act\" prompt prevent costly automation mistakes?"
     },
     {
-      "author": "Jasson Franklyn",
-      "url": "https://www.linkedin.com/posts/franklynical_with-agentic-ai-developers-can-focus-more-activity-7523563031310827520-1OHv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
-      "engagement": "28 reactions / 5 comments",
-      "comment": "I keep seeing the same failure mode: not agent capability, but unscoped tools. A narrow agent with read-only access, rollback, and eval gates beats a generalist with broad write access every time. Which guardrail has saved you the most pain in production? #AgenticAI #Evals #LLM"
+      "author": "Fabian Jaeckert",
+      "url": "https://www.linkedin.com/posts/fabianjaeckert_was-kostet-ki-wirklich-abseits-von-subventionierten-activity-7524002736279937024-ap3t?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCoekkBrk5lsVzAoFf4NS2XO-wP4NHq4zM",
+      "engagement": "5 reactions / 4 comments",
+      "comment": "Harnesses make the real token bill visible; I have watched the same task swing from cents to euros once context length and retries are counted. The hidden cost is not the model price, it is the agent loop: tool errors, reruns, and long transcripts. Have you measured how much of Mistral's 10 ct result came from fewer retries versus cheaper tokens? #AgenticAI #LLMOps #AI"
     },
     {
-      "author": "Shivani Virdi",
-      "url": "https://www.linkedin.com/posts/shivanivirdi_this-is-the-guide-i-wish-i-had-when-i-first-activity-7523717960306376704-aMwL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
-      "engagement": "7 reactions / 8 comments",
-      "comment": "The hidden tax in MCP is context: every tool description is sent with every request, so 30+ tools can make the model pick wrong more often. I\u2019d treat dynamic tool search and sandboxed code execution as core architecture, not optional. How do you test whether a model actually chooses the right tool at scale? #MCP #AgenticAI #LLMOps"
+      "author": "Lo\u00efc Vanderschooten",
+      "url": "https://www.linkedin.com/posts/loicvds_en-2011-%C3%A0-la-sortie-de-senscritique-jai-activity-7524045795487285248-alhO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCoekkBrk5lsVzAoFf4NS2XO-wP4NHq4zM",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "Your system proves agents work best as critics, not cheerleaders. The hard part is making them track drift in your own rubric across years of notes, not just fetch reviews that match your mood. How do you keep them from overfitting to your past ratings? #AgenticAI #LLMEvals"
     },
     {
-      "author": "Gabriel Laranja",
-      "url": "https://www.linkedin.com/posts/gabriel-laranja_sa%C3%AD-do-encontro-a-f%C3%A1brica-de-software-ag%C3%AAntica-activity-7523527849421692928-7RkQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCksuYBYb-ZF9mOKMxhfa0sveE4HSihWUo",
-      "engagement": "10 reactions / 1 comments",
-      "comment": "Agents are cheap; the factory is the expensive part. I treat each agentic PR as a bounded task with entry criteria, output checks, and a kill switch. What is your hardest gate when a bot asks for repo write access? #AgenticAI"
+      "author": "CraftOS",
+      "url": "https://www.linkedin.com/posts/craftaiagent_lost-track-of-your-long-running-tasks-with-activity-7523942422146424833-_hAM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHCoekkBrk5lsVzAoFf4NS2XO-wP4NHq4zM",
+      "engagement": "5 reactions / 1 comments",
+      "comment": "The real problem is not letting agents create apps; it is giving them durable state, permission boundaries, and rollback when a task spans chat, files, and tools. Do you treat each Agent App like a versioned service with its own eval suite, or more like a living document?\n\n#AgenticAI #LLMOps #RAG"
     }
   ]
 }
