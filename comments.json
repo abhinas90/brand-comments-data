@@ -1,4 +1,41 @@
 {
-  "date": "2026-11-06",
-  "comments": []
+  "date": "2026-11-07",
+  "comments": [
+    {
+      "author": "Denis Panjuta",
+      "url": "https://www.linkedin.com/posts/denis-panjuta_stop-confusing-these-4-ai-agent-concepts-activity-7524488558305525760-Rqsg?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDGrkgB0Ldwu2QxrK_-6sQ7Ddoc14ZsLMY",
+      "engagement": "402 reactions / 103 comments",
+      "comment": "Most teams start with a framework, then get stuck when they need to run 10,000 concurrent sessions. Which piece\u2014harness, runtime, or builder\u2014caused your biggest scaling bottleneck?\n\n#AIagents #MLOps"
+    },
+    {
+      "author": "David Arnoux",
+      "url": "https://www.linkedin.com/posts/davidarnoux_people-say-were-in-the-001-well-heres-activity-7524725832171515904-zBUU?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDGrkgB0Ldwu2QxrK_-6sQ7Ddoc14ZsLMY",
+      "engagement": "20 reactions / 18 comments",
+      "comment": "What's the most expensive part of an agentic AI stack? It's not the models.\n\nMost of the runtime cost is in the control logic\u2014orchestration, state management, and error handling. The LLM API calls are often the smaller piece.\n\nAt scale, a poorly designed agent loop can cost 10x more than a simple prompt chain.\nThe key is to keep the agent's decision path short and deterministic where possible.\n\nWhat's one design pattern you use to keep your agent costs predictable?\n\n#AIEngineering #Agents #CostOptimization"
+    },
+    {
+      "author": "PracticAI",
+      "url": "https://www.linkedin.com/posts/practicai8_want-to-build-a-career-in-generative-ai-activity-7524772781536993282-5zav?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDGrkgB0Ldwu2QxrK_-6sQ7Ddoc14ZsLMY",
+      "engagement": "11 reactions / 5 comments",
+      "comment": "Most teams I've worked with actually need a hybrid of #4 and #9 first\u2014someone who can ship a working RAG or agent and reliably measure if it's getting better. That combo is the quickest path to proving value. What's the first role your team hired for when starting with GenAI?"
+    },
+    {
+      "author": "Leslie Babel",
+      "url": "https://www.linkedin.com/posts/lesliebabel_ai-companies-are-hiring-forward-deployed-activity-7524803023986937856-t6NT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDGrkgB0Ldwu2QxrK_-6sQ7Ddoc14ZsLMY",
+      "engagement": "6 reactions / 5 comments",
+      "comment": "Most companies won't need a dedicated evals engineer for at least 2-3 years. The core skill for an AI Engineer right now is designing a reliable evaluation loop, not just building the agent.\n\nWhat\u2019s the one eval metric you\u2019ve found most predictive of user satisfaction in a production agent?"
+    },
+    {
+      "author": "Avi Chawla",
+      "url": "https://www.linkedin.com/posts/avi-chawla_8-ai-model-architectures-visually-explained-activity-7524803972893835264-WdxD?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDGk-0B5fJfcy3L2oUv-iOZMWQ_W-AKq0M",
+      "engagement": "8 reactions / 1 comments",
+      "comment": "How many of these architectures have you actually seen deployed in a production agent?\n\nAt the big tech company, I've shipped systems using four of these eight. The real gap isn't understanding the acronyms; it's knowing which one to build next.\n\nFor agentic AI, LAMs and VLMs are becoming non-negotiable. But most teams still start with an LLM and a basic RAG pipeline because it's the fastest path to a working system.\n\nWhat's one architecture from this list you're actively trying to get into production?\n\n#AIEngineering #MachineLearning #LLMs"
+    },
+    {
+      "author": "Abd-alrahman Abo-rumman",
+      "url": "https://www.linkedin.com/posts/abd-alrahman-abo-rumman-552956208_aepaesaeuaepaetaehaerabraepaesaelaezaexaeuaeyaer-activity-7524805242727723008-_uVQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDGk-0B5fJfcy3L2oUv-iOZMWQ_W-AKq0M",
+      "engagement": "5 reactions / 2 comments",
+      "comment": "Most RAG demos show a single perfect retrieval. How do you design the system to decide *not* to retrieve when the query is ambiguous or the answer is already in context?"
+    }
+  ]
 }
