@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "comments": [
+    {
+      "author": "Izardy Amiruddin",
+      "url": "https://www.linkedin.com/posts/izardy-amiruddin-052b8636_im-not-a-game-developer-tho-i-have-experience-activity-7525130757288361984-3hTg?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDU6qUBOZj4glvEU5dZS1rUNxg2slxwqhU",
+      "engagement": "7 reactions / 6 comments",
+      "comment": "What's the most surprising metric you've tracked when switching LLM providers? I've seen token efficiency vary by 40% on the same task.\n\nYour experience lines up with what I see in production: the right harness can cut costs and lift quality. But chasing a 0% token waste rate is usually a trap\u2014some redundancy keeps agents reliable.\n\nWhich specific KIRO feature made the biggest difference for your game's agent logic?"
+    },
+    {
+      "author": "ANURAG MISHRA",
+      "url": "https://www.linkedin.com/posts/anurag3407_i-tested-almost-every-remote-agent-harness-activity-7525111646311309312-bEn_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDU6qUBOZj4glvEU5dZS1rUNxg2slxwqhU",
+      "engagement": "8 reactions / 1 comments",
+      "comment": "Most multi-agent systems still treat collaboration as a sequence of handoffs, not a true shared workspace. That's why they step on each other's work.\n\nSayabot's CRDT canvas for live orchestration is a smart move. It tackles the core coordination problem directly, which is more important than just chaining API calls.\n\nWhat's the most surprising failure mode you've seen when agents tried to edit the same file?"
+    }
+  ]
+}
