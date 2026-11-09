@@ -1,17 +1,35 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "comments": [
     {
-      "author": "Izardy Amiruddin",
-      "url": "https://www.linkedin.com/posts/izardy-amiruddin-052b8636_im-not-a-game-developer-tho-i-have-experience-activity-7525130757288361984-3hTg?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDU6qUBOZj4glvEU5dZS1rUNxg2slxwqhU",
-      "engagement": "7 reactions / 6 comments",
-      "comment": "What's the most surprising metric you've tracked when switching LLM providers? I've seen token efficiency vary by 40% on the same task.\n\nYour experience lines up with what I see in production: the right harness can cut costs and lift quality. But chasing a 0% token waste rate is usually a trap\u2014some redundancy keeps agents reliable.\n\nWhich specific KIRO feature made the biggest difference for your game's agent logic?"
+      "author": "Raj Abhijit Dandekar",
+      "url": "https://www.linkedin.com/posts/raj-abhijit-dandekar-67a33118a_vizuara-technologies-private-limited-is-hiring-activity-7525445699572961280-Le1A?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDcERsBeLB-3UI73Aa2o5VVZiJTPadaKv4",
+      "engagement": "216 reactions / 2 comments",
+      "comment": "Skipping the coding test is a smart filter, but the real tell is whether someone can debug a bad agent run, not just demo a clean one. Teaching the transformer on a whiteboard exposes mental models faster than syntax checks. What failure mode do you screen for first, tool misuse or weak stopping criteria? #AgenticAI"
     },
     {
-      "author": "ANURAG MISHRA",
-      "url": "https://www.linkedin.com/posts/anurag3407_i-tested-almost-every-remote-agent-harness-activity-7525111646311309312-bEn_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDU6qUBOZj4glvEU5dZS1rUNxg2slxwqhU",
-      "engagement": "8 reactions / 1 comments",
-      "comment": "Most multi-agent systems still treat collaboration as a sequence of handoffs, not a true shared workspace. That's why they step on each other's work.\n\nSayabot's CRDT canvas for live orchestration is a smart move. It tackles the core coordination problem directly, which is more important than just chaining API calls.\n\nWhat's the most surprising failure mode you've seen when agents tried to edit the same file?"
+      "author": "Natan Mohart",
+      "url": "https://www.linkedin.com/posts/natanmohart_so-why-should-i-use-your-notes-app-because-activity-7525530179293560832-7UOI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDcERsBeLB-3UI73Aa2o5VVZiJTPadaKv4",
+      "engagement": "59 reactions / 43 comments",
+      "comment": "A lot of AI features just move work from writing to checking. If an AI note can't show the exact source span it used, I treat it as a polished guess. What's the minimum trust signal that makes an AI feature worth keeping?\n\n#AI #Product #Engineering"
+    },
+    {
+      "author": "Louis Graffeuil",
+      "url": "https://www.linkedin.com/posts/louisgraffeuil_jai-pass%C3%A9-au-crible-250-repos-github-ia-activity-7525469008339316737-gU0x?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDcERsBeLB-3UI73Aa2o5VVZiJTPadaKv4",
+      "engagement": "27 reactions / 2 comments",
+      "comment": "75% of these repos are under a year old, so the bottleneck is not discovery, it is evaluation. I only keep skills that measurably reduce human edits, not just generate more plausible code. Which two actually changed your merge rate?"
+    },
+    {
+      "author": "Michael Hofer",
+      "url": "https://www.linkedin.com/posts/michaelhofer_aiagents-claudecode-automation-activity-7525437508160139264-sT9y?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDcERsBeLB-3UI73Aa2o5VVZiJTPadaKv4",
+      "engagement": "7 reactions / 10 comments",
+      "comment": "I treat long-running agent drift like model drift: version the prompt, tools, memory schema, and run weekly regression evals on real transcripts. The failure mode I see most is not a bad answer, it\u2019s the agent trusting a stale context that used to be true. How are you detecting that kind of quiet decay in production? #AIAgents #Evals #LLMs"
+    },
+    {
+      "author": "Benoit Baylin",
+      "url": "https://www.linkedin.com/posts/benoit-baylin-57b4b721_my-current-ai-stack-it-evolves-fast-15-activity-7525447529296023552-iZI8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDcERsBeLB-3UI73Aa2o5VVZiJTPadaKv4",
+      "engagement": "14 reactions / 3 comments",
+      "comment": "Cross checking outputs is useful, but the bigger win is a shared context layer. If Claude, Codex, and your agents read and write the same wiki, you stop reexplaining the business on every run. What broke first when multiple agents started sharing one knowledge base?\n\n#AIEngineering #Agents #MCP"
     }
   ]
 }
