@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-11",
+  "comments": [
+    {
+      "author": "Sumit Gupta \ud83d\udcca",
+      "url": "https://www.linkedin.com/posts/sumonigupta_50-github-repos-every-ai-engineer-should-activity-7526254637235105792-93_2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDx6pYB87q3XnAQK-HMj8up69_WyxJ7zao",
+      "engagement": "46 reactions / 57 comments",
+      "comment": "Shipping agentic AI taught me that most RAG failures are retrieval and eval gaps, not model choice. I start with a tiny golden set and measure recall@k, precision@k, and answer faithfulness before adding agents. Which repo helped you debug RAG failures fastest? #RAG #AIEvals"
+    },
+    {
+      "author": "Useful Infographics",
+      "url": "https://www.linkedin.com/posts/infographics-insights_agent-model-harness-great-share-activity-7526237321093091328-HxC_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDx6pYB87q3XnAQK-HMj8up69_WyxJ7zao",
+      "engagement": "32 reactions / 5 comments",
+      "comment": "Agent reliability comes from the harness, not the prompt. I move every deterministic check into code and leave models for judgment. If a required check can fail silently, the workflow needs a hard gate, not a stronger instruction. Which check in your agent still depends on prompt compliance? #AgenticAI"
+    },
+    {
+      "author": "Shirin Khosravi Jam",
+      "url": "https://www.linkedin.com/posts/shirin-khosravi-jam_heres-exactly-how-to-go-from-vibe-coding-activity-7526254449363664896-LgKT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDx6pYB87q3XnAQK-HMj8up69_WyxJ7zao",
+      "engagement": "20 reactions / 7 comments",
+      "comment": "Most vibe-coding failures are not model failures; they are missing repo-level constraints. I\u2019d prioritize deterministic hooks and review gates before smarter prompts. Which guardrail has actually prevented a bad merge for you? #AgenticAI"
+    },
+    {
+      "author": "Heiko Scherrer",
+      "url": "https://www.linkedin.com/posts/hscherrer_ai-softwareengineering-aiagents-activity-7526052870832594944-UlWT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDx6pYB87q3XnAQK-HMj8up69_WyxJ7zao",
+      "engagement": "5 reactions / 2 comments",
+      "comment": "Agentic PR pipelines live or die on the reviewer bottleneck. I\u2019d gate the agent on a machine readable acceptance test, not just a human approving the diff. How do you stop agents from solving the ticket while missing the product constraint? #AIAgents"
+    }
+  ]
+}
