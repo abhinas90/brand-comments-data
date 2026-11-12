@@ -1,29 +1,47 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "comments": [
     {
-      "author": "Sumit Gupta \ud83d\udcca",
-      "url": "https://www.linkedin.com/posts/sumonigupta_50-github-repos-every-ai-engineer-should-activity-7526254637235105792-93_2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDx6pYB87q3XnAQK-HMj8up69_WyxJ7zao",
-      "engagement": "46 reactions / 57 comments",
-      "comment": "Shipping agentic AI taught me that most RAG failures are retrieval and eval gaps, not model choice. I start with a tiny golden set and measure recall@k, precision@k, and answer faithfulness before adding agents. Which repo helped you debug RAG failures fastest? #RAG #AIEvals"
+      "author": "Alok Sharan",
+      "url": "https://www.linkedin.com/posts/alok-sharan_20-agentic-ai-terms-decoded-from-tool-activity-7526613601164541952-tbL_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
+      "engagement": "58 reactions / 65 comments",
+      "comment": "Missing from this list: a production-grade agent needs a feedback loop, not just a one-time eval.\n\nMost agent failures are due to state drift or compounding tool errors over time. Without a continuous feedback mechanism, you're flying blind after deployment.\n\nWhat's the most surprising way an agent has failed in your system?"
     },
     {
-      "author": "Useful Infographics",
-      "url": "https://www.linkedin.com/posts/infographics-insights_agent-model-harness-great-share-activity-7526237321093091328-HxC_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDx6pYB87q3XnAQK-HMj8up69_WyxJ7zao",
-      "engagement": "32 reactions / 5 comments",
-      "comment": "Agent reliability comes from the harness, not the prompt. I move every deterministic check into code and leave models for judgment. If a required check can fail silently, the workflow needs a hard gate, not a stronger instruction. Which check in your agent still depends on prompt compliance? #AgenticAI"
+      "author": "Poornachandra Kongara",
+      "url": "https://www.linkedin.com/posts/poornachandra-kongara_generative-ai-has-15-levels-how-many-have-activity-7526616067125948416-NiY9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-V_gBePy8RkRWvBAkfKo6SEtr0fMFrno",
+      "engagement": "35 reactions / 53 comments",
+      "comment": "Most teams get stuck at level 8. In production, agents break less on prompts than on tool responses. I\u2019d make evals for bad tool payloads, retries, and fallbacks level 9. What\u2019s the hardest level you teach? #AgenticAI"
     },
     {
-      "author": "Shirin Khosravi Jam",
-      "url": "https://www.linkedin.com/posts/shirin-khosravi-jam_heres-exactly-how-to-go-from-vibe-coding-activity-7526254449363664896-LgKT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDx6pYB87q3XnAQK-HMj8up69_WyxJ7zao",
-      "engagement": "20 reactions / 7 comments",
-      "comment": "Most vibe-coding failures are not model failures; they are missing repo-level constraints. I\u2019d prioritize deterministic hooks and review gates before smarter prompts. Which guardrail has actually prevented a bad merge for you? #AgenticAI"
+      "author": "Benjamin S\u00e4rkk\u00e4",
+      "url": "https://www.linkedin.com/posts/igotroot_betterbs-activity-7526536775117336576-YUDW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
+      "engagement": "70 reactions / 14 comments",
+      "comment": "A model API 403 should be a routing event, not a business outage. I keep prompts, tools, and evals in my own stack, so model choice is a config, not a rebuild. If your agent can't run with a local fallback plus a second provider, it's a demo, not infrastructure. What breaks first when your main provider bans you? #agenticAI"
     },
     {
-      "author": "Heiko Scherrer",
-      "url": "https://www.linkedin.com/posts/hscherrer_ai-softwareengineering-aiagents-activity-7526052870832594944-UlWT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHDx6pYB87q3XnAQK-HMj8up69_WyxJ7zao",
-      "engagement": "5 reactions / 2 comments",
-      "comment": "Agentic PR pipelines live or die on the reviewer bottleneck. I\u2019d gate the agent on a machine readable acceptance test, not just a human approving the diff. How do you stop agents from solving the ticket while missing the product constraint? #AIAgents"
+      "author": "Sameer Bhardwaj",
+      "url": "https://www.linkedin.com/posts/sameer-bhardwaj1298_learn-aws-kubernetes-and-deploy-your-agents-activity-7526611083781009408-4HD9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
+      "engagement": "32 reactions / 4 comments",
+      "comment": "It's easier to break a production LLM system than it is to build one. My focus is always on the eval strategy first, before the agent design.\n\nWhat's a specific failure mode you've had to build a detection for?"
+    },
+    {
+      "author": "Tim Yakubson \ud83d\ude80",
+      "url": "https://www.linkedin.com/posts/timyakubson_introducing-5-of-the-students-in-cohort-1-activity-7526617269544632320-ji_o?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
+      "engagement": "6 reactions / 4 comments",
+      "comment": "Outbound AI breaks on signal quality, not prompt cleverness. In agentic GTM systems, I\u2019d measure enrichment accuracy, reply-to-meeting lift, and false-positive rate from week 1. Which metric moved fastest after the first 3 sessions? #GTM #AI #Clay"
+    },
+    {
+      "author": "Eric Roby",
+      "url": "https://www.linkedin.com/posts/codingwithroby_backend-engineers-already-know-most-of-ai-activity-7526615888779714560-R0Y3?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
+      "engagement": "7 reactions / 2 comments",
+      "comment": "The hard part is that evals are statistical, not boolean: a backend unit test passes once, an LLM eval needs pass@k, drift tracking, and failure mode buckets. Do you gate deploys on eval pass rate, or on worst-case tail behavior? #AIEng"
+    },
+    {
+      "author": "Lo\u00efc Vanderschooten",
+      "url": "https://www.linkedin.com/posts/loicvds_jaime-tellement-d%C3%A9couvrir-et-concevoir-que-activity-7526594822678155264-GLko?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
+      "engagement": "6 reactions / 2 comments",
+      "comment": "Three harness rebuilds with an unchanged agent architecture are a signal: the problem was missing constraints, not missing capability. I would gate v4 with two numbers: time from idea to running agent, and eval pass rate on real tasks. What metric would make you stop rebuilding? #AgenticAI"
     }
   ]
 }
