@@ -1,47 +1,29 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "comments": [
     {
-      "author": "Alok Sharan",
-      "url": "https://www.linkedin.com/posts/alok-sharan_20-agentic-ai-terms-decoded-from-tool-activity-7526613601164541952-tbL_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
-      "engagement": "58 reactions / 65 comments",
-      "comment": "Missing from this list: a production-grade agent needs a feedback loop, not just a one-time eval.\n\nMost agent failures are due to state drift or compounding tool errors over time. Without a continuous feedback mechanism, you're flying blind after deployment.\n\nWhat's the most surprising way an agent has failed in your system?"
+      "author": "Todd Dailey",
+      "url": "https://www.linkedin.com/posts/todd-dailey_six-months-ex-apple-i-clock-in-this-morning-activity-7526710063009427457-YFrr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
+      "engagement": "21 reactions / 7 comments",
+      "comment": "The real risk in air-gapped local RAG is not model quality, it's stale chunks and duplicate docs. For this stack, are you measuring doc recall first, then task success, or going straight to eval on the final reports? #LocalAI #RAG #Eval"
     },
     {
-      "author": "Poornachandra Kongara",
-      "url": "https://www.linkedin.com/posts/poornachandra-kongara_generative-ai-has-15-levels-how-many-have-activity-7526616067125948416-NiY9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-V_gBePy8RkRWvBAkfKo6SEtr0fMFrno",
-      "engagement": "35 reactions / 53 comments",
-      "comment": "Most teams get stuck at level 8. In production, agents break less on prompts than on tool responses. I\u2019d make evals for bad tool payloads, retries, and fallbacks level 9. What\u2019s the hardest level you teach? #AgenticAI"
+      "author": "Roy Derks",
+      "url": "https://www.linkedin.com/posts/gethackteam_did-ibm-just-release-a-better-agent-harness-activity-7526914754594922497-e0tF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
+      "engagement": "20 reactions / 5 comments",
+      "comment": "The 81.1 vs 46.7 gap looks like harness engineering, not model magic: step decomposition, tool routing, sandboxing, and verification can rescue weak open-weight agents. I\u2019d want the task split for CUGA vs Hermes, especially how many needed runtime policy enforcement vs simple tool selection. Which harness component would you test first?\n#AgenticAI #LLMEvals #AIEngineering"
     },
     {
-      "author": "Benjamin S\u00e4rkk\u00e4",
-      "url": "https://www.linkedin.com/posts/igotroot_betterbs-activity-7526536775117336576-YUDW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
-      "engagement": "70 reactions / 14 comments",
-      "comment": "A model API 403 should be a routing event, not a business outage. I keep prompts, tools, and evals in my own stack, so model choice is a config, not a rebuild. If your agent can't run with a local fallback plus a second provider, it's a demo, not infrastructure. What breaks first when your main provider bans you? #agenticAI"
+      "author": "Jason Toews",
+      "url": "https://www.linkedin.com/posts/jasontoews88_agenticai-softwareengineering-testing-activity-7526708127312973824-59I4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
+      "engagement": "7 reactions / 3 comments",
+      "comment": "At 700 commits a day, manual review becomes theater. The real win is turning trust into a deterministic merge gate with tests, worktrees, and a queue. When tests pass but architecture drifts, what signal stops the merge? #AgenticAI #Testing"
     },
     {
-      "author": "Sameer Bhardwaj",
-      "url": "https://www.linkedin.com/posts/sameer-bhardwaj1298_learn-aws-kubernetes-and-deploy-your-agents-activity-7526611083781009408-4HD9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
-      "engagement": "32 reactions / 4 comments",
-      "comment": "It's easier to break a production LLM system than it is to build one. My focus is always on the eval strategy first, before the agent design.\n\nWhat's a specific failure mode you've had to build a detection for?"
-    },
-    {
-      "author": "Tim Yakubson \ud83d\ude80",
-      "url": "https://www.linkedin.com/posts/timyakubson_introducing-5-of-the-students-in-cohort-1-activity-7526617269544632320-ji_o?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
-      "engagement": "6 reactions / 4 comments",
-      "comment": "Outbound AI breaks on signal quality, not prompt cleverness. In agentic GTM systems, I\u2019d measure enrichment accuracy, reply-to-meeting lift, and false-positive rate from week 1. Which metric moved fastest after the first 3 sessions? #GTM #AI #Clay"
-    },
-    {
-      "author": "Eric Roby",
-      "url": "https://www.linkedin.com/posts/codingwithroby_backend-engineers-already-know-most-of-ai-activity-7526615888779714560-R0Y3?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
+      "author": "Hammad Shaukat",
+      "url": "https://www.linkedin.com/posts/hammadshaukat_ciscoliveapjc-ciscolive-agenticai-activity-7526966485240623104-t-Qx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
       "engagement": "7 reactions / 2 comments",
-      "comment": "The hard part is that evals are statistical, not boolean: a backend unit test passes once, an LLM eval needs pass@k, drift tracking, and failure mode buckets. Do you gate deploys on eval pass rate, or on worst-case tail behavior? #AIEng"
-    },
-    {
-      "author": "Lo\u00efc Vanderschooten",
-      "url": "https://www.linkedin.com/posts/loicvds_jaime-tellement-d%C3%A9couvrir-et-concevoir-que-activity-7526594822678155264-GLko?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHD-buEBzMC0n3Ch9Wjt9KkvjUrrvXzczlY",
-      "engagement": "6 reactions / 2 comments",
-      "comment": "Three harness rebuilds with an unchanged agent architecture are a signal: the problem was missing constraints, not missing capability. I would gate v4 with two numbers: time from idea to running agent, and eval pass rate on real tasks. What metric would make you stop rebuilding? #AgenticAI"
+      "comment": "At 7x token burn, eval cost becomes the real blocker. I\u2019d rather run a cheap eval model on every agent interaction than sample 1% with a commercial LLM. Are you checking every trace, or still sampling? #AgenticAI #Evals #AIObservability"
     }
   ]
 }
