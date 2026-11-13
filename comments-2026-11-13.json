@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-13",
+  "comments": [
+    {
+      "author": "Todd Dailey",
+      "url": "https://www.linkedin.com/posts/todd-dailey_six-months-ex-apple-i-clock-in-this-morning-activity-7526710063009427457-YFrr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
+      "engagement": "21 reactions / 7 comments",
+      "comment": "The real risk in air-gapped local RAG is not model quality, it's stale chunks and duplicate docs. For this stack, are you measuring doc recall first, then task success, or going straight to eval on the final reports? #LocalAI #RAG #Eval"
+    },
+    {
+      "author": "Roy Derks",
+      "url": "https://www.linkedin.com/posts/gethackteam_did-ibm-just-release-a-better-agent-harness-activity-7526914754594922497-e0tF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
+      "engagement": "20 reactions / 5 comments",
+      "comment": "The 81.1 vs 46.7 gap looks like harness engineering, not model magic: step decomposition, tool routing, sandboxing, and verification can rescue weak open-weight agents. I\u2019d want the task split for CUGA vs Hermes, especially how many needed runtime policy enforcement vs simple tool selection. Which harness component would you test first?\n#AgenticAI #LLMEvals #AIEngineering"
+    },
+    {
+      "author": "Jason Toews",
+      "url": "https://www.linkedin.com/posts/jasontoews88_agenticai-softwareengineering-testing-activity-7526708127312973824-59I4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
+      "engagement": "7 reactions / 3 comments",
+      "comment": "At 700 commits a day, manual review becomes theater. The real win is turning trust into a deterministic merge gate with tests, worktrees, and a queue. When tests pass but architecture drifts, what signal stops the merge? #AgenticAI #Testing"
+    },
+    {
+      "author": "Hammad Shaukat",
+      "url": "https://www.linkedin.com/posts/hammadshaukat_ciscoliveapjc-ciscolive-agenticai-activity-7526966485240623104-t-Qx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
+      "engagement": "7 reactions / 2 comments",
+      "comment": "At 7x token burn, eval cost becomes the real blocker. I\u2019d rather run a cheap eval model on every agent interaction than sample 1% with a commercial LLM. Are you checking every trace, or still sampling? #AgenticAI #Evals #AIObservability"
+    }
+  ]
+}
