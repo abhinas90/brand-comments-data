@@ -1,29 +1,29 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "comments": [
     {
-      "author": "Todd Dailey",
-      "url": "https://www.linkedin.com/posts/todd-dailey_six-months-ex-apple-i-clock-in-this-morning-activity-7526710063009427457-YFrr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
-      "engagement": "21 reactions / 7 comments",
-      "comment": "The real risk in air-gapped local RAG is not model quality, it's stale chunks and duplicate docs. For this stack, are you measuring doc recall first, then task success, or going straight to eval on the final reports? #LocalAI #RAG #Eval"
+      "author": "Nicole Cruz",
+      "url": "https://www.linkedin.com/posts/nicolecruz_i-am-now-a-certified-agent-native-orchestrator-activity-7527047249525141504-NS_K?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEOqGYBCyiRn2DRmjg5QuAT4OWL6pT0ti4",
+      "engagement": "24 reactions / 13 comments",
+      "comment": "Most teams over-index on model choice. Your point about lower-level models + great context is spot on\u2014what was the biggest surprise when you switched from a top-tier to a lower-cost model for a core agent task?"
     },
     {
-      "author": "Roy Derks",
-      "url": "https://www.linkedin.com/posts/gethackteam_did-ibm-just-release-a-better-agent-harness-activity-7526914754594922497-e0tF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
-      "engagement": "20 reactions / 5 comments",
-      "comment": "The 81.1 vs 46.7 gap looks like harness engineering, not model magic: step decomposition, tool routing, sandboxing, and verification can rescue weak open-weight agents. I\u2019d want the task split for CUGA vs Hermes, especially how many needed runtime policy enforcement vs simple tool selection. Which harness component would you test first?\n#AgenticAI #LLMEvals #AIEngineering"
+      "author": "Ramy A.",
+      "url": "https://www.linkedin.com/posts/activity-7527145018374000640-Lzd8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEOqGYBCyiRn2DRmjg5QuAT4OWL6pT0ti4",
+      "engagement": "25 reactions / 2 comments",
+      "comment": "Most agent benchmarks test reasoning, not the harness's ability to enforce guardrails. That's the real gap for production.\n\nIn my work, a robust harness can improve task success by 30%+ on the same model, purely by managing state and constraints better. The trick is defining those system-level rules before you even pick the orchestrator.\n\nFor those building business agents, what's your top priority in a harness: auditability, rule enforcement, or recovery from model deviations?"
     },
     {
-      "author": "Jason Toews",
-      "url": "https://www.linkedin.com/posts/jasontoews88_agenticai-softwareengineering-testing-activity-7526708127312973824-59I4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
-      "engagement": "7 reactions / 3 comments",
-      "comment": "At 700 commits a day, manual review becomes theater. The real win is turning trust into a deterministic merge gate with tests, worktrees, and a queue. When tests pass but architecture drifts, what signal stops the merge? #AgenticAI #Testing"
+      "author": "SETU School",
+      "url": "https://www.linkedin.com/posts/setu-school_%F0%9D%90%84%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%B2-%F0%9D%90%80%F0%9D%90%88-%F0%9D%90%A6%F0%9D%90%A8%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%A5-%F0%9D%90%B2%F0%9D%90%A8%F0%9D%90%AE%F0%9D%90%AB-%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%A6-activity-7527328952617553920-O-5j?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEOqGYBCyiRn2DRmjg5QuAT4OWL6pT0ti4",
+      "engagement": "9 reactions / 6 comments",
+      "comment": "The missing piece is often sample size, not model choice. I ship evals where every agent metric gets a confidence interval and a p-value before it changes a model decision. How do you size eval sets for agentic tasks without blowing up cost? #LLMEvals #StatisticalSignificance #Agents"
     },
     {
-      "author": "Hammad Shaukat",
-      "url": "https://www.linkedin.com/posts/hammadshaukat_ciscoliveapjc-ciscolive-agenticai-activity-7526966485240623104-t-Qx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHELcWIBIXNzvtabP155G4yJEEmzn6tTy2U",
-      "engagement": "7 reactions / 2 comments",
-      "comment": "At 7x token burn, eval cost becomes the real blocker. I\u2019d rather run a cheap eval model on every agent interaction than sample 1% with a commercial LLM. Are you checking every trace, or still sampling? #AgenticAI #Evals #AIObservability"
+      "author": "Oliver Hassell",
+      "url": "https://www.linkedin.com/posts/oliverhassell_putting-your-customer-in-a-harness-not-ideal-activity-7527054646197026816-R6JY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEOqGYBCyiRn2DRmjg5QuAT4OWL6pT0ti4",
+      "engagement": "7 reactions / 4 comments",
+      "comment": "Most agent harnesses fail on ownership, not model quality.\n\nThe routing layer has to decide which agent can write to the CRM, and the eval layer has to score the next action before it becomes memory.\n\nI would track action precision and rollback rate before scaling personalization.\n\nWhat guardrail would you add before letting agents touch account memory?\n\n#AgenticAI"
     }
   ]
 }
