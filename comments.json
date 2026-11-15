@@ -1,29 +1,23 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "comments": [
     {
-      "author": "Nicole Cruz",
-      "url": "https://www.linkedin.com/posts/nicolecruz_i-am-now-a-certified-agent-native-orchestrator-activity-7527047249525141504-NS_K?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEOqGYBCyiRn2DRmjg5QuAT4OWL6pT0ti4",
-      "engagement": "24 reactions / 13 comments",
-      "comment": "Most teams over-index on model choice. Your point about lower-level models + great context is spot on\u2014what was the biggest surprise when you switched from a top-tier to a lower-cost model for a core agent task?"
+      "author": "Chao Huang",
+      "url": "https://www.linkedin.com/posts/chao-huang-208993177_autoswarm-is-officially-out-using-activity-7527562484048773120-nWXQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEfipABVhIikQlhQUY0Ky9uEsgJy9Q9ETQ",
+      "engagement": "39 reactions / 5 comments",
+      "comment": "Most agent frameworks focus on orchestrating a single LLM. What changes when you treat each agent as a specialized tool and route tasks between them?\n\nI've found the hard part isn't the router logic\u2014it's building a shared state layer that all agents can reliably read and write to without conflicts. This is where most multi-agent systems break in production.\n\nWhat's your biggest challenge when trying to get multiple AI agents to collaborate?"
     },
     {
-      "author": "Ramy A.",
-      "url": "https://www.linkedin.com/posts/activity-7527145018374000640-Lzd8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEOqGYBCyiRn2DRmjg5QuAT4OWL6pT0ti4",
-      "engagement": "25 reactions / 2 comments",
-      "comment": "Most agent benchmarks test reasoning, not the harness's ability to enforce guardrails. That's the real gap for production.\n\nIn my work, a robust harness can improve task success by 30%+ on the same model, purely by managing state and constraints better. The trick is defining those system-level rules before you even pick the orchestrator.\n\nFor those building business agents, what's your top priority in a harness: auditability, rule enforcement, or recovery from model deviations?"
+      "author": "Prasanth N.",
+      "url": "https://www.linkedin.com/posts/activity-7527433695981449216-jr6s?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEfipABVhIikQlhQUY0Ky9uEsgJy9Q9ETQ",
+      "engagement": "15 reactions / 3 comments",
+      "comment": "Most teams miss that a 10% model performance gain can be eaten by a 20% increase in orchestration latency. How do you measure your system's total cost of intelligence, not just model calls?"
     },
     {
-      "author": "SETU School",
-      "url": "https://www.linkedin.com/posts/setu-school_%F0%9D%90%84%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%B2-%F0%9D%90%80%F0%9D%90%88-%F0%9D%90%A6%F0%9D%90%A8%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%A5-%F0%9D%90%B2%F0%9D%90%A8%F0%9D%90%AE%F0%9D%90%AB-%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%A6-activity-7527328952617553920-O-5j?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEOqGYBCyiRn2DRmjg5QuAT4OWL6pT0ti4",
-      "engagement": "9 reactions / 6 comments",
-      "comment": "The missing piece is often sample size, not model choice. I ship evals where every agent metric gets a confidence interval and a p-value before it changes a model decision. How do you size eval sets for agentic tasks without blowing up cost? #LLMEvals #StatisticalSignificance #Agents"
-    },
-    {
-      "author": "Oliver Hassell",
-      "url": "https://www.linkedin.com/posts/oliverhassell_putting-your-customer-in-a-harness-not-ideal-activity-7527054646197026816-R6JY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEOqGYBCyiRn2DRmjg5QuAT4OWL6pT0ti4",
-      "engagement": "7 reactions / 4 comments",
-      "comment": "Most agent harnesses fail on ownership, not model quality.\n\nThe routing layer has to decide which agent can write to the CRM, and the eval layer has to score the next action before it becomes memory.\n\nI would track action precision and rollback rate before scaling personalization.\n\nWhat guardrail would you add before letting agents touch account memory?\n\n#AgenticAI"
+      "author": "Miles Teller",
+      "url": "https://www.linkedin.com/posts/miles-teller-6867a1436_your-ai-agent-is-more-than-just-an-llm-activity-7527703209977532416-QdGh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEffwUBR5PsfJzJ4hkDVoPZfLI2d2rdk30",
+      "engagement": "5 reactions / 5 comments",
+      "comment": "Most agent frameworks treat \"reasoning\" as a single step. In practice, I've found a high-performing loop often splits it: a fast, cheap LLM for planning the next action, and a more capable, expensive one for verifying the output before execution. This cuts costs without sacrificing reliability.\n\nWhat's your most effective tweak to the standard ReAct loop?"
     }
   ]
 }
