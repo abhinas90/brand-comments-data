@@ -1,23 +1,4 @@
 {
-  "date": "2026-11-15",
-  "comments": [
-    {
-      "author": "Chao Huang",
-      "url": "https://www.linkedin.com/posts/chao-huang-208993177_autoswarm-is-officially-out-using-activity-7527562484048773120-nWXQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEfipABVhIikQlhQUY0Ky9uEsgJy9Q9ETQ",
-      "engagement": "39 reactions / 5 comments",
-      "comment": "Most agent frameworks focus on orchestrating a single LLM. What changes when you treat each agent as a specialized tool and route tasks between them?\n\nI've found the hard part isn't the router logic\u2014it's building a shared state layer that all agents can reliably read and write to without conflicts. This is where most multi-agent systems break in production.\n\nWhat's your biggest challenge when trying to get multiple AI agents to collaborate?"
-    },
-    {
-      "author": "Prasanth N.",
-      "url": "https://www.linkedin.com/posts/activity-7527433695981449216-jr6s?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEfipABVhIikQlhQUY0Ky9uEsgJy9Q9ETQ",
-      "engagement": "15 reactions / 3 comments",
-      "comment": "Most teams miss that a 10% model performance gain can be eaten by a 20% increase in orchestration latency. How do you measure your system's total cost of intelligence, not just model calls?"
-    },
-    {
-      "author": "Miles Teller",
-      "url": "https://www.linkedin.com/posts/miles-teller-6867a1436_your-ai-agent-is-more-than-just-an-llm-activity-7527703209977532416-QdGh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAHEffwUBR5PsfJzJ4hkDVoPZfLI2d2rdk30",
-      "engagement": "5 reactions / 5 comments",
-      "comment": "Most agent frameworks treat \"reasoning\" as a single step. In practice, I've found a high-performing loop often splits it: a fast, cheap LLM for planning the next action, and a more capable, expensive one for verifying the output before execution. This cuts costs without sacrificing reliability.\n\nWhat's your most effective tweak to the standard ReAct loop?"
-    }
-  ]
+  "date": "2026-11-16",
+  "comments": []
 }
